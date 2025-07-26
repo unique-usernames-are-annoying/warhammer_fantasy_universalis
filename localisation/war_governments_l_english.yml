@@ -73,24 +73,27 @@
 naval_dwarf_reform:0 "Naval Dwarf Kingdom"
 naval_dwarf_reform_desc:0 "Naval Dwarves are few and far between. They shun the dark caves of their cousins for the open sea and open land.\n\n§YNaval Dwarf Kingdoms gain no benefits from being below ground or penalties from being above ground.§!"
 
- midnight_aristocracy_reform:0 "Midnight Aristocracy"
- midnight_aristocracy_reform_desc:0 "A dark and eternal nobility rules this land, led by vampiric lords who wield their unholy power to maintain order and dominance. Their mastery of war and governance allows for the efficient consolidation of conquests and the expansion of their undead legions. Fear and loyalty hold sway, as absolutism reigns supreme and the midnight aristocracy bends the realm to its iron will."
+midnight_aristocracy_reform:0 "Midnight Aristocracy"
+midnight_aristocracy_reform_desc:0 "A dark and eternal nobility rules this land, led by vampiric lords who wield their unholy power to maintain order and dominance. Their mastery of war and governance allows for the efficient consolidation of conquests and the expansion of their undead legions. Fear and loyalty hold sway, as absolutism reigns supreme and the midnight aristocracy bends the realm to its iron will."
  
- witch_kingdom_reform:0 "Witch Kingdom of Naggaroth"
- witch_kingdom_reform_desc:0 "he Witch King has created his realm upon fear and ruthlessness, asserting near-absolute power over all of his subjects."
+dwarf_vampire_kingdom_reform:0 "Vampire Hold"
+dwarf_vampire_kingdom_reform_desc:0 "Through treachery and force of arms a vampire has claimed the throne of this dwarfen hold, ruling with absolute power over a kingdom of thralls and undead."
+
+witch_kingdom_reform:0 "Witch Kingdom of Naggaroth"
+witch_kingdom_reform_desc:0 "The Witch King has created his realm upon fear and ruthlessness, asserting near-absolute power over all of his subjects."
  
- nagash_reform:0 "Nagash's Realm"
- nagash_reform_desc:0 "Within his audience chamber at the height of the peak the husk of Nagash sits on his throne of skulls. He has brooded here for over a millennium, waiting and planning, guiding his agents by the power of his thoughts."
+nagash_reform:0 "Nagash's Realm"
+nagash_reform_desc:0 "Within his audience chamber at the height of the peak the husk of Nagash sits on his throne of skulls. He has brooded here for over a millennium, waiting and planning, guiding his agents by the power of his thoughts."
  
- league_of_ostermark_reform:0 "League of Ostermark"
- league_of_ostermark_reform_desc:0 ""Ostermark is like a miniature of the Empire, a league of free and independent towns relying on each other for mutual security. We have to—no one else in the Empire cares a fig about us."\n\n—Chancellor Wolfram Hertwig\n\nThe League of Ostermark is a major and late-founding Imperial province that lies at the most north-eastern corners of the Empire of Man. Though having existed during the founding of the Empire, the League itself was formed out of the chaos of the late 19th century, when their former capital of Mordheim was struck by a comet of tremendous size. The resulting destruction of the province's central goverment and the death of the ruling family led the remaining towns and villages of the lands to band together and form a new semi-democratic government which would later become known as the League of Ostermark."
+league_of_ostermark_reform:0 "League of Ostermark"
+league_of_ostermark_reform_desc:0 ""Ostermark is like a miniature of the Empire, a league of free and independent towns relying on each other for mutual security. We have to—no one else in the Empire cares a fig about us."\n\n—Chancellor Wolfram Hertwig\n\nThe League of Ostermark is a major and late-founding Imperial province that lies at the most north-eastern corners of the Empire of Man. Though having existed during the founding of the Empire, the League itself was formed out of the chaos of the late 19th century, when their former capital of Mordheim was struck by a comet of tremendous size. The resulting destruction of the province's central goverment and the death of the ruling family led the remaining towns and villages of the lands to band together and form a new semi-democratic government which would later become known as the League of Ostermark."
  
- athel_loren_monarchy:0 "Eternal Court"
- athel_loren_monarchy_desc:0 "The Asrai live in a harmonious co-existance with the denizers of Athel Loren, but are known for their frivolous and sometimes savage behavior. Their society revolves around the cycles of the forest, as determined by the Avatars of Ishtar and Kurnous, who rule over the High Lords of the Glades."
+athel_loren_monarchy:0 "Eternal Court"
+athel_loren_monarchy_desc:0 "The Asrai live in a harmonious co-existance with the denizers of Athel Loren, but are known for their frivolous and sometimes savage behavior. Their society revolves around the cycles of the forest, as determined by the Avatars of Ishtar and Kurnous, who rule over the High Lords of the Glades."
 
  
- high_elven_republic:0 "Asur Realm"
- high_elven_republic_desc:0 "Although the regions are called 'Kingdoms' and the leaders 'Princes and Princesses', in truth Ulthuan is a republic where the nobility appoint the princes who function as mayors and governors, and the princes elect the king. Oftentimes the same family will hold a position through the years."
+high_elven_republic:0 "Asur Realm"
+high_elven_republic_desc:0 "Although the regions are called 'Kingdoms' and the leaders 'Princes and Princesses', in truth Ulthuan is a republic where the nobility appoint the princes who function as mayors and governors, and the princes elect the king. Oftentimes the same family will hold a position through the years."
 
 silver_court_reform:0 "Silver Court"
 silver_court_reform_desc:0 "The Silver Court is a beacon of refinement and diplomacy, where every word is a weapon and every gesture is calculated. The elves of this court excel in navigating the complex web of alliances and rivalries that define their world, maintaining their prestige and naval power with graceful efficiency. However, the focus on diplomacy comes at the cost of land-based military strength."
