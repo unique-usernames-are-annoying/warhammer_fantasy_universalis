@@ -194,4 +194,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ARABY_eventPicture.dds"
 	}
 
+	spriteType = {
+		name = "FROZEN_eventPicture"
+		texturefile = "gfx/event_pictures/FROZEN_eventPicture.dds"
+	}
+
 }
