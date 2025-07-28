@@ -24,22 +24,13 @@ Misc Mission Trees
 	Or just misc Human/Dark Elf/Elf/Ogre/Beastman?
 
 #############################
-########## FIXINGS ##########
-#############################
-
-	Chaos Warband
-		Change it to normal migration stuff, we don't need all this nonsense?
-
-	Check Barrow Legion
-
-#############################
 ###### URGENT TO DOS ########
 #############################
 
+	END TIMES CRASH?
+
 	you left the .git folder in the mod upload
 		Move this to a folder above?
-
-	Skull Jungle Positioning is off
 
 	gitignore and deletion of all those DS_Store files
 
@@ -49,25 +40,36 @@ Misc Mission Trees
 
 	Against the everchosen, you get "annex migratory tribe??"
 
-	Change Amaxonian graphics to be american
+	Make everchosen a little harder again? What's happening?
 
-	Lizardfolk the mutant champion event should have a goto
+	Dragon Isles is united vs unite the dragon isles decision? Why?
 
-	improve cold empire ideas - innovativeness, gov capacity, look at itza and hexotl, 
+	Across the waves mission seems to not be working?
 
 #############################
 ###### RANDOM TO DOS ########
 #############################
 
+	Chaos Warband
+		Change it to normal migration stuff, we don't need all this nonsense?
+
+	Check Barrow Legion
+
 	Add Nemesis Crown Artifact: https://warhammerfantasy.fandom.com/wiki/Nemesis_Crown
 
+	Bret is still too powerful - make another handicapping estate privilege
+
 	Adjust Wood Elf Raiding mission description
+
+	Change Amaxonian graphics to be american? Done?
+
+	Lots of manpower losing events as Lizardmen
+
+	Make Demon nations!
 
 	Make Github more secure
 
 	Marienburg & All Old World Imperial Mission Tree Backup
-
-	How is Couronne still going Everchosen?
 
 	Luccini Gov Reform is weird, particularly with localization https://discord.com/channels/1314079561687896084/1396621936187936778
 

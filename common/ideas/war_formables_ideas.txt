@@ -894,26 +894,31 @@ Z93_ideas = {
 		tag = Z93
 	}
 	free = yes		
-	
+
+	## Mastery of Magic
 	Z93_ideas_1 = {
-		prestige = 3
+		innovativeness_gain = 0.75
 	}
+	## Beserk Rage
 	Z93_ideas_2 = {
-		manpower_in_true_faith_provinces = 0.3
+		land_morale = 0.15
 	}
+	## Great Warriors
 	Z93_ideas_3 = {
-        hostile_attrition = 2
-        max_hostile_attrition = 2
+        infantry_power = 0.15
 	}
+	## No fear of war.
 	Z93_ideas_4 = {
 		war_exhaustion = -0.03
 	}
+	## Growth of the Temple Cities
 	Z93_ideas_5 = {
-		advisor_cost = -0.15
-        advisor_pool = 2
+		build_cost = -0.15
 	}
+	## Sweeping away corruption.
 	Z93_ideas_6 = {
-        build_cost = -0.15
+        global_missionary_strength = 0.02
+        culture_conversion_cost = -0.10
 	}
     # Temporal Mastery
 	Z93_ideas_7 = {
