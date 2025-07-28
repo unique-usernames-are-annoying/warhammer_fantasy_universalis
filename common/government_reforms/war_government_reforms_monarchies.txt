@@ -1296,3 +1296,39 @@ norscan_global_empire_reform = { # Secret Reform, Only Possible if Norscan Minor
 		locked_government_type = yes
 	}
 }
+
+dwarf_vampire_kingdom_reform = {
+	icon = "vampire"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		religion = vampiric
+		culture_group = dwarf_group
+	}
+	potential = {
+		religion = vampiric
+		culture_group = dwarf_group
+	}
+	modifiers = {
+		# Vampire Administration
+		years_of_nationalism = -5
+		province_warscore_cost = -0.1
+		war_exhaustion = -0.1
+		governing_capacity = 100
+		max_absolutism = 25
+		# Dwarf Industry
+		production_efficiency = 0.1
+		# This is a nehekaran vampire ruler on a dawi nation... I don't think any dwarf would royal marry him..
+		royal_marriage = no
+	}
+	government_abilities = { 
+		flexible_industry_mechanic
+	}
+	custom_attributes = {
+	}
+	ai = {
+		factor = 0.5		#generic
+	}
+}

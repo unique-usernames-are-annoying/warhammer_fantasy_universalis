@@ -582,13 +582,22 @@ country_event = {
 		days = 1
 	}
 
+	immediate = {
+		random_owned_province = {
+			save_event_target_as = event_target
+		}
+	}
+
+	goto = event_target
+
+
 # Kill him!
 
 	option = { 
 		ai_chance = { factor = 50 }
 		name = lizardmen_events.9.a 
 
-		random_owned_province = {
+		event_target:event_target = {
 			spawn_rebels = {
 			    type = particularist_rebels
 			    leader = rebel_preacher

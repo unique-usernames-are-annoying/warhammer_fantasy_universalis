@@ -220,6 +220,7 @@ estate_nobles = {
 		desc = estate_clan_leaders
 		trigger = {
 			culture_group = dwarf_group
+			NOT = { tag = U51 } # Dwarves converting to vampirism should probably stay with clan leaders, but frozen expedition should get vampire lords
 		}
 	}
 

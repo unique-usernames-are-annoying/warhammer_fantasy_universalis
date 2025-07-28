@@ -653,7 +653,7 @@ estate_church_clerical_ministers = {
 	}
 	conditional_modifier = {
 		trigger = {
-			fervor = 0
+			uses_fervor = yes
 		}
 		modifier = {
 			monthly_fervor_increase = 0.5

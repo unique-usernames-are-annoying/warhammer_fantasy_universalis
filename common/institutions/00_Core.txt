@@ -775,6 +775,31 @@ printing_press = {
 			}
 		}
 		modifier = {
+			factor = 0.1
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_50_capital
+				development = 50
+				is_capital = yes
+			}
+		}
+		modifier = {
+			factor = 0.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_paper
+				trade_goods = paper
+			}
+		}
+		modifier = {
+			factor = 0.2
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_world_port
+				province_has_center_of_trade_of_level = 3
+				has_port = yes
+			}
+		}
+		modifier = {
 			factor = 0.2
 			scale = yes
 			potential = {
@@ -795,119 +820,12 @@ printing_press = {
 			}
 		}
 		modifier = {
-			factor = 0.1
-			scale = yes
-			force_potential = yes			# Hide the this modifier when potential is false
-			potential = {
-				owner = {
-					has_estate = estate_church
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_printing_press_clergy
-				any_neighbor_province = {
-					printing_press = 100
-				}
-				owner = {
-					has_estate = estate_church
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 40
-					}
-					estate_territory = {
-						estate = estate_church
-						territory = 30
-					}
-				}
-			}
-		}
-		modifier = {
 			factor = 1
 			custom_trigger_tooltip = {
 				tooltip = tooltip_dip_tech15_capital
 				is_capital = yes
 				owner = {
 					dip_tech = 15
-				}
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20_capital
-				development = 20
-				is_capital = yes
-				continent = europe
-			}
-		}
-		modifier = {
-			factor = 2
-			potential = {
-				owner = {
-					religion_group = christian
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Rule Britannia"
-				}
-				custom_trigger_tooltip = {
-					tooltip = tooltip_owner_protestant
-					is_owned_by_trade_company = no
-					owner = {
-						OR = {
-							religion = protestant
-							religion = reformed
-							religion = anglican
-							religion = hussite
-						}
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = tooltip_owner_protestant
-					is_owned_by_trade_company = no
-					owner = {
-						OR = {
-							religion = protestant
-							religion = reformed
-							religion = anglican
-							religion = hussite
-						}
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			if = {
-				limit = {
-					has_dlc = "Rule Britannia"
-				}
-				custom_trigger_tooltip = {
-					tooltip = tooltip_province_protestant_RB
-					OR = {
-						religion = reformed
-						religion = protestant
-						religion = anglican
-						religion = hussite
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = tooltip_province_protestant
-					OR = {
-						religion = reformed
-						religion = protestant
-						religion = anglican
-						religion = hussite
-					}
 				}
 			}
 		}
@@ -969,34 +887,6 @@ printing_press = {
 				}
 			}
 		}
-		### Start Adjustment
-		modifier = {
-			factor = 0.02
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_paper_and_10
-				trade_goods = paper
-				development = 10
-			}
-		}
-		modifier = {
-			factor = 0.02
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_paper_and_20
-				trade_goods = paper
-				development = 20
-			}
-		}
-		modifier = {
-			factor = 0.1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_paper_and_20_good_owner
-				trade_goods = paper
-				owner = {
-					ADM = 6
-				}
-			}
-		}
-		### End Adjustment
 	}
 	ai_will_do = {
 		#Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
