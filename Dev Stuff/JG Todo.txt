@@ -46,6 +46,8 @@ Misc Mission Trees
 
 	Across the waves mission seems to not be working?
 
+	Christian Infidels declared a crusade on us has wrong loc
+
 #############################
 ###### RANDOM TO DOS ########
 #############################
