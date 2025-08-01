@@ -387,11 +387,20 @@ war_lizardmen_faction_2 = {
 		position = 14
 		trigger = {
 			calc_true_if = {
-				all_owned_province = {
-					NOT = { same_continent = capital }
-					culture_group = ROOT
+				all_province = {
+					OR = {
+						province_id = 4261
+						province_id = 2312
+						province_id = 2466
+						province_id = 2442
+						province_id = 4296
+						province_id = 4807
+						province_id = 4873
+						province_id = 4383
+					}
+					religion = root
 				}
-				amount = 15
+				amount = 6
 			}
 		}
 
@@ -900,6 +909,12 @@ war_lizardmen_faction_3 = {
 		}
 
 		effect = {
+
+			add_country_modifier = { 
+			    name = lizardmen_geomantic_web_completed
+			    duration = -1  
+			}
+			
 			custom_tooltip = lizardmen_improve_temples_tt
 
 			hidden_effect = {

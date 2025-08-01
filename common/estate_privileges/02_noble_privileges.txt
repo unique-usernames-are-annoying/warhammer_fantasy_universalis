@@ -3879,6 +3879,7 @@ estate_nobles_highland_fortifications = {
  		embracement_cost = 0.5
  		yearly_innovativeness = -0.10
  		monthly_brt_authority = -0.25
+ 		reform_progress_growth = -0.25
  	}
 	ai_will_do = {
 		factor = 0

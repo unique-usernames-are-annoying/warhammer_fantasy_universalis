@@ -24,5 +24,6 @@ setup_vision = yes
 		dip = 5
 		mil = 5
 		female = yes
+		religion = kislev_old_faith
 	}
 }

@@ -426,7 +426,7 @@ brass_keep_colonisation_desc:0 "The Nurlge-infested Brass Keep has long been a s
   estate_guild_industrial_infrastructure:0 "Industrial Infrastructure"
   estate_guild_industrial_infrastructure_desc:0 "The guilds possess the knowledge and manpower to convert our cities into centers of production, innovation, and steam rail. By granting them greater influence over urban planning and infrastructure, we can accelerate industrial development, increasing output at the cost of manpower and taxes."
 
-  estate_guild_industrial_infrastructure_tt:0 "Every province with expanded infrastructure gains the 'Industrial Infrastructure' modifier.\n Local Unrest: §R+2.00§!\n Local Development Cost: §G-15.0%§!\n Local Goods Produced Modifier: §G+10.0%§!\n Local Tax Modifier: §R-15.0%§!\n Local Manpower Modifier: §R+15.0%§!\n Local Friendly Movement Speed: §G+100.0%§!"
+  estate_guild_industrial_infrastructure_tt:0 "Every province with expanded infrastructure gains the 'Industrial Infrastructure' modifier.\n Local Unrest: §R+2.00§!\n Local Development Cost: §G-15.0%§!\n Local Goods Produced Modifier: §G+10.0%§!\n Local Tax Modifier: §R-15.0%§!\n Local Manpower Modifier: §R-15.0%§!\n Local Friendly Movement Speed: §G+100.0%§!"
   estate_guild_industrial_infrastructure_remove_tt:0 "Remove the 'Industrial Infrastructure' modifier from all provinces."
 
 industrial_infrastructure:0 "Industrial Infrastructure"

@@ -116,6 +116,50 @@ country_event = {
 				}
 			}
 		}
+		
+		### Subjects
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 1
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 2
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 3
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 4
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 5
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 6
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 7
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 8
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 9
+		}
+		modifier = {
+			factor = 0.9
+			num_of_subjects = 10
+		}
+
+
 		### Great Power
 		modifier = {
 			factor = 0.1
@@ -278,6 +322,7 @@ country_event = {
 
 				add_building = fort_17th
 
+				war_create_100_infantry = yes
 				war_create_100_infantry = yes
 				war_create_100_infantry = yes
 

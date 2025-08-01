@@ -40,13 +40,13 @@ Misc Mission Trees
 
 	Against the everchosen, you get "annex migratory tribe??"
 
-	Make everchosen a little harder again? What's happening?
-
 	Dragon Isles is united vs unite the dragon isles decision? Why?
 
-	Across the waves mission seems to not be working?
+	Im stll very sad that wolf land trade does not flow into zharr-nagrund, makes so little sense that I cant collect all the darklands - Trade bible v2
 
-	Christian Infidels declared a crusade on us has wrong loc
+	Make end times chaos corruption events worse? And pulse every six months.
+
+	Keep Naggaroth Purple. Add decision to return to original color?
 
 #############################
 ###### RANDOM TO DOS ########
@@ -71,6 +71,8 @@ Misc Mission Trees
 
 	Make Github more secure
 
+	If a republic gets the Phoenix King reform, it is destroyed. Fix this? But this stuff is so sensitive
+
 	Marienburg & All Old World Imperial Mission Tree Backup
 
 	Luccini Gov Reform is weird, particularly with localization https://discord.com/channels/1314079561687896084/1396621936187936778
@@ -87,8 +89,6 @@ Misc Mission Trees
 	10 events every culture group and religion
 		Athel Loren Events to spawn chaos rebels (lure them in) in exchange for mana
 		Give top level buildings
-
-	Renessance no longer necessarily spawns in Europe
 
 	Vaults Trade flow: https://discord.com/channels/1314079561687896084/1383643452167684158/1396713544501956609
 

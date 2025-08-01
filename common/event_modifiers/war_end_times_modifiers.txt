@@ -12,7 +12,7 @@ saved_the_world = {
 	horde_unity = 2
 	meritocracy = 2
 	governing_capacity_modifier = 0.2
-	diplomatic_reputation = 3
+	diplomatic_reputation = 4
 	land_morale = 0.05
 	religious_unity = 0.10
 }
@@ -28,8 +28,8 @@ chaos_gate_defenses = {
 }
 
 everchosen_buff_1 = {
-	global_manpower = 50
-	land_forcelimit = 50
+	global_manpower = 100
+	land_forcelimit = 100
 	land_morale = 0.01
 	discipline = 0.01
 	movement_speed = 0.01
@@ -42,11 +42,12 @@ everchosen_buff_1 = {
 	global_autonomy = -0.1
 	years_of_nationalism = -1
 	envoy_travel_time = -0.1
+	all_power_cost = -0.01
 }
 
 everchosen_buff_2 = {
-	global_manpower = 100
-	land_forcelimit = 100
+	global_manpower = 200
+	land_forcelimit = 200
 	land_morale = 0.02
 	discipline = 0.02
 	movement_speed = 0.02
@@ -59,11 +60,12 @@ everchosen_buff_2 = {
 	global_autonomy = -0.2
 	years_of_nationalism = -2
 	envoy_travel_time = -0.2
+	all_power_cost = -0.02
 }
 
 everchosen_buff_3 = {
-	global_manpower = 150
-	land_forcelimit = 150
+	global_manpower = 300
+	land_forcelimit = 300
 	land_morale = 0.03
 	discipline = 0.03
 	movement_speed = 0.03
@@ -76,11 +78,12 @@ everchosen_buff_3 = {
 	global_autonomy = -0.3
 	years_of_nationalism = -3
 	envoy_travel_time = -0.3
+	all_power_cost = -0.03
 }
 
 everchosen_buff_4 = {
-	global_manpower = 200
-	land_forcelimit = 200
+	global_manpower = 400
+	land_forcelimit = 400
 	land_morale = 0.04
 	discipline = 0.04
 	movement_speed = 0.04
@@ -93,11 +96,12 @@ everchosen_buff_4 = {
 	global_autonomy = -0.4
 	years_of_nationalism = -4
 	envoy_travel_time = -0.4
+	all_power_cost = -0.04
 }
 
 everchosen_buff_5 = {
-	global_manpower = 250
-	land_forcelimit = 250
+	global_manpower = 500
+	land_forcelimit = 500
 	land_morale = 0.05
 	discipline = 0.05
 	movement_speed = 0.05
@@ -110,11 +114,12 @@ everchosen_buff_5 = {
 	global_autonomy = -0.5
 	years_of_nationalism = -5
 	envoy_travel_time = -0.5
+	all_power_cost = -0.05
 }
 
 everchosen_buff_6 = {
-	global_manpower = 300
-	land_forcelimit = 300
+	global_manpower = 600
+	land_forcelimit = 600
 	land_morale = 0.06
 	discipline = 0.06
 	movement_speed = 0.06
@@ -127,11 +132,12 @@ everchosen_buff_6 = {
 	global_autonomy = -0.6
 	years_of_nationalism = -6
 	envoy_travel_time = -0.6
+	all_power_cost = -0.06
 }
 
 everchosen_buff_7 = {
-	global_manpower = 350
-	land_forcelimit = 350
+	global_manpower = 700
+	land_forcelimit = 700
 	land_morale = 0.07
 	discipline = 0.07
 	movement_speed = 0.07
@@ -144,11 +150,12 @@ everchosen_buff_7 = {
 	global_autonomy = -0.7
 	years_of_nationalism = -7
 	envoy_travel_time = -0.7
+	all_power_cost = -0.07
 }
 
 everchosen_buff_8 = {
-	global_manpower = 400
-	land_forcelimit = 400
+	global_manpower = 800
+	land_forcelimit = 800
 	land_morale = 0.08
 	discipline = 0.08
 	movement_speed = 0.08
@@ -161,11 +168,12 @@ everchosen_buff_8 = {
 	global_autonomy = -0.8
 	years_of_nationalism = -8
 	envoy_travel_time = -0.8
+	all_power_cost = -0.08
 }
 
 everchosen_buff_9 = {
-	global_manpower = 450
-	land_forcelimit = 450
+	global_manpower = 900
+	land_forcelimit = 900
 	land_morale = 0.09
 	discipline = 0.09
 	movement_speed = 0.09
@@ -178,11 +186,12 @@ everchosen_buff_9 = {
 	global_autonomy = -0.9
 	years_of_nationalism = -9
 	envoy_travel_time = -0.9
+	all_power_cost = -0.09
 }
 
 everchosen_buff_10 = {
-	global_manpower = 500
-	land_forcelimit = 500
+	global_manpower = 1000
+	land_forcelimit = 1000
 	land_morale = 0.10
 	discipline = 0.10
 	movement_speed = 0.10
@@ -195,11 +204,12 @@ everchosen_buff_10 = {
 	global_autonomy = -1.0
 	years_of_nationalism = -10
 	envoy_travel_time = -1.0
+	all_power_cost = -0.1
 }
 
 everchosen_buff_15 = {
-	global_manpower = 750
-	land_forcelimit = 750
+	global_manpower = 1500
+	land_forcelimit = 1500
 	land_morale = 0.15
 	discipline = 0.15
 	movement_speed = 0.15
@@ -212,12 +222,13 @@ everchosen_buff_15 = {
 	global_autonomy = -1.5
 	years_of_nationalism = -15
 	envoy_travel_time = -1.5
+	all_power_cost = -0.15
 
 }
 
 everchosen_buff_20 = {
-	global_manpower = 1000
-	land_forcelimit = 1000
+	global_manpower = 2000
+	land_forcelimit = 2000
 	land_morale = 0.2
 	discipline = 0.2
 	movement_speed = 0.2
@@ -230,4 +241,5 @@ everchosen_buff_20 = {
 	global_autonomy = -2.0
 	years_of_nationalism = -20
 	envoy_travel_time = -2.0
+	all_power_cost = -0.2
 }
