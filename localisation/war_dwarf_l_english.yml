@@ -12,6 +12,33 @@ dwarf_events.1001.d:0 "The world festers in weakness, ruled by false gods and fe
 dwarf_events.1001.option_1:0 "The world shall be ruled by Zharr-Naggrund!"
 
 
+# 
+
+dwarf_events.50.t:0 "Copper in [Root.GetName]"
+dwarf_events.50.d:0 "Our efforts have borne fruit — copper has been found beneath the earth in [Root.GetName]. The land had to be broken and turned, but now the veins run rich with promise."
+dwarf_events.50.option_1:0 "Mark the claim and prepare for extraction."
+
+dwarf_events.51.t:0 "Iron in [Root.GetName]"
+dwarf_events.51.d:0 "After considerable effort, iron has been uncovered in [Root.GetName]. Strong, reliable, and valuable — this will serve any war effort well."
+dwarf_events.51.option_1:0 "Begin construction of forges at once."
+
+dwarf_events.52.t:0 "Gems in [Root.GetName]!"
+dwarf_events.52.d:0 "The ground in [Root.GetName] has yielded more than just dust and stone. Glittering gems have been unearthed — a trove of wealth for those willing to dig deep enough."
+dwarf_events.52.option_1:0 "A rare and fortunate find."
+
+dwarf_events.53.t:0 "Gold in [Root.GetName]!"
+dwarf_events.53.d:0 "Beneath the broken crust of [Root.GetName], gold glimmers in the depths. Though the land has been scarred, the reward is undeniable."
+dwarf_events.53.option_1:0 "The coin will flow like a river."
+
+dwarf_events.54.t:0 "Gromril in [Root.GetName]!"
+dwarf_events.54.d:0 "In [Root.GetName], we have uncovered a deposit of gromril — the most sacred and resilient of metals. The excavation left the land shattered, but the discovery is priceless."
+dwarf_events.54.option_1:0 "A metal fit for legends."
+
+dwarf_events.55.t:0 "Warpstone in [Root.GetName]!"
+dwarf_events.55.d:0 "A sinister discovery in [Root.GetName] — warpstone, the unnatural mineral of raw magic and corruption. The earth was utterly torn apart to reach it, and now its taint lingers."
+dwarf_events.55.option_1:0 "Dangerous... but powerful."
+
+
 
 ### New Missions
 

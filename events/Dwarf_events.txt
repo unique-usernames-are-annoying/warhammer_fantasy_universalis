@@ -801,7 +801,7 @@ country_event = {
 				trade_goods = glass
 				trade_goods = paper
 				trade_goods = cloves
-				trade_goods = beer
+#				trade_goods = beer
 				trade_goods = lumber
 				trade_goods = fungi
 				trade_goods = subterranean_plants
@@ -843,7 +843,7 @@ country_event = {
 					trade_goods = glass
 					trade_goods = paper
 					trade_goods = cloves
-					trade_goods = beer
+#					trade_goods = beer
 					trade_goods = lumber
 					trade_goods = fungi
 					trade_goods = subterranean_plants
@@ -882,26 +882,56 @@ country_event = {
 			    30 = {
 			        change_trade_goods = copper
 			        add_devastation = 25
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.50
+						}
+			        }
 			    }
 			    30 = {
 			        change_trade_goods = iron
 			        add_devastation = 25
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.51
+						}
+			        }
 			    }
 			    20 = {
 			        change_trade_goods = gems
 			        add_devastation = 50
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.52
+						}
+			        }
 			    }
 			    10 = {
 			        change_trade_goods = gold
 			        add_devastation = 50
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.53
+						}
+			        }
 			    }
 			    5 = {
 			        change_trade_goods = gromril
 			        add_devastation = 100
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.54
+						}
+			        }
 			    }
 			    5 = {
 			        change_trade_goods = warpstone
 			        add_devastation = 100
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.55
+						}
+			        }
 			    }
 			}
 			remove_building = workshop
@@ -935,26 +965,56 @@ country_event = {
 			    30 = {
 			        change_trade_goods = copper
 			        add_devastation = 25
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.50
+						}
+			        }
 			    }
 			    30 = {
 			        change_trade_goods = iron
 			        add_devastation = 25
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.51
+						}
+			        }
 			    }
 			    20 = {
 			        change_trade_goods = gems
 			        add_devastation = 50
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.52
+						}
+			        }
 			    }
 			    10 = {
 			        change_trade_goods = gold
 			        add_devastation = 50
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.53
+						}
+			        }
 			    }
 			    5 = {
 			        change_trade_goods = gromril
 			        add_devastation = 100
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.54
+						}
+			        }
 			    }
 			    5 = {
 			        change_trade_goods = warpstone
 			        add_devastation = 100
+			        hidden_effect = {
+			        	province_event = { 
+						    id = dwarf_events.55
+						}
+			        }
 			    }
 			}
 			remove_building = workshop
@@ -1149,7 +1209,7 @@ country_event = {
 					trade_goods = glass
 					trade_goods = paper
 					trade_goods = cloves
-					trade_goods = beer
+#					trade_goods = beer
 					trade_goods = lumber
 					trade_goods = fungi
 					trade_goods = subterranean_plants
@@ -1200,7 +1260,7 @@ country_event = {
 						trade_goods = glass
 						trade_goods = paper
 						trade_goods = cloves
-						trade_goods = beer
+#						trade_goods = beer
 						trade_goods = lumber
 						trade_goods = fungi
 						trade_goods = subterranean_plants
@@ -1505,7 +1565,7 @@ country_event = {
 					trade_goods = glass
 					trade_goods = paper
 					trade_goods = cloves
-					trade_goods = beer
+#					trade_goods = beer
 					trade_goods = lumber
 					trade_goods = fungi
 					trade_goods = subterranean_plants
@@ -1551,7 +1611,7 @@ country_event = {
 						trade_goods = glass
 						trade_goods = paper
 						trade_goods = cloves
-						trade_goods = beer
+#						trade_goods = beer
 						trade_goods = lumber
 						trade_goods = fungi
 						trade_goods = subterranean_plants
@@ -1593,6 +1653,191 @@ country_event = {
 
 	}
 }
+
+
+
+## Copper
+
+province_event = { 
+	id = dwarf_events.50
+	title = dwarf_events.50.t 
+	desc = dwarf_events.50.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered copper in "[Root.GetName]"! We had to tear up the ground a bit to do so.
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.50.option_1
+	}
+}
+
+
+## Iron
+
+province_event = { 
+	id = dwarf_events.51
+	title = dwarf_events.51.t 
+	desc = dwarf_events.51.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered iron in "[Root.GetName]"! We had to tear up the ground a bit to do so.
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.51.option_1
+	}
+}
+
+
+## Gems
+
+province_event = { 
+	id = dwarf_events.52
+	title = dwarf_events.52.t 
+	desc = dwarf_events.52.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered gems in "[Root.GetName]"! We had to tear up the ground a lot to so do
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.52.option_1
+	}
+}
+
+
+
+## Gold
+
+province_event = { 
+	id = dwarf_events.53
+	title = dwarf_events.53.t 
+	desc = dwarf_events.53.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered gold in "[Root.GetName]"! We had to tear up the ground a lot to do so.
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.53.option_1
+	}
+}
+
+
+## Gromril!
+
+province_event = { 
+	id = dwarf_events.54
+	title = dwarf_events.54.t 
+	desc = dwarf_events.54.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered gromtil in "[Root.GetName]"! We had to absolutely destroy the ground to do so.
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.54.option_1
+	}
+}
+
+
+
+## Warpstone!
+
+province_event = { 
+	id = dwarf_events.55
+	title = dwarf_events.55.t 
+	desc = dwarf_events.55.d 
+	picture = INDUSTRY_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = { always = yes }
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		save_event_target_as = event_target
+	}
+
+	goto = event_target
+
+# We can uncovered warpstone in "[Root.GetName]"! We had to absolutely destroy the ground to do so.
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = dwarf_events.55.option_1
+	}
+}
+
+
 
 
 ### Chaos Dwarf Intro Event

@@ -548,9 +548,31 @@ war_dwarf_faction_2 = {
 			has_discovered = ROOT
 		}	
 		trigger = {
-			trade_goods_produced_amount = {
-				trade_goods = beer
-				amount = 3
+			OR = {
+				trade_goods_produced_amount = {
+					trade_goods = beer
+					amount = 3
+				}
+				trading_part = {
+					trade_goods = beer
+					value = 0.10
+				}
+				any_country = {
+					owes_favors = { 
+					    who = ROOT 
+					    value = 50 
+					}
+					OR = {
+						trade_goods_produced_amount = {
+							trade_goods = beer
+							amount = 3
+						}
+						trading_part = {
+							trade_goods = beer
+							value = 0.10
+						}
+					}
+				}
 			}
 		}
 
@@ -583,9 +605,31 @@ war_dwarf_faction_2 = {
 			has_discovered = ROOT
 		}	
 		trigger = {
-			trade_goods_produced_amount = {
-				trade_goods = beer
-				amount = 6
+			OR = {
+				trade_goods_produced_amount = {
+					trade_goods = beer
+					amount = 6
+				}
+				trading_part = {
+					trade_goods = beer
+					value = 0.15
+				}
+				any_country = {
+					owes_favors = { 
+					    who = ROOT 
+					    value = 50 
+					}
+					OR = {
+						trade_goods_produced_amount = {
+							trade_goods = beer
+							amount = 6
+						}
+						trading_part = {
+							trade_goods = beer
+							value = 0.15
+						}
+					}
+				}
 			}
 		}
 
@@ -610,22 +654,28 @@ war_dwarf_faction_2 = {
 		}	
 		trigger = {
 			OR = {
-				trading_bonus = {
-					trade_goods = beer
-					value = yes
-				}
 				trade_goods_produced_amount = {
 					trade_goods = beer
-					amount = 15
+					amount = 9
 				}
-				any_ally = {
-					production_leader = {
-						trade_goods = beer
+				trading_part = {
+					trade_goods = beer
+					value = 0.20
+				}
+				any_country = {
+					owes_favors = { 
+					    who = ROOT 
+					    value = 50 
 					}
-				}
-				any_subject_country = {
-					production_leader = {
-						trade_goods = beer
+					OR = {
+						trade_goods_produced_amount = {
+							trade_goods = beer
+							amount = 9
+						}
+						trading_part = {
+							trade_goods = beer
+							value = 0.20
+						}
 					}
 				}
 			}

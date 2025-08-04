@@ -46,7 +46,13 @@ Misc Mission Trees
 
 	Make end times chaos corruption events worse? And pulse every six months.
 
+	Images for resource reveal events
+
 	Keep Naggaroth Purple. Add decision to return to original color?
+
+	Event for dwarves to turn resources into beer?
+
+	Forming Dwarf Formable should be X number of karaks owned by you or subjects with dwarven culture
 
 #############################
 ###### RANDOM TO DOS ########
@@ -56,6 +62,13 @@ Misc Mission Trees
 		Change it to normal migration stuff, we don't need all this nonsense?
 
 	Check Barrow Legion
+
+	Survey land gives an event to say which resource you got
+
+	Change forming Karak Anzor to owning or subjects owning 21 karaks.
+
+	The beer missions in the dwarf tree and weird with survey land.
+		And final beer mission should be trading in beer, or we have enough to get the bonus?
 
 	Add Nemesis Crown Artifact: https://warhammerfantasy.fandom.com/wiki/Nemesis_Crown
 
