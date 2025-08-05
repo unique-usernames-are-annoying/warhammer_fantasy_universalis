@@ -628,6 +628,20 @@ on_expanded_infrastructure = {
 			name = industrial_infrastructure
 			duration = -1
 		}
+		add_province_modifier = {
+			name = war_rail_system
+			duration = -1
+		}
+
+		every_neighbor_province = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = war_rail_system
+				duration = -1
+			}
+		}
 	}
 }
 

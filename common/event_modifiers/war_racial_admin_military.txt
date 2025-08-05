@@ -89,7 +89,7 @@ dwarven_military = {
 	#Negatives
 	manpower_recovery_speed = -0.20 #A+
 	global_regiment_cost = 0.2 #S+
-	movement_speed = -0.15 #B
+	movement_speed = -0.2 #B
 	naval_morale = -0.1
 	global_sailors_modifier = -0.25
 	ship_durability = 0.05

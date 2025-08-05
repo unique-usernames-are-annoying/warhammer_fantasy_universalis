@@ -159,6 +159,9 @@ clear_non_racial_ruler_personalities = {
 		remove_ruler_personality = legendary_administrator_personality
 		remove_ruler_personality = legendary_diplomat_personality
 		remove_ruler_personality = legendary_warrior_personality
+		remove_ruler_personality = mage_personality
+		remove_ruler_personality = skeptic_personality
+		remove_ruler_personality = charmer_personality
 	}
 }
 

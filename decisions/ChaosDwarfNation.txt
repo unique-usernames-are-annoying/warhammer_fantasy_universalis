@@ -117,7 +117,7 @@ country_decisions = {
 	
 		}
 		provinces_to_highlight = {
-			province_group = chaos_dwarf_karak_province
+			has_terrain = dwarf_karak
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		allow = {
@@ -127,10 +127,8 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no				
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 23
-				is_core = ROOT
-				is_city = yes
-				province_group = chaos_dwarf_karak_province
+				value = 30
+				has_terrain = dwarf_karak
 			}
 			owns_or_non_sovereign_subject_of = 810
 		}

@@ -315,9 +315,9 @@ dwarf_industrialized_wasteland_desc:0 "This wasteland has been improved into an 
 desc_dwarf_industrialized_wasteland:0 "This wasteland has been improved into an industrial powerhouse."
 
 
-dwarf_rail_system:0 "Rail System"
-dwarf_rail_system_desc:0 "This province now has a rail system running through it."
-desc_dwarf_rail_system:0 "This province now has a rail system running through it."
+war_rail_system:0 "Railway System"
+war_rail_system_desc:0 "This province now has a rail system running through it, significantly increasing friendly movement."
+desc_war_rail_system:0 "This province now has a rail system running through it, significantly increasing friendly movement."
 
 
 

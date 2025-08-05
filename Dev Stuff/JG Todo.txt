@@ -52,7 +52,7 @@ Misc Mission Trees
 
 	Event for dwarves to turn resources into beer?
 
-	Forming Dwarf Formable should be X number of karaks owned by you or subjects with dwarven culture
+	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
 
 #############################
 ###### RANDOM TO DOS ########
@@ -63,22 +63,27 @@ Misc Mission Trees
 
 	Check Barrow Legion
 
-	Survey land gives an event to say which resource you got
+	Grail Unique Mechanics
 
-	Change forming Karak Anzor to owning or subjects owning 21 karaks.
+	Need to write mage_personality_die_desc for various new personalities.
 
-	The beer missions in the dwarf tree and weird with survey land.
-		And final beer mission should be trading in beer, or we have enough to get the bonus?
+	Look at Bretonnian Dukedom reform again. Why isn't it working?
+
+	Payswords National Ideas: https://discord.com/channels/1314079561687896084/1400915491031093298
+
+	Borderlands tweaks: https://discord.com/channels/1314079561687896084/1401518890101506110
+
+	Special mechanics for the Sword of Khaine - better, but with a disaster, and stopping wielding it is painful
 
 	Add Nemesis Crown Artifact: https://warhammerfantasy.fandom.com/wiki/Nemesis_Crown
 
-	Bret is still too powerful - make another handicapping estate privilege
+	Bret is still too powerful - make another handicapping estate privilege, lower development
 
 	Adjust Wood Elf Raiding mission description
 
 	Change Amaxonian graphics to be american? Done?
 
-	Lots of manpower losing events as Lizardmen
+	Too many Lots of manpower losing events as Lizardmen
 
 	Make Demon nations!
 
@@ -86,7 +91,13 @@ Misc Mission Trees
 
 	If a republic gets the Phoenix King reform, it is destroyed. Fix this? But this stuff is so sensitive
 
-	Marienburg & All Old World Imperial Mission Tree Backup
+	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
+
+
+	Next to the position (2600, 692) is a river with 3 nearby river pixels or 2 and a green start position.
+	Next to the position (2599, 693) is a river with 3 nearby river pixels or 2 and a green start position.
+	The following river pixel should either lack a source or is not properly connected with the main river: (0, 200, 255) at 2651,591.
+	The following river pixel should either lack a source or is not properly connected with the main river: (0, 200, 255) at 2824,386.
 
 	Luccini Gov Reform is weird, particularly with localization https://discord.com/channels/1314079561687896084/1396621936187936778
 
