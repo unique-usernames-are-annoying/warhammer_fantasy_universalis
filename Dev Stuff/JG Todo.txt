@@ -48,11 +48,11 @@ Misc Mission Trees
 
 	Images for resource reveal events
 
-	Keep Naggaroth Purple. Add decision to return to original color?
-
 	Event for dwarves to turn resources into beer?
 
 	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
+
+	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
 
 #############################
 ###### RANDOM TO DOS ########
@@ -90,9 +90,6 @@ Misc Mission Trees
 	Make Github more secure
 
 	If a republic gets the Phoenix King reform, it is destroyed. Fix this? But this stuff is so sensitive
-
-	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
-
 
 	Next to the position (2600, 692) is a river with 3 nearby river pixels or 2 and a green start position.
 	Next to the position (2599, 693) is a river with 3 nearby river pixels or 2 and a green start position.
