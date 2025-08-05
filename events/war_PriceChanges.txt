@@ -1309,7 +1309,7 @@ country_event = {
 	}
 }
 
-# Expansion of the Bengali Dye Production
+# Expansion of the Dye Production
 country_event = {
 	id = war_prices.25
 	title = war_prices.25.t
@@ -1321,8 +1321,10 @@ country_event = {
 	major = yes
 
 	trigger = {
-		capital_scope = { continent = europe }
-		dyes = 3
+		trade_goods_produced_amount = {
+			trade_goods = dyes
+			amount = 10
+		}
 	}
 	mean_time_to_happen = {
 		months = 60

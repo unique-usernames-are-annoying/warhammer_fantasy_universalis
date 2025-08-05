@@ -3663,6 +3663,20 @@ estate_guild_industrial_infrastructure = {
 					name = industrial_infrastructure
 					duration = -1
 				}
+				add_province_modifier = {
+					name = war_rail_system
+					duration = -1
+				}
+
+				every_neighbor_province = {
+					limit = {
+						owned_by = ROOT
+					}
+					add_province_modifier = {
+						name = war_rail_system
+						duration = -1
+					}
+				}
 			}			
 		}
 	}
@@ -3671,6 +3685,7 @@ estate_guild_industrial_infrastructure = {
 		hidden_effect = {
 			every_owned_province = {
 				remove_province_modifier = industrial_infrastructure
+				remove_province_modifier = war_rail_system
 			}
 		}
 		add_years_of_income = -1.0

@@ -94,6 +94,8 @@ country_decisions = {
 
 			add_stability = -1
 
+			custom_tooltip = vermintide_tt
+
 			add_country_modifier = {
 				name = vermintide
 				duration = -1

@@ -123,8 +123,8 @@
  war_prices.24.a:0 "Ok."
 
  BENGALI_INDIGO_PRODUCTION:0 "Increased Availability of Dyes"
- war_prices.25.t:0 "Dye Plantations of Ind"
- war_prices.25.d:0 "With increased control over the dye-producing regions of Ind, traders and entrepreneurs are seeking to expand production in Bengal and surrounding areas. Growing and refining indigo is arduous work, but the potential profits are immense. However, allowing unrestricted expansion may lead to unforeseen consequences."
+ war_prices.25.t:0 "Dye Plantations"
+ war_prices.25.d:0 "With increased control over the dye-production, traders and entrepreneurs are seeking to expand production. Growing and refining indigo is arduous work, but the potential profits are immense. However, allowing unrestricted expansion may lead to unforeseen consequences."
  war_prices.25.a:0 "Allow it."
  war_prices.25.b:0 "Restrict the creation of new plantations."
 

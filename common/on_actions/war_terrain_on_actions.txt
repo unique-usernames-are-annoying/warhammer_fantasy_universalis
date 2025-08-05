@@ -268,7 +268,7 @@ on_province_owner_change = {
 	}
 
 
-## Industrial Infrastructure
+## Industrial Infrastructure & railway
 
 	if = {
 		limit = {
@@ -279,7 +279,37 @@ on_province_owner_change = {
 			name = industrial_infrastructure
 			duration = -1
 		}
+		add_province_modifier = {
+			name = war_rail_system
+			duration = -1
+		}
+		every_neighbor_province = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = war_rail_system
+				duration = -1
+			}
+		}
 	}
+
+## Railway for conquering adjacent to expanded
+
+	if = {
+		limit = {
+			owner = { has_estate_privilege = estate_guild_industrial_infrastructure }
+			any_neighbor_province = {
+				owned_by = ROOT
+				num_of_times_expanded_infrastructure = 1
+			}
+		}
+		add_province_modifier = {
+			name = war_rail_system
+			duration = -1
+		}
+	}
+
 
 ### Lizardfolk Temples
 

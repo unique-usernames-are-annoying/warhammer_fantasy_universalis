@@ -241,6 +241,14 @@ country_decisions = {
 					country_event = { id = ideagroups.1 } #Swap Ideas
 				}
 			set_country_flag = formed_ulthuan_flag
+			if = {
+				limit = {
+					is_or_was_tag = { tag = H12 }
+				}
+				change_country_color = { 
+				   color = { 129 32 98 }
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 400

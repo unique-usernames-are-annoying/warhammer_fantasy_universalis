@@ -341,7 +341,7 @@ dwarf_gromril_age = {
 
 
 ## Province Modifiers
-
+## This is unused
 dwarf_industrialized = {
 	local_development_cost = -0.3
 	allowed_num_of_buildings = 1
@@ -351,6 +351,7 @@ dwarf_industrialized = {
 	global_tax_income = -1
 }
 
+#This is unused
 dwarf_industrialized_wasteland = {
 	local_development_cost = -0.5
 	allowed_num_of_buildings = 1
@@ -360,6 +361,8 @@ dwarf_industrialized_wasteland = {
 	global_tax_income = -1
 }
 
+
+## This is unused
 dwarf_rail_system = {
 	local_friendly_movement_speed = 1.0
 	global_tax_income = -0.25
@@ -383,7 +386,13 @@ industrial_infrastructure = {
 	trade_goods_size_modifier = 0.1
 	local_manpower_modifier = -0.15
 	local_tax_modifier = -0.15
-	local_friendly_movement_speed = 1.0
+#	local_friendly_movement_speed = 1.0
+}
+
+war_rail_system = {
+	province_trade_power_modifier = 0.05
+	local_friendly_movement_speed = 0.75
+	picture = "local_friendly_movement_speed"
 }
 
 

@@ -40,13 +40,19 @@ Misc Mission Trees
 
 	Against the everchosen, you get "annex migratory tribe??"
 
-	Make everchosen a little harder again? What's happening?
-
 	Dragon Isles is united vs unite the dragon isles decision? Why?
 
-	Across the waves mission seems to not be working?
+	Im stll very sad that wolf land trade does not flow into zharr-nagrund, makes so little sense that I cant collect all the darklands - Trade bible v2
 
-	Christian Infidels declared a crusade on us has wrong loc
+	Make end times chaos corruption events worse? And pulse every six months.
+
+	Images for resource reveal events
+
+	Event for dwarves to turn resources into beer?
+
+	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
+
+	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
 
 #############################
 ###### RANDOM TO DOS ########
@@ -57,21 +63,38 @@ Misc Mission Trees
 
 	Check Barrow Legion
 
+	Grail Unique Mechanics
+
+	Need to write mage_personality_die_desc for various new personalities.
+
+	Look at Bretonnian Dukedom reform again. Why isn't it working?
+
+	Payswords National Ideas: https://discord.com/channels/1314079561687896084/1400915491031093298
+
+	Borderlands tweaks: https://discord.com/channels/1314079561687896084/1401518890101506110
+
+	Special mechanics for the Sword of Khaine - better, but with a disaster, and stopping wielding it is painful
+
 	Add Nemesis Crown Artifact: https://warhammerfantasy.fandom.com/wiki/Nemesis_Crown
 
-	Bret is still too powerful - make another handicapping estate privilege
+	Bret is still too powerful - make another handicapping estate privilege, lower development
 
 	Adjust Wood Elf Raiding mission description
 
 	Change Amaxonian graphics to be american? Done?
 
-	Lots of manpower losing events as Lizardmen
+	Too many Lots of manpower losing events as Lizardmen
 
 	Make Demon nations!
 
 	Make Github more secure
 
-	Marienburg & All Old World Imperial Mission Tree Backup
+	If a republic gets the Phoenix King reform, it is destroyed. Fix this? But this stuff is so sensitive
+
+	Next to the position (2600, 692) is a river with 3 nearby river pixels or 2 and a green start position.
+	Next to the position (2599, 693) is a river with 3 nearby river pixels or 2 and a green start position.
+	The following river pixel should either lack a source or is not properly connected with the main river: (0, 200, 255) at 2651,591.
+	The following river pixel should either lack a source or is not properly connected with the main river: (0, 200, 255) at 2824,386.
 
 	Luccini Gov Reform is weird, particularly with localization https://discord.com/channels/1314079561687896084/1396621936187936778
 
@@ -87,8 +110,6 @@ Misc Mission Trees
 	10 events every culture group and religion
 		Athel Loren Events to spawn chaos rebels (lure them in) in exchange for mana
 		Give top level buildings
-
-	Renessance no longer necessarily spawns in Europe
 
 	Vaults Trade flow: https://discord.com/channels/1314079561687896084/1383643452167684158/1396713544501956609
 

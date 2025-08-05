@@ -256,7 +256,6 @@ feudalism = {
 #######################################
 # Renaissance
 # 
-# Flows from italy
 #######################################
 renaissance = {
 	bonus = {
@@ -272,20 +271,33 @@ renaissance = {
 	can_start = {
 		is_year = 2505
 		is_institution_enabled = feudalism
-		region = tilea_region
+#		region = tilea_region
 		is_state = yes
-		NOT = {
-			province_id = 126
-		}
-		NOT = {
-			area = thousand_isles_area
-		}
+#		NOT = {
+#			province_id = 126
+#		}
+#		NOT = {
+#			area = thousand_isles_area
+#		}
 		is_island = no
+		owner = {
+			diplomatic_reputation = 1.5
+		}
 		OR = {
-			development = 20
+			development = 25
 			is_capital = yes
-			normal_or_historical_nations = no
-			is_year = 2505
+#			normal_or_historical_nations = no
+		}
+		OR = {
+			trade_goods = paper
+			trade_goods = gems
+			trade_goods = glass
+			trade_goods = chinaware
+			trade_goods = silk
+			trade_goods = incense
+			trade_goods = wine
+			trade_goods = cocoa
+			trade_goods = sugar
 		}
 	}
 	start_chance = 5	#in 100 for when a province can_start
@@ -326,42 +338,42 @@ renaissance = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1
-			potential = {
-				region = tilea_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = tilea_region
-				culture_group = tilean_group
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_10
-				continent = europe
-				development = 10
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20
-				development = 20
-				continent = europe
-			}
-		}
+#		modifier = {
+#			factor = 1
+#			potential = {
+#				region = tilea_region
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_italian_capital
+#				is_capital = yes
+#				region = tilea_region
+#				culture_group = tilean_group
+#			}
+#		}
+#		modifier = {
+#			factor = 0.05
+#			scale = yes
+#			potential = {
+#				continent = europe
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_development_10
+#				continent = europe
+#				development = 10
+#			}
+#		}
+#		modifier = {
+#			factor = 0.05
+#			scale = yes
+#			potential = {
+#				continent = europe
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_development_20
+#				development = 20
+#				continent = europe
+#			}
+#		}
 #		modifier = {
 #			factor = 0.1
 #			scale = yes
@@ -375,25 +387,25 @@ renaissance = {
 #				development = 5
 #			}
 #		}
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				OR = {
-					area = altdorf_area
-					area = nuln_area
-					area = miragliano_area
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = altdorf_area
-					area = nuln_area
-					area = miragliano_area
-				}
-			}
-		}
+#		modifier = {
+#			factor = 0.5
+#			scale = yes
+#			potential = {
+#				OR = {
+#					area = altdorf_area
+#					area = nuln_area
+#					area = miragliano_area
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_flanders_tuscany_venetia
+#				OR = {
+#					area = altdorf_area
+#					area = nuln_area
+#					area = miragliano_area
+#				}
+#			}
+#		}
 		modifier = {
 			factor = 5
 			scale = yes
@@ -434,7 +446,7 @@ renaissance = {
 		}
 		### Start Adjustment
 		modifier = {
-			factor = 0.02
+			factor = 0.1
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_special_goods_development_20
@@ -444,7 +456,6 @@ renaissance = {
 					trade_goods = gems
 					trade_goods = glass
 					trade_goods = chinaware
-					trade_goods = gold
 					trade_goods = silk
 					trade_goods = incense
 					trade_goods = wine
@@ -454,7 +465,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.1
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_30
@@ -472,7 +483,6 @@ renaissance = {
 					trade_goods = gems
 					trade_goods = glass
 					trade_goods = chinaware
-					trade_goods = gold
 					trade_goods = silk
 					trade_goods = incense
 					trade_goods = wine
