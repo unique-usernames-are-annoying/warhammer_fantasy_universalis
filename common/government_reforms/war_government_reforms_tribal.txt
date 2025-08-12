@@ -97,6 +97,9 @@ freeboota_fleet_reform = {
 	custom_attributes = {
 		admirals_become_rulers = yes
 	}
+	government_abilities = { 
+		orc_fightiness_mechanic
+	}
 	has_term_election = no
 	queen = no
 	royal_marriage = no

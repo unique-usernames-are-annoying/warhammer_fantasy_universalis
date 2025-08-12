@@ -54,6 +54,12 @@ Misc Mission Trees
 
 	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
 
+	Skaven should have mages
+
+	Need to write mage_personality_die_desc for various new personalities.
+
+	Dwarf mission tree should be weaker
+
 #############################
 ###### RANDOM TO DOS ########
 #############################
@@ -64,8 +70,6 @@ Misc Mission Trees
 	Check Barrow Legion
 
 	Grail Unique Mechanics
-
-	Need to write mage_personality_die_desc for various new personalities.
 
 	Look at Bretonnian Dukedom reform again. Why isn't it working?
 

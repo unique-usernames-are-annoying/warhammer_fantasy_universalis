@@ -751,7 +751,7 @@ chaos_dwarf_missions_3 = {
 		required_missions = { chaos_dwarf_please_church chaos_dwarf_please_nobles chaos_dwarf_please_guilds }
 		position = 5
 		trigger = {
-			crown_land_share = 75
+			crown_land_share = 50
 
 			OR = {
 				AND = {

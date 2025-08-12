@@ -302,7 +302,7 @@ war_dwarf_faction_1 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -388,7 +388,7 @@ war_dwarf_faction_1 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -766,7 +766,7 @@ war_dwarf_faction_2 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -853,7 +853,7 @@ war_dwarf_faction_2 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -1485,7 +1485,7 @@ war_dwarf_faction_4 = {
 					has_building = furnace
 				}
 				num_of_times_expanded_infrastructure = 1
-				base_production = 20
+				base_production = 15
 			}
 		}
 		effect = {
@@ -1517,7 +1517,7 @@ war_dwarf_faction_4 = {
 					all_owned_province = {
 						num_of_times_expanded_infrastructure = 1
 					}
-					amount = 10
+					amount = 8
 				}
 				all_owned_province = {
 					num_of_times_expanded_infrastructure = 1
@@ -1556,7 +1556,7 @@ war_dwarf_faction_4 = {
 					all_owned_province = {
 						num_of_times_expanded_infrastructure = 1
 					}
-					amount = 15
+					amount = 12
 				}
 				all_owned_province = {
 					num_of_times_expanded_infrastructure = 1
@@ -1746,9 +1746,9 @@ war_dwarf_faction_4 = {
 
 			}
 			OR = {
-				NOT = { development = 25 }
+				NOT = { development = 20 }
 				NOT = { num_of_buildings_in_province = 2 }
-				NOT = { num_of_times_expanded_infrastructure = 1 }
+#				NOT = { num_of_times_expanded_infrastructure = 1 }
 				is_prosperous = no
 				AND = {
 					NOT = { owned_by = ROOT }
@@ -1758,72 +1758,72 @@ war_dwarf_faction_4 = {
 		}	
 		trigger = {
 			4420 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}
 			}
 			4530 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}			
 			}
 			4434 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}		
 			}
 			4412 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}			
 			}
 			4410 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}			
 			}
 			4414 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}			
 			}
 			4418 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
 				}			
 			}
 			4416 = {
-				development = 25
+				development = 15
 				num_of_buildings_in_province = 2
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 				OR = {
 					owned_by = ROOT 
 					owned_by_subject_of	= ROOT
@@ -1913,7 +1913,7 @@ war_dwarf_faction_4 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -2205,7 +2205,7 @@ war_dwarf_faction_5 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
@@ -2291,7 +2291,7 @@ war_dwarf_faction_5 = {
 					is_prosperous = yes
 				}
 				development = 25
-				num_of_times_expanded_infrastructure = 1
+#				num_of_times_expanded_infrastructure = 1
 			}
 		}
 
