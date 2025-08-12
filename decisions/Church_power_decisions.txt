@@ -1,0 +1,19 @@
+country_decisions = {
+
+	war_use_church_power = {
+		major = no
+		potential = {
+			church_power = 0
+		}
+		allow = {
+			church_power = 200
+		}
+		effect = {
+			add_church_power = -200
+			add_prestige_or_monarch_power = { amount = 20 }
+		}
+
+		ai_will_do = { factor = 0 }
+		ai_importance = 0
+	}
+}

@@ -609,6 +609,7 @@ province_is_or_accepts_norscan_tt:0 "Province is or has 3+ tolerance of Norscan"
 province_is_or_accepts_skaven_denominations_tt:0 "Province is or has 3+ tolerance of Skaven Denominations."
 province_is_or_accepts_the_one_faith_tt:0 "Province is or has 3+ tolerance of the One Faith"
 province_is_or_accepts_myrmidia_tt:0 "Province is or has 3+ tolerance of Myrmidia"
+province_is_or_accepts_gork_n_mork_religion_tt:0 "Province is or has 3+ tolerance of Gork and Mork"
 
 
 

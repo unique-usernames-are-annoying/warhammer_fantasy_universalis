@@ -14,6 +14,7 @@ country_decisions = {
 	    		name = lets_raid_modifier
 	    		duration = -1 
 			}
+			custom_tooltip = we_are_raiding_tt
 		}
 		ai_will_do = {
 			factor = 1

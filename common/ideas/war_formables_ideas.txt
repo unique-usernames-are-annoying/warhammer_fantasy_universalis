@@ -133,12 +133,12 @@ A60_ideas = {
 
 A77_ideas = {
 	start = {
-		land_maintenance_modifier = -0.1
-		land_attrition = -0.2
+		land_maintenance_modifier = -0.15
+		global_trade_power = 0.2
 		may_recruit_female_generals = yes
 	}
 	bonus = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.20
 	}
 	trigger = {
 		tag = A77
@@ -149,22 +149,28 @@ A77_ideas = {
 		global_manpower_modifier = 0.2
 	}
 	A77_idea_2 = {
-		cavalry_power = 0.2
+		cavalry_power = 0.25
+		nobles_loyalty_modifier = 0.05
 	}
 	A77_idea_3 = {
 		land_morale = 0.15
+		naval_morale = 0.1
 	}
 	A77_idea_4 = {
-		culture_conversion_cost = -0.2
+		culture_conversion_cost = -0.25
+		culture_conversion_time = -0.25
 	}
 	A77_idea_5 = {
 		leader_land_shock = 1
+		leader_naval_shock = 1
 	}
 	A77_idea_6 = {
-		reform_progress_growth = 0.2
+		reform_progress_growth = 0.25
+		global_unrest = -2
 	}
 	A77_idea_7 = {
 		global_missionary_strength = 0.03
+		church_loyalty_modifier = 0.05
 	}
 }
 
