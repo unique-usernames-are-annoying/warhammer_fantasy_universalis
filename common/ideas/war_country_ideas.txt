@@ -714,10 +714,10 @@ A94_ideas = {
 ####### NORSCA ########
 ####### NORSCA ########
 ####### NORSCA ########
-#sarl
+#Vargs
 A33_ideas = {
 	start = {
-		leader_naval_manuever = 1
+		leader_land_manuever = 1
 		cav_to_inf_ratio = 0.5 # Worth one idea
 		may_recruit_female_generals = yes
 	}

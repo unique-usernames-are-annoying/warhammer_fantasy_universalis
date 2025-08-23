@@ -46,7 +46,7 @@ norsca_foul_fortress = { # Foul Fortress
 
 norsca_doomkeep = {
 	local_defensiveness = 0.15
-	hostile_attrition = 1
+	local_hostile_attrition = 1
 	max_attrition = 1
 	trade_goods_size_modifier = 0.01
 	picture = "defense_fort"
@@ -341,6 +341,17 @@ norsca_tribute_2 = {
 	envoy_travel_time = -0.3
 }
 
+# Vargs Cav Modifier
+norsca_chariots_1 = {
+	movement_speed = 0.075
+	cavalry_power = 0.05
+}
+
+norsca_chariots_2 = {
+	movement_speed = 0.15
+	cavalry_power = 0.1
+}
+
 # Good Allies
 norsca_strong_ally = {
 	diplomatic_upkeep = 1
@@ -629,7 +640,15 @@ skeggi_grow = {
 	harsh_treatment_cost = -0.33
 }
 
-
+# Crown of Lustria
+skeggi_crown_lustria = {
+	legitimacy = 1
+	republican_tradition = 1
+	devotion = 1
+	horde_unity = 1
+	colonists = 1
+	may_explore = yes
+}
 
 # Exploration
 skeggi_explore_temp = {
@@ -664,80 +683,6 @@ skeggi_city_of_stone = {
 	local_development_cost = -0.1
 	local_institution_spread = 1
 }
-
-# The Three Cities
-skeggi_three_cities = { # Applied onto 3 Cities
-	local_development_cost = -0.15
-	province_trade_power_modifier = 0.3
-	local_production_efficiency = 0.3
-}
-
-skeggi_roads = { # Roads - Applied onto 3 modifiers
-	local_friendly_movement_speed = 0.3
-	supply_limit_modifier = 0.20
-	local_development_cost = -0.075
-	province_trade_power_modifier = 0.1
-}
-
-########################################
-####### Skeggi Event Chain Modifiers
-########################################
-
-##########
-### Fate of the Temple Cities
-skeggi_slave_soldiers = {
-	land_forcelimit_modifier = 0.1
-	land_maintenance_modifier = -0.05
-}
-
-skeggi_slave_cities = {
-	local_unrest = 5 # Total is 10 with enslave lesser races
-	local_tax_modifier = -0.33
-	local_production_efficiency = 0.33
-	local_manpower_modifier = 0.33
-	local_development_cost = -0.1
-}
-
-skeggi_integrate_lizard_scholars = {
-	technology_cost = -0.5
-	all_power_cost = -0.025
-}
-
-skeggi_integrate_cities = { # Province Modifier
-	local_governing_cost = -0.25
-	local_years_of_nationalism = -5
-	province_trade_power_modifier = 0.2
-	local_development_cost = -0.05
-}
-
-########## Lizardfolk Freedom Chain #2 - Dark Wispers
-### Blissful Peace
-skeggi_peaceful_coexistance = { # country modifier
-	stability_cost_modifier = -0.2
-	global_unrest = -1
-}
-
-### Infiltrate the Cells
-skeggi_infiltrate_cells = { # country modifier
-	global_tax_income = -10
-	spy_offence = -0.1
-}
-
-### Brutal Repression
-skeggi_brutal_repression = { # Province Modifier
-	local_unrest = 5
-	local_tax_modifier = -0.33
-	local_production_efficiency = -0.33
-	local_manpower_modifier = -0.33
-	local_autonomy = -0.1
-}
-
-skeggi_purge_lizards = {
-	local_years_of_nationalism = -5
-	local_culture_conversion_cost = -0.25
-	local_culture_conversion_time = -0.1
-}
-
 
 ########################################
 ####### Unsorted and Old Modifiers
