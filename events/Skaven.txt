@@ -183,6 +183,8 @@ country_event = {
 		name = skaven.3.b
 		add_piety = 0.1
 
+		add_treasury = 50
+
 		event_target:event_target = {
 
 			spawn_rebels = {

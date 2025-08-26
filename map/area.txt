@@ -2149,16 +2149,16 @@ mountains_of_mourn_14_area = {
 	2814 2813 2816 2812 
 }
 mountains_of_mourn_15_area = {
-	2811 2810 2809 4272 
+	2811 2810 4272 
 }
 mountains_of_mourn_16_area = {
-	2804 2797 2796 
+	2804 2797 2809
 }
 mountains_of_mourn_18_area = {
-	2795 2789 2794 
+	2795 2789 2794 2796
 }
 mountains_of_mourn_19_area = {
-	2790 2780 2782 
+	2790 2780 2782 2270
 }
 mountains_of_mourn_20_area = {
 	4302 2792 2800 4300 
@@ -2971,7 +2971,7 @@ elithis_5_area = {
 	4757 4756 4754 
 }
 flayed_rock_area = {
-	2271 2272 2270 2276 
+	2271 2272 2276 
 }
 gnoblar_hills_area = {
 	2280 2282 601 

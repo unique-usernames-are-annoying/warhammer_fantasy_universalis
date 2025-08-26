@@ -2309,7 +2309,7 @@ furnace = {
 	}
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05 #National Bonus
+		global_trade_goods_size_modifier = 0.01 #National Bonus, adjusted from 5% normally
 	}
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

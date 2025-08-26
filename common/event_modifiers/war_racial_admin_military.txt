@@ -67,7 +67,7 @@ dwarven_administration = {
 	production_efficiency = 0.2 #A+
 	development_cost = -0.075 # A
 	fort_maintenance_modifier = -0.30 #D+
-	monarch_lifespan = 4.0
+#	monarch_lifespan = 4.0
 
 	#Negatives
 	trade_efficiency = -0.2 #A+
@@ -108,7 +108,7 @@ elven_administration = {
 
 	female_advisor_chance = 0.5
 	may_recruit_female_generals = yes
-	monarch_lifespan = 10000.0
+#	monarch_lifespan = 10000.0
 
 	#Negatives
 	technology_cost = 0.05 #S
@@ -143,7 +143,7 @@ undead_administration = {
 	all_power_cost = -0.1 #S++
 	global_tax_modifier = 0.20 #B+
 
-	monarch_lifespan = 10000.0 
+#	monarch_lifespan = 10000.0 
 
 	# Negatives
 	production_efficiency = -0.10 #A
@@ -370,7 +370,7 @@ lizardmen_administration = {
 	num_accepted_cultures = -2
 	culture_conversion_cost = -0.25
 
-	monarch_lifespan = 1.0
+#	monarch_lifespan = 1.0
 	
 	#Negatives
 	technology_cost = 0.05 #S

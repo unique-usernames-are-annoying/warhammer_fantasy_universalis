@@ -294,9 +294,6 @@ country_event = {
 			add_dip_power = 999
 			add_mil_power = 999
 
-			add_adm_tech = 4
-			add_dip_tech = 4
-			add_mil_tech = 4
 			change_adm = 6
 			change_dip = 6
 			change_mil = 6
@@ -314,6 +311,8 @@ country_event = {
 			capital_scope = {
 
 				add_reform_center = chaos_undivided_religion
+
+				add_next_institution_embracement = 100
 
 				add_province_modifier = {
 					name = chaos_gate_defenses
@@ -550,6 +549,20 @@ country_event = {
 			every_country = {
 				country_event = {
 					id = end_times_events.1001
+				}
+			}
+
+			every_country = {
+				limit = {
+					NOT = {
+						religion_group = ruinous_powers_denominations
+					}
+					ai = no
+				}
+				add_aggressive_expansion = {
+					who = ROOT
+					value = 200
+					apply_calc = no
 				}
 			}
 
@@ -822,7 +835,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	### Ruin
 	option = {

@@ -56,11 +56,8 @@ war_ogre_faction_1 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				province_id = 2761
-				province_id = 2764
-				province_id = 2776
-				province_id = 2784
-				province_id = 2785
+				area = mountains_of_mourn_1_area
+				area = mountains_of_mourn_2_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -68,30 +65,17 @@ war_ogre_faction_1 = {
 			}
 		}
 		trigger = {
-			OR = {
-				2761 = {
-					owned_by = ROOT
+			calc_true_if = {
+				all_owned_province = {
 					fort_level = 2
+					OR = {
+						area = mountains_of_mourn_1_area
+						area = mountains_of_mourn_2_area
+					}
 				}
-				2764 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
+				amount = 3
 			}
-			2776 = {
-				owned_by = ROOT
-				fort_level = 2
-			}
-			OR = {
-				2784 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-				2785 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-			}
+
 		}
 		effect = {
 			add_country_modifier = { 
@@ -337,12 +321,8 @@ war_ogre_faction_2 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				province_id = 2753
-				province_id = 2749
-				province_id = 2750
-				province_id = 2751
-				province_id = 2763
-				province_id = 599
+				area = mountains_of_mourn_3_area
+				area = mountains_of_mourn_6_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -350,33 +330,15 @@ war_ogre_faction_2 = {
 			}
 		}		
 		trigger = {
-			2753 = {
-				owned_by = ROOT
-				fort_level = 2
-			}
-			OR = {
-				2749 = {
-					owned_by = ROOT
+			calc_true_if = {
+				all_owned_province = {
 					fort_level = 2
+					OR = {
+						area = mountains_of_mourn_3_area
+						area = mountains_of_mourn_6_area
+					}
 				}
-				2750 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-				2751 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-			}
-			OR = {
-				2763 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-				599 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
+				amount = 3
 			}
 		}
 		effect = {
@@ -885,7 +847,7 @@ war_ogre_faction_3 = {
 		trigger = {
 			trading_part = {
 				trade_goods = warpstone
-				value = 0.1
+				value = 0.05
 			}
 			1215 = {
 				owned_by = ROOT
@@ -1029,9 +991,9 @@ war_ogre_faction_4 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				province_id = 2790
-				province_id = 2809
-				province_id = 2780
+				area = mountains_of_mourn_19_area
+				area = mountains_of_mourn_16_area
+				area = gnoblar_hills_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -1039,29 +1001,16 @@ war_ogre_faction_4 = {
 			}
 		}
 		trigger = {
-			OR = {
-				2790 = {
-					owned_by = ROOT
+			calc_true_if = {
+				all_owned_province = {
 					fort_level = 2
+					OR = {
+						area = mountains_of_mourn_19_area
+						area = mountains_of_mourn_16_area
+						area = gnoblar_hills_area
+					}
 				}
-				2797 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-			}
-			OR = {
-				2790 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-				2809 = {
-					owned_by = ROOT
-					fort_level = 2
-				}
-			}
-			2780 = {
-				owned_by = ROOT
-				fort_level = 2
+				amount = 3
 			}
 		}
 		effect = {
@@ -1310,14 +1259,16 @@ war_ogre_faction_5 = {
 		icon = mission_ogre_cannon
 		required_missions = { ogre_please_nobles }
 		trigger = {
-			calc_true_if = {
-				all_country = {
-					transfers_trade_power_to = ROOT
+			OR = {
+				calc_true_if = {
+					all_country = {
+						transfers_trade_power_to = ROOT
+					}
+					amount = 3
 				}
-				amount = 3
-			}
-			any_country = {
-				ROOT = { is_renting_condottieri_to = PREV }
+				any_country = {
+					ROOT = { is_renting_condottieri_to = PREV }
+				}
 			}
 		}
 		effect = {
@@ -1355,8 +1306,8 @@ war_ogre_faction_5 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				province_id = 2818
-				province_id = 4272
+				area = mountains_of_mourn_15_area
+				area = mountains_of_mourn_12_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -1364,13 +1315,15 @@ war_ogre_faction_5 = {
 			}
 		}
 		trigger = {
-			2818 = {
-				owned_by = ROOT
-				fort_level = 2
-			}
-			4272 = {
-				owned_by = ROOT
-				fort_level = 2
+			calc_true_if = {
+				all_owned_province = {
+					fort_level = 2
+					OR = {
+						area = mountains_of_mourn_15_area
+						area = mountains_of_mourn_12_area
+					}
+				}
+				amount = 2
 			}
 		}
 		effect = {

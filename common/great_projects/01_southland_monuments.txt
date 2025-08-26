@@ -72,7 +72,7 @@ karaz_a_karak = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 			local_gold_depletion_chance_modifier = -0.25
@@ -97,7 +97,7 @@ karaz_a_karak = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_gold_depletion_chance_modifier = -0.50
@@ -124,7 +124,7 @@ karaz_a_karak = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			local_gold_depletion_chance_modifier = -0.75
@@ -340,7 +340,7 @@ black_crag = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -362,7 +362,7 @@ black_crag = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -386,7 +386,7 @@ black_crag = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 		}
@@ -494,7 +494,7 @@ orc_proving_pits = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -514,7 +514,7 @@ orc_proving_pits = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -539,7 +539,7 @@ orc_proving_pits = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 		}
@@ -976,7 +976,7 @@ harbor_of_lashiek = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 			institution_growth = 1
@@ -998,7 +998,7 @@ harbor_of_lashiek = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 			institution_growth = 2
@@ -1021,7 +1021,7 @@ harbor_of_lashiek = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			institution_growth = 2
@@ -1834,7 +1834,7 @@ tomb_of_settra = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -1854,7 +1854,7 @@ tomb_of_settra = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -1878,7 +1878,7 @@ tomb_of_settra = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			
@@ -1999,7 +1999,7 @@ black_pyramid_of_nagash = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -2022,7 +2022,7 @@ black_pyramid_of_nagash = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -2047,7 +2047,7 @@ black_pyramid_of_nagash = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			
@@ -2182,7 +2182,7 @@ great_necropolis_of_khemri = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 			tax_income = 12
@@ -2201,7 +2201,7 @@ great_necropolis_of_khemri = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 			tax_income = 24
@@ -2224,7 +2224,7 @@ great_necropolis_of_khemri = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			tax_income = 36
@@ -2762,7 +2762,7 @@ valley_of_kings = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 			tax_income = 6
@@ -2782,7 +2782,7 @@ valley_of_kings = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 			tax_income = 12
@@ -2807,7 +2807,7 @@ valley_of_kings = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			tax_income = 16
@@ -2942,7 +2942,7 @@ obelisk_of_eternity = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -2961,7 +2961,7 @@ obelisk_of_eternity = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -2983,7 +2983,7 @@ obelisk_of_eternity = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			
@@ -2993,7 +2993,7 @@ obelisk_of_eternity = {
 		region_modifier = {
 		}
 		country_modifiers = {
-			all_power_cost = -0.03
+			all_power_cost = -0.025
 			legitimacy = 1.0
 		}
 		on_upgraded = {
@@ -3260,7 +3260,7 @@ crater_ritual_site = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 600
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -3280,7 +3280,7 @@ crater_ritual_site = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2000
+			factor = 2500
 		}
 		province_modifiers = {
 
@@ -3302,7 +3302,7 @@ crater_ritual_site = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 4000
+			factor = 5000
 		}
 		province_modifiers = {
 			
