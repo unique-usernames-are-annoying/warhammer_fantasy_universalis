@@ -625,7 +625,7 @@ war_ogre_faction_3 = {
 
 ### Next, we must proceed to firemouth volcano, and drink directly from the lava. If our gut is strong enough, we will emerge as the undisputed military leader of the ogres.
 	ogre_drink_the_lava = {
-		icon = mission_trade_company_region_abroad
+		icon = mission_dalaskogen
 		required_missions = { ogre_eat_the_gold }
 		provinces_to_highlight = {
 			province_id = 2764

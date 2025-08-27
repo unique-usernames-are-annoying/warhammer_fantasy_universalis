@@ -524,3 +524,45 @@ country_event = {
 
 }
 
+
+
+### Through great effort, the global roots and branches of the world tree have been reconnected. Now, it grows. Slowly, but surely, every passing year building.
+country_event = { 
+	id = wood_elf_events.20
+	title = wood_elf_events.20.t 
+	desc = wood_elf_events.20.d 
+	picture = WOODELF_eventPicture
+
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+## The world tree grows...
+	option = { 
+		ai_chance = { factor = 50 }
+		name = wood_elf_events.20.option_1
+
+		custom_tooltip = the_world_tree_grows_tt
+		country_event = { 
+		    id = wood_elf_events.20
+		    days = 365
+		}
+
+		hidden_effect = {
+			every_province = {
+				limit = { has_terrain = magical_forest_terrain }
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+

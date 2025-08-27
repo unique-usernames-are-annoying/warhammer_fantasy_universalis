@@ -3,7 +3,7 @@
 
 graphical_culture = westerngfx
 
-color = { 200 10 10 }
+color = { 106 0 11 }
 
 
 #chaos Dwarf

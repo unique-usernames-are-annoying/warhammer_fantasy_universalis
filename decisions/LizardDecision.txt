@@ -51,5 +51,56 @@ country_decisions = {
 	}
 
 
+	contact_the_old_ones = {
+		potential = {
+			religion = old_ones
+			OR = {
+				NOT = { adm_tech = 32 }
+				NOT = { dip_tech = 32 }
+				NOT = { mil_tech = 32 }
+			}
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3231
+				province_id = 2693
+				province_id = 4051
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { religion = old_ones }
+			}
+		}
+
+		allow = {
+			religion = old_ones
+			3231 = {
+				owned_by = ROOT
+				religion = old_ones
+			}
+			2693 = {
+				owned_by = ROOT
+				religion = old_ones
+			}
+			4051 = {
+				owned_by = ROOT
+				religion = old_ones
+			}
+		}
+
+		effect = {
+			add_prestige = 200
+
+			custom_tooltip = reopening_polar_gates_tt
+
+			country_event = { 
+			    id = lizardmen_events.20
+			    days = 0
+			}
+		}
+
+		ai_will_do = { factor = 100 }	
 	
+	}
 }

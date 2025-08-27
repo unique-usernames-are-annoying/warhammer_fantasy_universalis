@@ -621,6 +621,97 @@ country_event = {
 }
 
 
+### We've contacted the Old ones through the polar gates. They are unable to come through, but they have transmitted us knowledge beyond all others on the planet.
+country_event = { 
+	id = lizardmen_events.20
+	title = lizardmen_events.20.t
+	desc = lizardmen_events.20.d
+	picture = LIZARDMEN_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = {
+		always = yes
+	}
+
+	immediate = {
+		country_event = { 
+		    id = lizardmen_events.21
+		}
+		hidden_effect = {
+			every_country = {
+			    limit = {
+			        religion_group = ruinous_powers_denominations
+			    }
+			    add_aggressive_expansion = {
+					who = ROOT
+					value = 100
+					apply_calc = no
+				}
+			}
+			every_country = {
+			    add_aggressive_expansion = {
+					who = ROOT
+					value = 50
+					apply_calc = no
+				}
+			}
+		}
+	}
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = lizardmen_events.20.a 
+	}
+}
+
+
+### maximize tech
+country_event = { 
+	id = lizardmen_events.21
+	title = lizardmen_events.21.t
+	desc = lizardmen_events.21.d
+	picture = LIZARDMEN_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+
+	trigger = {
+		always = yes
+	}
+
+	option = { 
+		ai_chance = { factor = 50 }
+		name = lizardmen_events.20.a 
+
+		if = {
+			limit = { NOT = { adm_tech = 32 } }
+			add_adm_tech = 1
+			country_event = { 
+			    id = lizardmen_events.21
+			}
+		}
+		if = {
+			limit = { NOT = { dip_tech = 32 } }
+			add_dip_tech = 1
+			country_event = { 
+			    id = lizardmen_events.21
+			}
+		}
+		if = {
+			limit = { NOT = { mil_tech = 32 } }
+			add_mil_tech = 1
+			country_event = { 
+			    id = lizardmen_events.21
+			}
+		}
+	}
+}
+
+
+
 ## We have long integrated dinosaurs into our armies. But our our military tactics evolve, we must reconsider.
 country_event = { 
 	id = lizardmen_events.100

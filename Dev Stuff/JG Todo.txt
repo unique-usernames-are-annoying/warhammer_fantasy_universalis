@@ -44,9 +44,6 @@ Misc Mission Trees
 
 	Im stll very sad that wolf land trade does not flow into zharr-nagrund, makes so little sense that I cant collect all the darklands - Trade bible v2
 
-	Make end times chaos corruption events worse? And pulse every six months.
-		Maybe an event that has a 10% chance to reduce each province's development or stability.
-
 	Images for resource reveal events
 
 	Event for dwarves to turn resources into beer?
@@ -57,11 +54,7 @@ Misc Mission Trees
 
 	Skaven should have mages?
 
-	Dwarf & Skaven mission tree should be weaker
-
 	The nagashi spawn rebels everywhere should be a little less, and maybe a 6 month timer?
-
-	Add a few more paper provinces
 
 	Does the unite ulthuan decision requiring ulthuan not to exist work correctly?
 
@@ -69,44 +62,37 @@ Misc Mission Trees
 
 	If everchosen is at war with AI who he doesn't border, peace event?
 
-	Tinker-Study in the lab does nothing?
-
-	Fimir Slave Raid is missing the province target
-
 	ideas: https://discord.com/channels/1314079561687896084/1404780156589182996/1405305995483152415
 
 	Skaven upgrade innovativeness weapon missions should give an event to upgrade slightly, or upgrade a lot with the penalty
 
-	Ogre advistor picture is slightly off
-
-	drath-zharr-ankor needs that decision to keep old colour I think
-
 	Delhi and Khuresh Artifacts
 
+	Vampiric. 750? global vampiric provinces, be biggest vampire to flip the balance of life and death. You get diplomats, 99 dip upkeep, immense favor growth, immense spy network, immense accept vassalization, immense liberty desire reduction. Vamprism spreads to neighboring provinces
+
 	Switch out some age stuff - maybe colonist and explorer in age 2?
-
-	Trial o' the firebelly has the wrong icon
-
-	Purge mechanic - estate privilege, based on culture group and accepted, reduce province to 1/1/1 and 100 devastation, but immediately culture convert and religion convert and gain aggressive expansion with all nations of that culture or religion
-		For everyone?
-		Purge evil races (Orc, Skaven, Undead, dark elves) also an option for good folks
-		Only if people don't match either culture group, accepted culture, or religion group.
-		Also destroys all buildings and resettles people from around nation?
-
-	How does the dominions taking a relationships slot affect dominion webs like Bretonnia? Can we make a special trigger in the gov reform to add a slot for each dominion
 
 #############################
 ###### RANDOM TO DOS ########
 #############################
 
+	Make Dominions take a diplo slot. But figure out how this affects Cathay, Bretonia, Eatine
 	Chaos Warband
 		Change it to normal migration stuff, we don't need all this nonsense?
 
+	Make end times chaos corruption events pulse every six/year months.
+
 	Check Barrow Legion
+
+	Tinker-Study in the lab does nothing?
 
 	Subjects should get evil conquest and anti-evil conquest
 
 	Add Trade Companies
+
+	Dwarf & Skaven mission tree should be weaker
+
+	"Monthly Fervor Accelerator" loc should be changed to gork and mork
 
 	Grail Unique Mechanics
 
@@ -141,14 +127,7 @@ Misc Mission Trees
 
 	Luccini Gov Reform is weird, particularly with localization https://discord.com/channels/1314079561687896084/1396621936187936778
 
-	End Game Crises
-		Old ones - worship old ones, control north and south portal to receive wisdom from the old ones and set technology to 32
-
-		Vampiric. 500 global vampiric provinces, be biggest vampire to flip the balance of life and death. You get diplomats, 99 dip upkeep, immense favor growth, immense spy network, immense accept vassalization, immense liberty desire reduction. Two random non-chaos global provinces a month flip to vampiric
-
-		Tree - own or subject all magical forest to connect the world tree, causing all magical forest to gain 3 dev a year
-
-		Do return of the old ones for the age of cleansing.
+	End Game Crises - Do return of the old ones for the age of cleansing.
 
 	10 events every culture group and religion
 		Athel Loren Events to spawn chaos rebels (lure them in) in exchange for mana

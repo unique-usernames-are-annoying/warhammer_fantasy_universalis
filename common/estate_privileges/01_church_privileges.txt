@@ -3722,7 +3722,7 @@ estate_church_legitimacy_to_rule = {
 
 ## Purge Everybody
 estate_church_purge_lesser_races = {
-	icon = privilege_decentralized
+	icon = privilege_peasant
 	max_absolutism = 0
 	influence = 0.05
 	loyalty = 0.0
@@ -3730,18 +3730,16 @@ estate_church_purge_lesser_races = {
 		always = yes
 	}
 	can_select = {
-		always = yes
+		NOT = { has_estate_privilege = estate_church_purge_evil_races }
 	}
 	benefits = {
-		custom_tooltip = estate_church_purge_lesser_races_tt
+		
 	}
 	penalties = {
-#		nobles_influence_modifier = 0.05
-#		tolerance_heathen = -2
-#		relation_with_other_culture = -15
+#		core_creation = 0.1
 	}
 	on_granted = {
-
+		custom_tooltip = estate_church_purge_lesser_races_tt
 	}
 	on_revoked = {
 	}
@@ -3766,26 +3764,32 @@ estate_church_purge_lesser_races = {
 	}
 }
 
-## Purge Evil Races
+## Purge Uncivilized Races
 estate_church_purge_evil_races = {
-	icon = privilege_decentralized
+	icon = privilege_peasant
 	max_absolutism = 0
 	influence = 0.05
 	loyalty = 0.0
 	is_valid = {
 		always = yes
+		NOT = {
+			culture_group = greenskins_group
+			culture_group = skaven_group
+			culture_group = beastmen_group
+			culture_group = fimir_group
+		}
 	}
 	can_select = {
-		always = yes
+		NOT = { has_estate_privilege = estate_church_purge_lesser_races }
 	}
 	benefits = {
-		custom_tooltip = estate_church_purge_evil_races_tt
+		
 	}
 	penalties = {
-#		nobles_influence_modifier = 0.05
+#		core_creation = 0.05
 	}
 	on_granted = {
-
+		custom_tooltip = estate_church_purge_evil_races_tt
 	}
 	on_revoked = {
 	}
@@ -3803,6 +3807,10 @@ estate_church_purge_evil_races = {
 					culture_group = asur_group
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			religion = hashut
 		}
 	}
 }

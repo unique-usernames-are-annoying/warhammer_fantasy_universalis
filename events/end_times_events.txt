@@ -1210,7 +1210,7 @@ country_event = {
 			save_event_target_as = event_target
 		}
 	}
-	goto = event_target
+#	goto = event_target
 	trigger = {
 		has_global_flag = end_times_started
 		any_province = {
@@ -1230,10 +1230,30 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		event_target:event_target = {
-			spawn_rebels = {
-				size = 2
-				type = chaos_undivided_religion_rebels
+
+		custom_tooltip = owned_province_10_chance_of_tt
+
+		tooltip = {
+		    capital_scope = {
+				random = {
+					chance = 10
+					spawn_rebels = {
+						size = 1
+						type = chaos_undivided_religion_rebels
+					}
+				}
+		    }
+		}
+
+		hidden_effect = {
+			every_owned_province = {
+				random = {
+					chance = 10
+					spawn_rebels = {
+						size = 1
+						type = chaos_undivided_religion_rebels
+					}
+				}
 			}
 		}
 	}
@@ -1266,7 +1286,7 @@ country_event = {
 			save_event_target_as = event_target
 		}
 	}
-	goto = event_target
+#	goto = event_target
 	trigger = {
 		has_global_flag = end_times_started
 		any_province = {
@@ -1286,13 +1306,38 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		event_target:event_target = {
-			add_devastation = 25
-			random = {
-				chance = 1
-				change_trade_goods = warpstone
+
+		custom_tooltip = owned_province_10_chance_of_tt
+
+		tooltip = {
+		    random_owned_province = {
+		    	limit = {
+		    		NOT = { trade_goods = warpstone }
+		    	}
+				random = {
+					chance = 10
+					add_devastation = 25
+					random = {
+						chance = 1
+						change_trade_goods = warpstone
+					}
+				}
+		    }
+		}
+
+		hidden_effect = {
+			every_owned_province = {
+				random = {
+					chance = 10
+					add_devastation = 25
+					random = {
+						chance = 1
+						change_trade_goods = warpstone
+					}
+				}
 			}
 		}
+
 	}
 	### Try to mitigate the damage
 	option = {
@@ -1300,13 +1345,38 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		event_target:event_target = {
-			add_devastation = 50
-			random = {
-				chance = 10
-				change_trade_goods = warpstone
+
+		custom_tooltip = owned_province_10_chance_of_tt
+
+		tooltip = {
+		    random_owned_province = {
+		    	limit = {
+		    		NOT = { trade_goods = warpstone }
+		    	}
+				random = {
+					chance = 10
+					add_devastation = 50
+					random = {
+						chance = 10
+						change_trade_goods = warpstone
+					}
+				}
+		    }
+		}
+
+		hidden_effect = {
+			every_owned_province = {
+				random = {
+					chance = 10
+					add_devastation = 50
+					random = {
+						chance = 10
+						change_trade_goods = warpstone
+					}
+				}
 			}
 		}
+
 	}
 }
 
@@ -1336,7 +1406,7 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		add_yearly_manpower = -0.25
+		add_yearly_manpower = -0.5
 	}
 	### They can still fire a gun!
 	option = {
@@ -1377,7 +1447,7 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		add_years_of_income = -0.25
+		add_years_of_income = -0.5
 	}
 	### Replace the currency with cheap copper!
 	option = {
@@ -1409,7 +1479,7 @@ country_event = {
 			save_event_target_as = event_target
 		}
 	}
-	goto = event_target
+#	goto = event_target
 	trigger = {
 		has_global_flag = end_times_started
 		any_province = {
@@ -1441,10 +1511,43 @@ country_event = {
 				is_subject = yes
 			}
 		}
-		event_target:event_target = {
-			add_base_tax = -1
-			add_base_production = -1
-			add_base_manpower = -1
+
+		custom_tooltip = owned_province_10_chance_of_tt
+
+		tooltip = {
+		    random_owned_province = {
+		    	limit = {
+		    		base_tax = 2
+		    		base_production = 2
+		    		base_manpower = 2
+		    	}
+				random = {
+					chance = 10
+					add_base_tax = -1
+					add_base_production = -1
+					add_base_manpower = -1
+				}
+		    }
+		}
+
+		hidden_effect = {
+			every_owned_province = {
+				random = {
+					chance = 10
+					if = {
+						limit = { base_tax = 2 }
+						add_base_tax = -1
+					}
+					if = {
+						limit = { base_production = 2 }
+						add_base_production = -1
+					}
+					if = {
+						limit = { base_manpower = 2 }
+						add_base_manpower = -1
+					}
+				}
+			}
 		}
 	}
 	### Just scrape the corruption off, it's fine
@@ -1453,8 +1556,26 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		event_target:event_target = {
-			change_religion = chaos_undivided_religion
+
+		custom_tooltip = owned_province_10_chance_of_tt
+
+		tooltip = {
+		    random_owned_province = {
+		    	limit = { NOT = { religion = chaos_undivided_religion } }
+				random = {
+					chance = 10
+					change_religion = chaos_undivided_religion
+				}
+		    }
+		}
+
+		hidden_effect = {
+			every_owned_province = {
+				random = {
+					chance = 10
+					change_religion = chaos_undivided_religion
+				}
+			}
 		}
 	}
 }

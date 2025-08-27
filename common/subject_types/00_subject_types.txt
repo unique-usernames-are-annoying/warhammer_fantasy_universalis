@@ -1472,7 +1472,7 @@ dominion = {
 	
 	# Properties:
 	has_power_projection = yes
-	takes_diplo_slot = yes
+	takes_diplo_slot = no
 	gets_help_with_rebels = yes
 	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
