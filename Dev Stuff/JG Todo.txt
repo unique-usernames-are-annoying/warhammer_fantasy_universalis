@@ -66,12 +66,6 @@ Misc Mission Trees
 
 	Skaven upgrade innovativeness weapon missions should give an event to upgrade slightly, or upgrade a lot with the penalty
 
-	Delhi and Khuresh Artifacts
-
-	Vampiric. 750? global vampiric provinces, be biggest vampire to flip the balance of life and death. You get diplomats, 99 dip upkeep, immense favor growth, immense spy network, immense accept vassalization, immense liberty desire reduction. Vamprism spreads to neighboring provinces
-
-	Switch out some age stuff - maybe colonist and explorer in age 2?
-
 #############################
 ###### RANDOM TO DOS ########
 #############################
@@ -80,17 +74,42 @@ Misc Mission Trees
 	Chaos Warband
 		Change it to normal migration stuff, we don't need all this nonsense?
 
-	Make end times chaos corruption events pulse every six/year months.
+	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
+
+	Ogre Event
+		The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
 
 	Check Barrow Legion
 
 	Tinker-Study in the lab does nothing?
 
+	Great Project in K8P
+
+	Delhi and Khuresh Artifacts
+
+	northern verge is connected to shatterspine
+
+	Vampiric. 750? global vampiric provinces, be biggest vampire to flip the balance of life and death. You get diplomats, 99 dip upkeep, immense favor growth, immense spy network, immense accept vassalization, immense liberty desire reduction. Vamprism spreads to neighboring provinces
+
+	Switch out some age stuff - maybe colonist and explorer in age 2?
+
+	So many pretender rebels in my orc subject - low fightiness?
+
+	The orc manpower trigger missions should be army size instead
+
+	The raiding orc missions give onlu admin, instead of a combo of admin, dip, and mil
+
+	Improve Forest of Gloom great project - Monsters?
+
 	Subjects should get evil conquest and anti-evil conquest
 
 	Add Trade Companies
 
+	Dominion trust helper not working?
+
 	Dwarf & Skaven mission tree should be weaker
+
+	All those suggestions
 
 	"Monthly Fervor Accelerator" loc should be changed to gork and mork
 

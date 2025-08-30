@@ -760,7 +760,10 @@ printing_press = {
 		OR = {
 			development = 15
 			is_capital = yes
+		}
+		OR = {
 			trade_goods = paper
+			is_year = 2610
 		}
 #		OR = {
 #			region = northern_empire_region
