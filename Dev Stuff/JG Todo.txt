@@ -32,7 +32,7 @@ Misc Mission Trees
 
 	gitignore and deletion of all those DS_Store files
 
-	Doomed World's country ideas
+	Random person stuff
 
 	Province issues? https://discord.com/channels/1314079561687896084/1314080249214140526/1390025251928408134
 
@@ -48,9 +48,9 @@ Misc Mission Trees
 
 	Event for dwarves to turn resources into beer?
 
-	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
+	Give Bretonnia more grail chapel and nobility land, start them with less crownland
 
-	Playing High elves and I got to 3 tolerance for heathens, but the "3+ tolerance" monuments are not working. Cheated to add more tolerance, but it still does not seem to work. Tried with the black pyramid and the other one to the northeast of that.
+	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
 
 	Skaven should have mages?
 
@@ -66,6 +66,8 @@ Misc Mission Trees
 
 	Skaven upgrade innovativeness weapon missions should give an event to upgrade slightly, or upgrade a lot with the penalty
 
+	northern verge is connected to shatterspine
+
 #############################
 ###### RANDOM TO DOS ########
 #############################
@@ -76,8 +78,7 @@ Misc Mission Trees
 
 	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
 
-	Ogre Event
-		The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
+	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
 
 	Check Barrow Legion
 
@@ -87,7 +88,7 @@ Misc Mission Trees
 
 	Delhi and Khuresh Artifacts
 
-	northern verge is connected to shatterspine
+	More Issues: https://discord.com/channels/1314079561687896084/1410716469054144613/1411286620522680421
 
 	Vampiric. 750? global vampiric provinces, be biggest vampire to flip the balance of life and death. You get diplomats, 99 dip upkeep, immense favor growth, immense spy network, immense accept vassalization, immense liberty desire reduction. Vamprism spreads to neighboring provinces
 
@@ -186,6 +187,8 @@ Misc Mission Trees
 	Estate Privileges for converting that massively increase vs. heathens but reduce the development on conversion. Same with culture conversion cost and speed.
 
 	Little bits of the map are available to everybody
+
+	Duplicate override: https://discord.com/channels/1314079561687896084/1403752224982700054
 
 	Should be able to vassalize enemy dominions
 

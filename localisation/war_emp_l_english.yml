@@ -405,17 +405,17 @@ empire_is_your_faith_desc:0 "With the electors all following our faith, our cont
 
 ## Tooltips
 
-empire_production_powerhouse_tt:0 "Gain +25% production efficiency in the qualifying province."
-empire_tax_powerhouse_tt:0 "Gain +25% tax efficiency in the qualifying province."
-empire_trade_powerhouse_tt:0 "Gain +25% trade efficiency in the qualifying province."
-empire_manpower_powerhouse_tt:0 "Gain +25% production efficiency in the qualifying province."
+empire_production_powerhouse_tt:0 "Gain §G+50% Production Efficiency§! in the qualifying province."
+empire_tax_powerhouse_tt:0 "Gain §G+50% Tax Efficiency§! in the qualifying province."
+empire_trade_powerhouse_tt:0 "Gain §G+50% Trade Efficiency§! in the qualifying province."
+empire_manpower_powerhouse_tt:0 "Gain §G+50% Manpower Efficiency§! in the qualifying province."
 empire_claims_on_norcsa_albion_coasts_tt:0 "Gain a claim on all Albionese and Norscan coasts."
 empire_claims_on_norcsa_albion_tt:0 "Gain claims on all Albion and Norsca."
 empire_claims_on_kislev_tt:0 "Gain claims on the Kislev region."
 empire_claims_on_borderlands_tt:0 "Get claims on the Borderlands."
 empire_claims_on_bretonnia_tt:0 "Get claims on all of Bretonnia."
 empire_claims_on_remen_tt:0 "Get claims on Tilea and Estalia."
-empire_empowered_witch_hunters_tt:0 "Adjust the 'Enforced One Faith' Church Privilege with:\n\n  §G+1 Missionary§!\n  Missionary Strength: §G+2%§!\n. Tolerance of Heathens: §R-2.00§!."
+empire_empowered_witch_hunters_tt:0 "Adjust the 'Enforced One Faith' Church Privilege with:\n\n  Missionaries:§G+1§!\n  Missionary Strength: §G+2.0%§!\n Tolerance of Heathens: §R-2.00§!"
 
 
 ###### Old Missions
