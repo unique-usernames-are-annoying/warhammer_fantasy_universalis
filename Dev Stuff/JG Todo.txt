@@ -34,6 +34,27 @@ Misc Mission Trees
 
 	Random person stuff
 
+	Remove the +1 electors from restore lost princes Empire reform
+
+	Improve Suidockk Marienburg Monument
+
+
+#############################
+###### RANDOM TO DOS ########
+#############################
+
+	Make Dominions take a diplo slot. But figure out how this affects Cathay, Bretonia, Eatine
+	Chaos Warband
+		Change it to normal migration stuff, we don't need all this nonsense?
+
+	Was Reikland, Emperor, conquering into bret. Died, became emperor again, got the event for embarking on a quest for a name I didn't recognize.
+
+	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
+
+	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
+
+	Check Barrow Legion
+
 	Province issues? https://discord.com/channels/1314079561687896084/1314080249214140526/1390025251928408134
 
 	More: https://discord.com/channels/1314079561687896084/1395841423089336382
@@ -46,13 +67,9 @@ Misc Mission Trees
 
 	Images for resource reveal events
 
-	Event for dwarves to turn resources into beer?
-
 	Give Bretonnia more grail chapel and nobility land, start them with less crownland
 
 	Make announcements channel for 3.0+ https://discord.com/channels/1314079561687896084/1400013995951525948
-
-	Skaven should have mages?
 
 	The nagashi spawn rebels everywhere should be a little less, and maybe a 6 month timer?
 
@@ -62,25 +79,11 @@ Misc Mission Trees
 
 	If everchosen is at war with AI who he doesn't border, peace event?
 
-	ideas: https://discord.com/channels/1314079561687896084/1404780156589182996/1405305995483152415
+	Ideas: https://discord.com/channels/1314079561687896084/1404780156589182996/1405305995483152415
 
 	Skaven upgrade innovativeness weapon missions should give an event to upgrade slightly, or upgrade a lot with the penalty
 
-	northern verge is connected to shatterspine
-
-#############################
-###### RANDOM TO DOS ########
-#############################
-
-	Make Dominions take a diplo slot. But figure out how this affects Cathay, Bretonia, Eatine
-	Chaos Warband
-		Change it to normal migration stuff, we don't need all this nonsense?
-
-	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
-
-	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
-
-	Check Barrow Legion
+	Skaven should have mages?
 
 	Tinker-Study in the lab does nothing?
 
@@ -96,12 +99,6 @@ Misc Mission Trees
 
 	So many pretender rebels in my orc subject - low fightiness?
 
-	The orc manpower trigger missions should be army size instead
-
-	The raiding orc missions give onlu admin, instead of a combo of admin, dip, and mil
-
-	Improve Forest of Gloom great project - Monsters?
-
 	Subjects should get evil conquest and anti-evil conquest
 
 	Add Trade Companies
@@ -109,8 +106,6 @@ Misc Mission Trees
 	Dominion trust helper not working?
 
 	Dwarf & Skaven mission tree should be weaker
-
-	All those suggestions
 
 	"Monthly Fervor Accelerator" loc should be changed to gork and mork
 
@@ -176,6 +171,8 @@ Misc Mission Trees
 
 	A new prophet? disaster in araby for vamprism
 
+	Get Everchosen based on tribal development too?
+
 	Bretonnian government reforms not working?
 
 	Add more localization for ruler/country/religion/culture name
@@ -203,7 +200,6 @@ Misc Mission Trees
 	Change "MONARCH_DEATH_MIN_CHANCE_MODIFIER" in defines for immortality?
 
 	End Times stuff
-		Bring about Ruin event has an odd goto? - All these events could use a once over
 		Two Everchosen reforms?
 		
 	Have all gov mechanics apply to all first rank

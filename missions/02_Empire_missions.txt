@@ -376,13 +376,37 @@ war_empire_faction_2 = {
 	}
 
 
+## Reform the Imperial Army
+## Worth 1 idea
+	empire_reform_imperial_army = {
+		icon = mission_hundred_years_war
+		required_missions = { empire_military_powerhouse }
+		trigger = {
+			army_tradition = 50
+			OR = {
+				army_professionalism = 0.25
+				has_country_modifier = war_modern_army
+			}
+		}
+
+		effect = {
+			add_army_tradition = -50
+			add_country_modifier = {
+				name = empire_better_discipline
+				duration = -1
+			}
+
+		}
+	}
+
+
 
 ## are the sword of the empire, as the largest most skilled army within it.
 ## Worth half an idea
 	empire_sword_of_the_empire = {
 		icon = mission_build_up_to_force_limit
 		position = 4
-		required_missions = { empire_military_powerhouse }
+		required_missions = { empire_reform_imperial_army }
 		provinces_to_highlight = {
 			owner = {
 				OR = {
@@ -870,7 +894,7 @@ war_empire_faction_3 = {
 			NOT = {
 				estate_influence = {
 			    	estate = all
-			    	influence = 40
+			    	influence = 95
 				}
 			}
 		}
@@ -1706,29 +1730,6 @@ war_empire_faction_4 = {
 		}
 	}
 
-
-## Reform the Imperial Army
-## Worth 1 idea
-	empire_reform_imperial_army = {
-		icon = mission_hundred_years_war
-		required_missions = {  }
-		trigger = {
-			army_tradition = 50
-			OR = {
-				army_professionalism = 0.25
-				has_country_modifier = war_modern_army
-			}
-		}
-
-		effect = {
-			add_army_tradition = -50
-			add_country_modifier = {
-				name = empire_better_discipline
-				duration = -1
-			}
-
-		}
-	}
 
 
 ### WE shoudl become the bank of the empire
