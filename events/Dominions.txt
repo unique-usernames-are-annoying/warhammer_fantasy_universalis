@@ -71,3 +71,72 @@ country_event = {
 
 	}
 }
+
+
+### Trade Favors for helper Event
+country_event = {
+	id = dominion_events.2
+	title = dominion_events.2.t
+	desc = dominion_events.2.d
+	picture = ARTWORK_eventPicture
+
+	trigger = {
+		has_subject_of_type = dominion
+		any_subject_country = {
+			is_subject_of_type = dominion
+
+			NOT = {
+				trust = {
+					who = ROOT
+					value = 100
+				}
+			}
+
+			owes_favors = { 
+			    who = ROOT 
+			    value = 100 
+			}
+
+		}
+
+	}
+
+	is_triggered_only = no
+	hidden = yes
+	mean_time_to_happen = { months = 12 }
+	
+### 
+	option = {
+		name = dominion_events.2.option_1
+		ai_chance = { factor = 100 }
+
+		random_subject_country = {
+			limit  = {
+				is_subject_of_type = dominion
+
+				NOT = {
+					trust = {
+						who = ROOT
+						value = 100
+					}
+				}
+
+				owes_favors = { 
+				    who = ROOT 
+				    value = 100 
+				}
+			}
+
+			add_favors = {
+			   who = ROOT
+			   amount = -10
+			}
+
+			add_trust = {
+			    who = ROOT
+			    value = 5
+			}
+		}
+	}
+
+}

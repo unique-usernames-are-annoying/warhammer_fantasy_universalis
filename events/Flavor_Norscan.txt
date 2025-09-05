@@ -348,6 +348,7 @@ country_event = {
 				duration = 3650
 		}
 	}
+
 	option = { # Druidism
 		name = flavor_norscan_events.4.e
 		ai_chance = { factor = 0 }
@@ -369,6 +370,30 @@ country_event = {
 		country_event = { 
     		id = flavor_norscan_events.9
     		days = 30
+		}
+	}
+
+	option = { # Khornate Option for Vargs
+		name = flavor_norscan_events.4.f
+		ai_chance = { factor = 0 }
+		trigger = {
+			NOT = { has_country_flag = WAR_NOR_branching_chaos }
+			tag = A33
+		}
+		custom_tooltip = flavor_norscan_events.4.f.tt
+		clr_country_flag = WAR_NOR_branching_norse
+		clr_country_flag = WAR_NOR_branching_old
+		set_country_flag = WAR_NOR_branching_chaos
+		custom_tooltip = "   "
+		change_religion = khornate_religion
+		swap_non_generic_missions = yes
+		kill_heir = {}
+		add_manpower = -10
+		add_treasury = -250
+		add_prestige = 20
+		add_country_modifier = {
+				name = norsca_sacrifice_chaos
+				duration = 3650
 		}
 	}
 	
@@ -447,6 +472,10 @@ country_event = { # Seer Tells Ruler of Visions
 		clr_country_flag = WAR_NOR_daemon_nurgle
 		# Enable Khorne Ritual Decision
 		custom_tooltip = flavor_norscan_events.6.tt
+		country_event = {
+			id = flavor_norscan_events.7
+			days = 30
+		}
 	}
 	option = { #Tzeench
 		name = flavor_norscan_events.6.b
@@ -457,6 +486,10 @@ country_event = { # Seer Tells Ruler of Visions
 		clr_country_flag = WAR_NOR_daemon_nurgle
 		# Enable Tzeench Ritual Decision
 		custom_tooltip = flavor_norscan_events.6.tt
+		country_event = {
+			id = flavor_norscan_events.7
+			days = 30
+		}
 	}
 	option = { #Nurgle
 		name = flavor_norscan_events.6.c
@@ -467,6 +500,10 @@ country_event = { # Seer Tells Ruler of Visions
 		clr_country_flag = WAR_NOR_daemon_slaanesh
 		# Enable Nurgle Ritual Decision
 		custom_tooltip = flavor_norscan_events.6.tt
+		country_event = {
+			id = flavor_norscan_events.7
+			days = 30
+		}
 	}
 	option = { #Slaanesh
 		name = flavor_norscan_events.6.e
@@ -477,6 +514,10 @@ country_event = { # Seer Tells Ruler of Visions
 		clr_country_flag = WAR_NOR_daemon_nurgle
 		# Enable Slaanesh Ritual Decision
 		custom_tooltip = flavor_norscan_events.6.tt
+		country_event = {
+			id = flavor_norscan_events.7
+			days = 30
+		}
 	}
 }
 
@@ -607,15 +648,15 @@ country_event = { # Ruler Becomes Daemon Lord
 			duration = -1  
 		}
 		define_ruler = {
-			name = "Karavox of Insensiate Fury"
-			dynasty = ""
+			name = "Karavox of"
+			dynasty = "Insensiate Fury"
 			DIP = 3
 			ADM = 4
 			MIL = 6
 		}
 		add_ruler_personality = immortal_personality
+		add_ruler_personality = legendary_warrior_personality
 		add_ruler_personality = cruel_personality
-		add_ruler_personality = strict_personality
 	}
 	option = { # Tzeench
 		name = flavor_norscan_events.8.b
@@ -628,15 +669,15 @@ country_event = { # Ruler Becomes Daemon Lord
 			duration = -1
 		}
 		define_ruler = {
-			name = "Tchzen of the Sliver Claw"
-			dynasty = ""
+			name = "Tchzen of the"
+			dynasty = "Sliver Claw"
 			DIP = 6
 			ADM = 6
 			MIL = 3
 		}
 		add_ruler_personality = immortal_personality
+		add_ruler_personality = legendary_administrator_personality
 		add_ruler_personality = cruel_personality
-		add_ruler_personality = intricate_web_weaver_personality
 	}
 	option = { # Nurgle
 		name = flavor_norscan_events.8.c
@@ -649,15 +690,15 @@ country_event = { # Ruler Becomes Daemon Lord
 			duration = -1
 		}
 		define_ruler = {
-			name = "Gurug'ath of the Endless Rot"
-			dynasty = ""
+			name = "Gurug'ath of the"
+			dynasty = "Endless Rot"
 			DIP = 5
 			ADM = 5
-			MIL = 4
+			MIL = 5
 		}
 		add_ruler_personality = immortal_personality
+		add_ruler_personality = greedy_personality
 		add_ruler_personality = cruel_personality
-		add_ruler_personality = midas_touched_personality
 	}
 	option = { # Slaanesh
 		name = flavor_norscan_events.8.d
@@ -670,15 +711,15 @@ country_event = { # Ruler Becomes Daemon Lord
 			duration = -1
 		}
 		define_ruler = {
-			name = "Sslivox the Serpent"
-			dynasty = ""
+			name = "Sslivox"
+			dynasty = "the Serpent"
 			DIP = 6
 			ADM = 5
 			MIL = 3
 		}
 		add_ruler_personality = immortal_personality
+		add_ruler_personality = legendary_diplomat_personality
 		add_ruler_personality = cruel_personality
-		add_ruler_personality = industrious_personality
 	}
 }
 
@@ -970,7 +1011,7 @@ country_event = { # Generic Missions, Choose Gov reform apon reclaiming Norsca
 ############## New Skeggi Events - 81 Onwards - WORK IN PROGRESS DO NOT USE
 #################################################################################
 
-country_event = { # Fate of The Temple Cities
+country_event = { # Sack the temple cities
 	id = flavor_norscan_events.81
 	title = flavor_norscan_events.81.t 
 	desc = flavor_norscan_events.81.d
@@ -989,10 +1030,12 @@ country_event = { # Fate of The Temple Cities
 				name = recently_raided
 				duration = 3650
 			}
-			add_base_tax = -4
-			add_base_production = -4
-			add_base_manpower = -4
+			add_base_tax = -5
+			add_base_production = -5
+			add_base_manpower = -5
 			add_devastation = 50
+			change_culture = skeggling
+			change_religion = ROOT
 		}
 		2321 = {
 			set_province_flag = war_sacked_province
@@ -1004,52 +1047,15 @@ country_event = { # Fate of The Temple Cities
 			add_base_production = -2
 			add_base_manpower = -1
 			add_devastation = 50
+			change_culture = skeggling
+			change_religion = ROOT
 		}
-	}
-	option = {
-		name = flavor_norscan_events.81.b # Enslave the Lizardmen
-		ai_chance = { factor = 1 }
-		add_country_modifier = {
-			name = skeggi_slave_soldiers
-			duration = -1
-		}
-		2312 = {
-			add_permanent_province_modifier = {
-				name = skeggi_slave_cities
-				duration = 7300 #20 years
-			}
-		}
-		2321 = {
-			add_permanent_province_modifier = {
-				name = skeggi_slave_cities
-				duration = 7300 #20 years
-			}
-		}
-	}
-	option = {
-		name = flavor_norscan_events.81.c # Integrate the Slaani into our kingdom (inevitable betrayal)
-		ai_chance = { factor = 1 }
-		add_country_modifier = {
-			name = skeggi_integrate_lizard_scholars
-			duration = -1
-		}
-		2312 = {
-			add_permanent_province_modifier = {
-				name = skeggi_integrate_cities
-				duration = 7300 #20 years
-			}
-		}
-		2321 = {
-			add_permanent_province_modifier = {
-				name = skeggi_integrate_cities
-				duration = 7300 #20 years
-			}
-		}
-		hidden_effect = {
-			country_event = { 
-				id = flavor_norscan_events.82
-				days = 1095 # 3 years
-			}
+		add_ruler_personality = inspiring_leader_personality
+		2317 = {
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
+			add_prosperity = 100
 		}
 	}
 }

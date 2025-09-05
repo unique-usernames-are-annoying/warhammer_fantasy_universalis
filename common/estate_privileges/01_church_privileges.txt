@@ -3720,3 +3720,107 @@ estate_church_legitimacy_to_rule = {
 }
 
 
+## Purge Everybody
+estate_church_purge_lesser_races = {
+	icon = privilege_peasant
+	max_absolutism = 0
+	influence = 0.05
+	loyalty = 0.0
+	is_valid = {
+		always = yes
+		OR = {
+			has_country_modifier = destruction_nation
+			has_country_modifier = chaos_nation
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_purge_evil_races }
+		OR = {
+			has_country_modifier = destruction_nation
+			has_country_modifier = chaos_nation
+		}
+	}
+	benefits = {
+		
+	}
+	penalties = {
+#		core_creation = 0.1
+	}
+	on_granted = {
+		custom_tooltip = estate_church_purge_lesser_races_tt
+	}
+	on_revoked = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					religion = hashut
+					culture_group = greenskins_group
+					culture_group = beastmen_group
+					culture_group = skaven_group
+					culture_group = lizardmen_group
+				}
+			}
+		}
+	}
+}
+
+## Purge Uncivilized Races
+estate_church_purge_evil_races = {
+	icon = privilege_peasant
+	max_absolutism = 0
+	influence = 0.05
+	loyalty = 0.0
+	is_valid = {
+		always = yes
+		NOT = {
+			culture_group = greenskins_group
+			culture_group = skaven_group
+			culture_group = beastmen_group
+			culture_group = fimir_group
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_purge_lesser_races }
+	}
+	benefits = {
+		
+	}
+	penalties = {
+#		core_creation = 0.05
+	}
+	on_granted = {
+		custom_tooltip = estate_church_purge_evil_races_tt
+	}
+	on_revoked = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					culture_group = dwarf_group
+					culture_group = asur_group
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			religion = hashut
+		}
+	}
+}
+
+

@@ -1536,7 +1536,7 @@ gp_great_vortex = {
 			global_unrest = 2
 			religious_unity = -0.05
 
-			all_power_cost = -0.03
+			all_power_cost = -0.025
 			prestige = 1.5
 		}
 		on_upgraded = {
@@ -1613,9 +1613,6 @@ gp_great_vortex_corrupted = {
 			all_power_cost = -0.05
 			monthly_everchosen_favor = 0.05
 			global_missionary_strength = 0.05
-			mages_loyalty_modifier = 0.1
-			mages_influence_modifier = 0.05
-			mages_privilege_slots = 1
 		}
 		on_upgraded = {
 		}
@@ -1636,9 +1633,6 @@ gp_great_vortex_corrupted = {
 			all_power_cost = -0.10
 			monthly_everchosen_favor = 0.10
 			global_missionary_strength = 0.10
-			mages_loyalty_modifier = 0.2
-			mages_influence_modifier = 0.05
-			mages_privilege_slots = 2
 
 		}
 		on_upgraded = {
@@ -1660,9 +1654,6 @@ gp_great_vortex_corrupted = {
 			all_power_cost = -0.15
 			monthly_everchosen_favor = 0.15
 			global_missionary_strength = 0.15
-			mages_loyalty_modifier = 0.3
-			mages_influence_modifier = 0.05
-			mages_privilege_slots = 3
 		}
 		on_upgraded = {
 		}

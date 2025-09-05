@@ -916,7 +916,10 @@ skaven_missions_2 = {
 
 			hidden_effect = {
 				every_province = {
-					limit = { continent = underempire }
+					limit = {
+						continent = underempire
+						is_wasteland = no
+					}
 					add_claim = ROOT
 				}
 			}
@@ -951,7 +954,10 @@ skaven_missions_2 = {
 			custom_tooltip = perm_claims_on_underempire_tt
 			hidden_effect = {
 				every_province = {
-					limit = { continent = underempire }
+					limit = {
+						continent = underempire
+						is_wasteland = no
+					}
 					add_permanent_claim = ROOT
 				}
 			}
@@ -1306,7 +1312,7 @@ skaven_missions_3 = {
 		}
 		trigger = {
 			3 = {
-				owned_by = ROOT
+				controlled_by = ROOT
 			}
 		}
 
@@ -1391,7 +1397,7 @@ skaven_missions_3 = {
 			OR = {
 				trade_goods_produced_amount = {
 					trade_goods = warpstone
-					amount = 60
+					amount = 75
 				}
 
 				NOT = {
@@ -1797,10 +1803,13 @@ skaven_missions_5 = {
 				    value = 2
 				}
 				AND = {
-					NOT= {
-						any_country = {
-							num_of_cardinals = 1
-						}
+					estate_loyalty = {
+					    estate = estate_church
+					    loyalty = 100
+					}
+					num_of_estate_agendas_completed = {
+					    estate = estate_church
+					    value = 3
 					}
 				}
 			}

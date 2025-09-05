@@ -871,6 +871,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/missions/mission_norsca_marienburg.dds"
 	}
 
+	spriteType = {
+		name = "mission_norsca_chariot"
+		texturefile = "gfx/interface/missions/mission_norsca_chariot.dds"
+	}
+
 ### Skeggi
 	spriteType = {
 		name = "mission_skeggi_jungle_road"
@@ -892,6 +897,10 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_skeggi_amaxon_temple"
 		texturefile = "gfx/interface/missions/mission_skeggi_amaxon_temple.dds"
+	}
+	spriteType = {
+		name = "mission_skeggi_castle_canal"
+		texturefile = "gfx/interface/missions/mission_skeggi_castle_canal.dds"
 	}
 
 ### Cathay

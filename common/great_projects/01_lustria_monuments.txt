@@ -575,16 +575,17 @@ altar_of_the_horned_rat = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.15
-			local_manpower_modifier = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_defensiveness = 0.15
+			local_manpower_modifier = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.02
 		}
 
 		#what effects happen when this tier is achieved
@@ -603,18 +604,15 @@ altar_of_the_horned_rat = {
 			factor = 2500
 		}
 
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-			local_manpower_modifier = 0.5
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_defensiveness = 0.20
+			local_manpower_modifier = 0.33
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.02
+			missionaries = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -634,19 +632,16 @@ altar_of_the_horned_rat = {
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.33
-			local_manpower_modifier = 1
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.15
+			local_defensiveness = 0.25
+			local_manpower_modifier = 0.5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_regiment_cost = -0.1
+			global_missionary_strength = 0.02
+			missionaries = 1
+			missionary_maintenance_cost = -0.75
 		}
 
 		#what effects happen when this tier is achieved

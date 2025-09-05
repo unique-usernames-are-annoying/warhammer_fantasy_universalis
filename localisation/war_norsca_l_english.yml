@@ -122,6 +122,17 @@ desc_norsca_tribute_1:0 ""
 norsca_tribute_2:0 "Loot the World"
 desc_norsca_tribute_2:0 ""
 
+### Slot 5: Chariots (replaces tribute for Vargs)
+gen_norsca_chariot_1_title:0 "Swift as Lightning"
+gen_norsca_chariot_1_desc:0 "Among the Vargs, the chariot is more than a weapon, it their symbol of dominance. Drawn by half-mad beasts driven into a frenzy, their warbands strike swiftly and mercilessly, torching towns and burning fields until only ash remains."
+gen_norsca_chariot_2_title:0 "Master Charioteers"
+gen_norsca_chariot_2_desc:0 "The Vargs ever seek to perfect their charioteering, lashing sturdier frames from scavenged iron and harnessing fiercer beasts to pull them. With each raid they test new designs and tactics, grinding their enemies beneath heavier wheels and striking with ever greater speed and savagery."
+
+norsca_chariots_1:0 "Specialised Chariots"
+desc_norsca_chariots_1:0 ""
+norsca_chariots_2:0 "Master Charioteers"
+desc_norsca_chariots_2:0 ""
+
 ### Lower Slot 1: Slave Missions
 war_norsca_merchants_1_title:0 "Contact the Traders"
 war_norsca_merchants_1_desc:0 "Each raid swells our coffers, as captives are dragged from smoldering ruins to the waiting chains of Norsca. Come, trade with us, and claim your share of the greatest bounty of flesh ever known."
@@ -628,7 +639,8 @@ flavor_norscan_events.4.c:0 "We will sacrifice to the Dark Gods"
 flavor_norscan_events.4.c.tt:0 "Dark voices whisper in §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§!'s ear, promising wealth, glory, victory and abundance for all [Root.GetName] - we need only cast aside our feeble spirits and kneel before the True Gods, sacrificing all we are and damning our souls to the madness beyond."
 flavor_norscan_events.4.e:0 "We will reject chaos and sacrifice to the land of Norsca itself!"
 flavor_norscan_events.4.e.tt:0 "The once bountiful land of Norsca lies bound and broken, pierced by dozens of needles spreading Chaos's foul corruption. While many of our kin are content to ruin the land in service of dark gods, we have seen the cost of such madness firsthand — we have fought skinchangers, burned countless stillbirths, and watched rivers run black with blood. We will offer thralls to the land itself, not the false gods, until the rivers run red once more, not with decay, but with renewal. In doing so, we shall awaken the spirit of Norsca and ready it for the great struggle against the true enemy, the Dark Gods of Chaos."
-#flavor_norscan_events.4.f:0 "I must consult the omens" # Go Back
+flavor_norscan_events.4.f:0 "§RSlaughter in the Name of the True God Khorne§!!"
+flavor_norscan_events.4.f.tt:0 "This Option is only available to Vargs"
 
 flavor_norscan_events.5.t:0 "Blessing of Mermedus"
 flavor_norscan_events.5.d:0 "Through sacrifice, we have earned the dread blessing of the sea daemon Mermedus, whose coils churn the deeps and silence the storms. Our longships now glide like sharks upon black water, swift and silent, guided by his wrathful gaze. With his power, our raiders strike far and without warning—no coast is safe, no fleet fast enough to escape his tide."
@@ -641,7 +653,7 @@ flavor_norscan_events.6.a:0 "Tell me more of this Bloodthirster"
 flavor_norscan_events.6.b:0 "Tell me more of this Lord of Change"
 flavor_norscan_events.6.c:0 "Tell me more of this Great Unclean One"
 flavor_norscan_events.6.e:0 "Tell me more of this Keeper of Secrets"
-flavor_norscan_events.6.tt:1 "Enables a decision to start the Summoning Ritual"
+flavor_norscan_events.6.tt:1 "The summoning ritual will begin in 30 days.\n (the decision got disabled because of crashes? sorry)"
 
 
 # Ruler Demon Ritual Event
@@ -655,7 +667,7 @@ flavor_norscan_events.7.a:0 "Begin the Ritual"
 # Ruler Apotheosis Event
 flavor_norscan_events.8.t:0 "Breaching the Veil"
 flavor_norscan_events.8.khorne:0 "The Tongue of Khorne surges through every act of violence, every prideful blow, and every whispered grudge, igniting mortal hearts with the red fury of the Blood God. [Root.Monarch.GetName] stood at the center of the storm, exulting in its power as the shaman's ancient chant summoned the first syllables of death itself. Blood arced through the air as the northern champions offered their victims, and severed heads tumbled into the pit, bouncing across the rotting carpet of skulls. A towering vortex of crimson mist rose skyward, a bridge of blood between the mortal realm and the throne of endless slaughter. [Root.Monarch.GetName] longed to ascend, to offer his blade in eternal war, but this moment belonged to something older something that now stepped through the veil. As the sky cracked and boiling blood filled the pit, [Root.Monarch.GetName] screamed in agony, his flesh burning as the avatar of Khorne entered the world through him.\n\nToo late, he realized his mistake.\nHis role in this was not to fight alongside a lord of Khorne.\nHis role was to become one."
-flavor_norscan_events.8.tzeench:0 "The Whisper of Tzeentch coils through every secret thought, every whispered betrayal, and every flicker of forbidden ambition, threading itself into mortal hearts like smoke through a keyhole. [Root.Monarch.GetName] stood at the heart of a vast sigilic nexus, its shifting lines etched in shimmering dust and molten ink upon a floor that refused to stay still. The air shimmered with arcane heat as the shamans chanted in a tongue never spoken the same way twice, their voices weaving paradoxes that bent thought and unraveled time. Reality writhed as a thousand eyes blinked open in the void above, and a storm of impossible color tore the sky apart. As [Root.Monarch.GetName] raised his arms to welcome the Lord of Change into the world, the skeins of fate had already come undone.\n\nToo late, he understood his mistake.\nHis role was never to shape Tzeentch's will.\nHis role was to be remade by it."
+flavor_norscan_events.8.tzeench:0 "The Whisper of Tzeentch coils through every secret thought, every whispered betrayal, and every flicker of forbidden ambition, threading itself into mortal hearts like smoke through a keyhole. [Root.Monarch.GetName] stands at the heart of a vast sigilic nexus, its shifting lines etched in shimmering dust and molten ink upon a floor that refused to stay still. The air shimmered with arcane heat as the shamans chanted in a tongue never spoken the same way twice, their voices weaving paradoxes that bent thought and unraveled time. Reality writhed as a thousand eyes blinked open in the void above, and a storm of impossible color tore the sky apart. As [Root.Monarch.GetName] raised his arms to welcome the Lord of Change into the world, the skeins of fate had already come undone.\n\nToo late, he understood his mistake.\nHis role was never to shape Tzeentch's will.\nHis role was to be remade by it."
 flavor_norscan_events.8.slaanesh:0 "The Breath of Slaanesh drifts on perfumed winds, curling through every stolen kiss, every cruel indulgence, every desire whispered in the dark. [Root.Monarch.GetName] stood at the center of a spiraling temple of flesh and velvet, its walls pulsing with life, its geometry impossible to follow for long without surrendering to madness. Silken-clad priestesses moaned liturgies in voices too beautiful to bear, their tones threading ecstasy with agony until the two became indistinguishable. The air was thick with incense and anticipation, vibrating with the heartbeat of something divine, something that hungered to be adored, to be worshiped, to be felt. As [Root.Monarch.GetName] opened his arms to receive the Keeper of Secrets, pleasure and pain flooded through him in equal measure, stripping away identity with every breath.\n\nToo late, he realized his mistake.\nHis role was never to touch divinity.\nHis role was to be consumed by it."
 flavor_norscan_events.8.nurgle:0 "The Rot of Nurgle seeps into every festering wound, every rattling cough, every quiet surrender to despair, curling lovingly through mortal hearts like roots through a grave. [Root.Monarch.GetName] stood knee-deep in a pit of bloated corpses, their bodies slick with filth and riddled with worms, the stench so thick it clung to the soul. Around him, plague-priests droned in gurgling tones, their chants gurgling like pus as they praised the Grandfather’s endless generosity. Flies swarmed in halos above their heads, and the pit churned with life—new life, joyous and rancid—as the veil between worlds rots away. As [Root.Monarch.GetName] opened himself to the Lord of Decay, warmth spread through his limbs—not fire, but a slow, crawling bloom of infection that filled him with grotesque peace.\n\nToo late, he realised his mistake.\nHis role was never to spread Nurgle’s gifts.\nHis role was to become them."
 flavor_norscan_events.8.a:0 "Hail Karavox the Insensiate, herald of Khorne, lord of Norsca"
@@ -693,7 +705,6 @@ flavor_norscan_events.100.title:0 "The Northern Raiders"
 flavor_norscan_events.100.desc:0 "From the frozen fjords of the north to the burning shores of the south, our longships prowl like wolves in the night. We are Norscans—raiders, reavers, and sons of the storm! The weaklings of the Empire cower behind their walls, Kislev freezes in fear, and Bretonnia hides behind its shining armor. But none can escape our wrath.\n\nWe offer no mercy, no peace. We raid, pillage, and burn in honor of the gods of old—mighty Khorne, pestilent Nurgle, scheming Tzeentch, and decadent Slaanesh. The winds of Chaos fill our sails, and the blessings of the gods guide our blades. Through battle and bloodshed, we prove our worth.\n\nSoon, the End Times shall begin. One among the chaos-worshippers—strongest, cruelest, chosen by the gods—will rise as the Everchosen, to lead all warriors of Chaos in the final war. The southlands shall drown in fire and steel. The old world will fall beneath our boots.\n\nSharpen your axes, summon your oaths, and ready your ships. The world is ripe for the taking, and the gods demand conquest!"
 flavor_norscan_events.100.a:0 "For the Glory of the North!"
 
-
 #################
 #Province Modifiers
 ################
@@ -712,7 +723,7 @@ desc_norsca_gorge_of_damned:0 "The Gorge of the Damned is a silent, lifeless exp
 norsca_chaos_monolith:0 "Chaos Monolith"
 desc_norsca_chaos_monolith:0 "Chaos Monoliths are great carved pillars of stone raised across norsca in reverence of the chaos gods and their mightiest champions. These infernal monuments serve as focal points for channeling the raw magical power of Chaos, empowering sorcerors who dare to stand in their shadow."
 norsca_foul_fortress:0 "The Foul Fortress"
-desc_norsca_foul_fortress:0 "The Foul Fortress looms unnaturally over the cliffside, defying gravity despite its crumbling walls and shattered gates. A vile miasma seeps from its depths, tainting the land with the stench of rotten flesh. By night, eerie green lights dance through its ruins, accompanied by chilling wails that echo across the mountains. Few dare approach its gates, and fewer are ever seen again."
+desc_norsca_foul_fortress:0 "Once known as Kraka-Azkahr, this Dwarfen outpost fell to darkness centuries ago. Its halls now lie broken and fouled, crawling with Ogres, Trolls and other twisted creatures. Renamed the Foul Fortress by grieving kin, it stands as a cursed ruin, shunned by all who dwell nearby."
 norsca_forest_knives:0 "The Forest of Knives"
 desc_norsca_forest_knives:0 "The frozen Forest of Knives lies deep within Norsca's interior. More a forest of ice than wood, careless travellers risk bringing down a deadly shower of icicles if they tread too loudly. "
 norsca_elf_temple_ruined:0 "Ruined Elven Temple"

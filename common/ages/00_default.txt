@@ -115,9 +115,10 @@ age_of_discovery = {
 		}
 
 #2
-		ab_warscore_vs_religion = {
+		ab_transfer_vassal_wargoal = {
 			modifier = {
-				warscore_cost_vs_other_religion = -0.25
+				can_transfer_vassal_wargoal = yes
+				can_chain_claim = yes
 			}
 			ai_will_do = {
 				factor = 10
@@ -282,11 +283,11 @@ age_of_reformation = { # Objectives should be good
 			}
 		}
 
-# 2		
-		obj_unify_culture = {	
-			is_subject = no
-			has_unified_culture_group = yes
-		}
+# 2
+
+		obj_great_general = {
+			has_commanding_three_star = yes
+		}		
 
 # 3
 		obj_5_centers_of_trade = {
@@ -364,15 +365,16 @@ age_of_reformation = { # Objectives should be good
 		}
 		
 #2
-		ab_transfer_vassal_wargoal = {
+
+		ab_warscore_vs_religion = {
 			modifier = {
-				can_transfer_vassal_wargoal = yes
-				can_chain_claim = yes
+				warscore_cost_vs_other_religion = -0.25
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+
 #3
 
 		ab_cavalry_armies = {
@@ -395,21 +397,24 @@ age_of_reformation = { # Objectives should be good
 		}
 
 #5
-		ab_siege_blockades = {
+
+		ab_allow_anti_revolutionary_zeal = {
 			modifier = {
-				siege_blockade_progress = 1
+				liberty_desire_from_subject_development = -0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 15
 				modifier = {
 					factor = 0
 					NOT = {
-						num_of_ports = 5
+						any_subject_country = {
+							liberty_desire = 30
+						}
 					}
 				}
-
 			}
 		}
+
 #6
 		ab_ship_power_propagation = {
 			modifier = {
@@ -433,10 +438,6 @@ age_of_reformation = { # Objectives should be good
 
 #7
 		ab_cheaper_forts = {
-			allow = {
-				NOT = { has_country_modifier = orcish_military }
-				NOT = { has_country_modifier = skaven_military }
-			}
 			modifier = {
 				fort_maintenance_modifier = -0.50
 			}
@@ -451,6 +452,8 @@ age_of_reformation = { # Objectives should be good
 				OR = {
 					has_country_modifier = orcish_military
 					has_country_modifier = skaven_military
+					has_country_modifier = beastfolk_military
+					has_country_modifier = fimir_military
 				}
 			}
 			modifier = {
@@ -466,6 +469,8 @@ age_of_reformation = { # Objectives should be good
 				OR = {
 					has_country_modifier = orcish_military
 					has_country_modifier = skaven_military
+					has_country_modifier = beastfolk_military
+					has_country_modifier = fimir_military
 				}
 			}
 			modifier = {
@@ -482,6 +487,8 @@ age_of_reformation = { # Objectives should be good
 				OR = {
 					has_country_modifier = orcish_military
 					has_country_modifier = skaven_military
+					has_country_modifier = beastfolk_military
+					has_country_modifier = fimir_military
 				}
 			}
 			modifier = {
@@ -906,8 +913,9 @@ age_of_revolutions = {
 				development = 50
 			}
 		}
-		obj_great_general = {
-			has_commanding_three_star = yes
+		obj_unify_culture = {	
+			is_subject = no
+			has_unified_culture_group = yes
 		}
 	
 		obj_two_institutions = {
@@ -916,20 +924,20 @@ age_of_revolutions = {
 	}
 
 	abilities = {
-		ab_allow_anti_revolutionary_zeal = {
+
+		ab_siege_blockades = {
 			modifier = {
-				liberty_desire_from_subject_development = -0.33
+				siege_blockade_progress = 1
 			}
 			ai_will_do = {
-				factor = 15
+				factor = 10
 				modifier = {
 					factor = 0
 					NOT = {
-						any_subject_country = {
-							liberty_desire = 30
-						}
+						num_of_ports = 5
 					}
 				}
+
 			}
 		}
 

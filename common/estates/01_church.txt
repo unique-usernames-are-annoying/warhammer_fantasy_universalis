@@ -244,6 +244,8 @@ estate_church = {
 
 		#Warhammer
 
+		estate_church_purge_evil_races
+		estate_church_purge_lesser_races
 		estate_church_legitimacy_to_rule
 
 		##

@@ -2275,7 +2275,6 @@ country_event = {
 				any_neighbor_province = { 
 					owned_by = event_target:neighbor_country
 				}
-				base_manpower = 2
 			}
 			save_event_target_as = target_province
 		}
@@ -2595,7 +2594,6 @@ country_event = {
 				any_neighbor_province = { 
 					owned_by = event_target:neighbor_country
 				}
-				base_manpower = 2
 			}
 			save_event_target_as = target_province
 		}
@@ -2678,6 +2676,7 @@ country_event = {
 			culture_group = fimir_group
 			NOT = { war_with = ROOT }
 		}
+
 	}
 
 	mean_time_to_happen = {
@@ -2702,7 +2701,6 @@ country_event = {
 				any_neighbor_province = { 
 					owned_by = event_target:neighbor_country
 				}
-				base_manpower = 2
 			}
 			save_event_target_as = target_province
 		}

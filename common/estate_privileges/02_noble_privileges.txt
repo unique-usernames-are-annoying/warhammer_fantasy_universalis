@@ -997,32 +997,10 @@ estate_nobles_strong_duchies = {
 	influence = 0.1
 	loyalty = 0.05
 	is_valid = {
-		any_subject_country = {
-			OR = {
-				is_subject_of_type = vassal
-				is_subject_of_type = client_vassal
-				is_subject_of_type = march
-				is_subject_of_type = client_march
-				is_subject_of_type = personal_union
-			}
-		}
+		num_of_subjects = 1
 	}
 	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = estate_nobles_strong_duchies_trigger_tooltip
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_subject_of_type = vassal
-						is_subject_of_type = client_vassal
-						is_subject_of_type = march
-						is_subject_of_type = client_march
-						is_subject_of_type = personal_union
-					}
-				}
-			}
-		}
+		num_of_subjects = 2
 	}
 	penalties = {
 	}
@@ -3958,6 +3936,7 @@ estate_nobles_cultural_exceptionalism = {
  		num_accepted_cultures = -5
  		tolerance_heathen = -4
  		relation_with_other_culture = -15
+ 		reverse_relation_with_heathen_religion = -15
  	}
 
 	ai_will_do = {

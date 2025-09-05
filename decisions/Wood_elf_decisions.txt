@@ -31,15 +31,19 @@ country_decisions = {
 		}
 
 		effect = {
-			custom_tooltip = gain_2_development_in_magical_forest_terrain_tt
+
+			add_prestige = 200
+			
+			custom_tooltip = the_world_tree_grows_tt
+			country_event = { 
+			    id = wood_elf_events.20
+			    days = 0
+			}
+
 
 			hidden_effect = {
-				every_province = {
-					limit = { has_terrain = magical_forest_terrain }
-					add_random_development = 5
-				}
-
 				set_global_flag = world_tree_connected
+				set_country_flag = connected_the_world_tree
 			}
 
 		}
