@@ -3761,7 +3761,6 @@ estate_church_purge_lesser_races = {
 			factor = 0
 			NOT = {
 				OR = {
-					religion = hashut
 					culture_group = greenskins_group
 					culture_group = beastmen_group
 					culture_group = skaven_group
@@ -3769,6 +3768,10 @@ estate_church_purge_lesser_races = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			religion = hashut
+		}	
 	}
 }
 
