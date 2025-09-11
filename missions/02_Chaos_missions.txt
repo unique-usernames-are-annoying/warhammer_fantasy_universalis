@@ -804,7 +804,7 @@ chaos_missions_3 = {
 			has_reform = everchosen_reform
 
 			num_of_owned_provinces_with = {
-				value = 500
+				value = 1000
 				religion = ROOT
 			}
 

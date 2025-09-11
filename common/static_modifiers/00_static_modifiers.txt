@@ -1034,7 +1034,7 @@ horde_unity = {
 	discipline = 0.10
 	#nomadic_tribes_loyalty_modifier = 0.05	#New Change
 	#
-	monthly_control_of_court_power = 0.50
+	monthly_control_of_court_power = 1.00
 }
 
 # Multiplied by current Devotion - 50
@@ -1054,7 +1054,7 @@ devotion = {
 	brahmins_hindu_loyalty_modifier = 0.1
 	reform_progress_growth = 0.5
 	#
-	monthly_control_of_court_power = 0.50
+	monthly_control_of_court_power = 1.00
 }
 
 # Multiplied by current meritocracy - 50
@@ -1063,7 +1063,7 @@ meritocracy = {
 	advisor_cost = -0.5
 	reform_progress_growth = 0.5
 	#
-	monthly_control_of_court_power = 0.50
+	monthly_control_of_court_power = 1.00
 }
 
 # Multiplied by 50 - meritocracy
@@ -1102,7 +1102,7 @@ corruption = {
 	# WAR
 
 	monthly_brt_authority = -10.0
-#	monthly_control_of_court_power = -0.5
+	monthly_control_of_court_power = -10.0
 
 }
 
@@ -1165,6 +1165,7 @@ over_extension = {
 	ottoman_decadence_gain_modifier = 0.25
 	# War
 	monthly_brt_authority = -0.25
+	monthly_control_of_court_power = -0.5
 }
 
 prestige = {

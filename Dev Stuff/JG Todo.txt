@@ -38,9 +38,23 @@ Misc Mission Trees
 
 	If only one player, event at the start of the end times to determine - I'm the everchosen, no everchosen, easy everychosen, medium everchosen, hard everchosen.
 
-	End growth by taking world tree - you get a development buff from doing this.
+	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
 
 	Make sure everybody gets an event for connecting the world tree, and for severing it.
+
+	Tamarka Position
+
+	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
+
+	Discover the far east (and probably those other places) if ally should require 100 trust
+
+	Make it so forming does not give you new missions
+
+	short_colonial_ mid-naggaroth is missing loc
+
+	add nightair and surrounding area to colonial area
+
+	Alternative to mission requiring univerisities? 30 development and paper or glass?
 
 #############################
 ###### RANDOM TO DOS ########
