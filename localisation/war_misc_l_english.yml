@@ -120,6 +120,7 @@ legendary_warrior_personality_desc:0 "This ruler is not merely a commander, but 
 mage_personality:0 "Mage"
 mage_personality_desc:0 "This ruler has a deep understanding of the arcane arts. Whether through formal study, natural talent, or dark bargains, they skillfully weave magic into their governance. While some praise their mystical insight, others fear the unseen forces they command."
  grail_knight_personality_die_desc: "Returned to the Wind"
+ mage_personality_dies_desc:0 "This mage will be missed."
 
 skeptic_personality:0 "Skeptic"
 skeptic_personality_desc:0 "This ruler views magic as a destabilizing force—dangerous, unpredictable, and often heretical. Under their reign, arcane practitioners are kept under strict control or purged entirely. Order is valued over occult power."

@@ -13,6 +13,7 @@ asur_diplomatic_outreach_tt:0 "Gain 25 opinion and 10 trust with all countries."
 war_asur_diplomatic_outreach:0 "High Elven Outreach"
 desc_war_asur_diplomatic_outreach:0 "Asur diplomats have graced our halls with fine words and gifts."
 war_asur_diplomatic_outreach_desc:0 "Asur diplomats have graced our halls with fine words and gifts."
+beat_or_ally_all_great_powers_tt:0 "Every other great power must either be an ally with 100 Trust, or be defeated in war in the past 25 years."
 
 asur_grow_1_title:0 "Consolidate the Lands"
 asur_grow_1_desc:0 "The Breaking of the Asur was more than a civil war—it was a shattering of identity. The Broken Lands, once loyal to the Phoenix Crown, now lie fragmented and contested. Under the guidance of the High Loremaster Elthirion, we shall restore order, claim what is ours, and begin the long march toward unity."

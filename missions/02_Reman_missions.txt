@@ -1087,8 +1087,32 @@ war_reman_faction_4 = {
 		icon = appease_the_estates
 		required_missions = { reman_myrmidian_knowledge }
 		position = 8
+		provinces_to_highlight = {
+			OR = {
+				trade_goods = paper
+				trade_goods = glass
+				trade_goods = old_ones_relics
+				trade_goods = warpstone
+			}
+			NOT = {
+				development = 30
+				country_or_subject_holds = ROOT
+			}
+		}
 		trigger = {
-			university = 5
+			OR = {
+				university = 5
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+					value = 2
+					development = 30
+					OR = {
+						trade_goods = paper
+						trade_goods = glass
+						trade_goods = old_ones_relics
+						trade_goods = warpstone
+					}
+				}
+			}
 		}
 		effect = {
 			remove_country_modifier = reman_embrace_knowledge_1

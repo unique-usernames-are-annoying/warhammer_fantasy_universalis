@@ -757,11 +757,15 @@ kislev_missions_3 = {
 		icon = bibliotheca_corviana
 		required_missions = { kislev_ice_witch_2 }
 		provinces_to_highlight = {
+			trade_goods = paper
         }
 		trigger = {
 			any_owned_province = {
 				development = 35
-				has_building = university
+				OR = {
+					has_building = university
+					trade_goods = paper
+				}
 			}
 		}
 		effect = {

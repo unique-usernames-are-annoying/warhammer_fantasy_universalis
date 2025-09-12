@@ -1687,7 +1687,9 @@ country_event = {
 
 		random_neighbor_country = {
 			limit = {
-				culture_group = estalian_group
+				culture_group = vampire_coast_cg
+				religion = vampiric
+				NOT = { war_with = ROOT }
 			}
 			save_event_target_as = neighbor_country
 		}

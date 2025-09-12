@@ -50,11 +50,22 @@ Misc Mission Trees
 
 	Make it so forming does not give you new missions
 
-	short_colonial_ mid-naggaroth is missing loc
+	Monument religious groups are activating no matter the tolerance.
 
-	add nightair and surrounding area to colonial area
-
-	Alternative to mission requiring univerisities? 30 development and paper or glass?
+	The province 4346 is impassable and should not be in an area.
+	The province 1646 is impassable and should not be in an area.
+	The province 1685 is impassable and should not be in an area.
+	The province 1719 is impassable and should not be in an area.
+	The province 1736 is impassable and should not be in an area.
+	The province 1740 is impassable and should not be in an area.
+	The province 617 is already in another area.
+	The province 619 is already in another area.
+	The province 855 is already in another area.
+	The province 984 is already in another area.
+	The province 997 is already in another area.
+	The province 1326 is a lake and should not be in an area.
+	The province 1256 is already in another area.
+	The province 1711 is already in another area.
 
 #############################
 ###### RANDOM TO DOS ########
@@ -69,8 +80,6 @@ Misc Mission Trees
 	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
 
 	Someone figured out an ironman vanilla way to keep a ruler alive for 450 years, reproducible. Maybe we could alter the immortal traits to that? Since all it takes in vanilla is a gov reform and making it so the event has no valid options, which we could just program in to have none
-
-	Tower of Skulls is activating even without the 3+ tolerance? Because it's a religious group perhaps?
 
 	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
 
