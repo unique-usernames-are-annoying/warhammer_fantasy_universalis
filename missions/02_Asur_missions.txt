@@ -143,7 +143,7 @@ asur_missions_1 = {
 			 		has_building = barracks
 			 		has_building = training_fields
 				}
-				value = 5
+				value = 10
 			}
 		}
 		effect = {
@@ -167,9 +167,13 @@ asur_missions_1 = {
 				value = 80
 				superregion = ulthuan_superregion
 				owner = {
-					tag = ROOT
-					NOT = { liberty_desire = 10 }
-
+					OR = {
+						tag = ROOT
+						AND = {
+							is_subject_of = ROOT
+							NOT = { liberty_desire = 10 }
+						}
+					}
 				}
 			}
 		}
@@ -1356,13 +1360,13 @@ asur_missions_3 = {
 		required_missions = { asur_far_east_foothold }
 		position = 18
 		provinces_to_highlight = {
-			continent = north_america
+			continent = asia
 			NOT = { country_or_subject_holds = ROOT }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
 				value = 5
-				continent = north_america
+				continent = asia
 			}
 		}
 		effect = {
@@ -1380,47 +1384,46 @@ asur_missions_3 = {
 		icon = mission_high_elf_culture
 		position = 19
 		required_missions = { }
+
 		provinces_to_highlight = {
 			owner = {
 				is_great_power = yes
 				NOT = {
-					OR = {
-						AND = {
-							alliance_with = ROOT
-							trust = { who = ROOT value = 90 }
+					alliance_with = ROOT
+					trust = { who = ROOT value = 100 }
+				}
+				NOT = {
+					ROOT = {
+						has_won_war_against = {
+							who = prev
+							max_years_since = 25
 						}
-						ROOT = {
-							has_won_war_against = {
-								who = PREV
-								max_years_since = 50
-							}
-						}
-						tag = ROOT
 					}
 				}
 			}
 		}
+
 		trigger = {
-
 			is_great_power = yes
-
-			calc_true_if = {
-				all_country = {
-					is_great_power = yes
-					OR = {
-						AND = {
+			custom_trigger_tooltip = {
+				tooltip = beat_or_ally_all_great_powers_tt
+				NOT = {
+					any_country = {
+						is_great_power = yes
+						NOT = {
 							alliance_with = ROOT
-							trust = { who = ROOT value = 90 }
+							trust = { who = ROOT value = 100 }
 						}
-						ROOT = {
-							has_won_war_against = {
-								who = PREV
-								max_years_since = 25
+						NOT = {
+							ROOT = {
+								has_won_war_against = {
+									who = prev
+									max_years_since = 25
+								}
 							}
 						}
 					}
 				}
-				amount = 7
 			}
 		}
 
@@ -1540,6 +1543,8 @@ asur_missions_4 = {
     			duration = -1  
 			}
 			custom_tooltip = upgrade_replace_tt
+
+			3190 = { add_permanent_claim = ROOT }
 		}
 	}
 
@@ -1954,7 +1959,7 @@ asur_missions_5 = {
 			 		has_building = workshop
 			 		has_building = counting_house
 				}
-				value = 5
+				value = 10
 			}
 		}
 		effect = {
@@ -2057,13 +2062,30 @@ asur_missions_5 = {
 		required_missions = { asur_build_the_capital }
 		position = 8
 		provinces_to_highlight = {
-			owned_by = ROOT
-			NOT = { has_building = university }
+			OR = {
+				trade_goods = paper
+				trade_goods = glass
+				trade_goods = old_ones_relics
+				trade_goods = warpstone
+			}
+			NOT = {
+				development = 30
+				country_or_subject_holds = ROOT
+			}
 		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				has_building = university
-				value = 5
+			OR = {
+				university = 5
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+					value = 2
+					development = 30
+					OR = {
+						trade_goods = paper
+						trade_goods = glass
+						trade_goods = old_ones_relics
+						trade_goods = warpstone
+					}
+				}
 			}
 		}
 		effect = {

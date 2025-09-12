@@ -337,7 +337,7 @@ doom_glades_region = {
 broken_lands_region = {
 	areas = {
 		broken_lands_1_area broken_lands_2_area broken_lands_3_area broken_lands_4_area broken_lands_5_area broken_lands_6_area broken_lands_7_area broken_lands_8_area broken_lands_9_area broken_lands_10_area
-		broken_lands_11_area broken_lands_12_area broken_lands_13_area broken_lands_14_area broken_lands_15_area broken_lands_16_area broken_lands_17_area broken_lands_18_area broken_lands_19_area broken_lands_20_area
+		broken_lands_11_area broken_lands_12_area broken_lands_13_area broken_lands_14_area broken_lands_15_area broken_lands_16_area broken_lands_17_area broken_lands_18_area broken_lands_19_area broken_lands_20_area naggaroth_23_area
 	}
 }
 #
@@ -384,7 +384,7 @@ the_far_wastes_region = {
 		far_wastes_1_area far_wastes_2_area far_wastes_3_area far_wastes_4_area far_wastes_5_area far_wastes_6_area far_wastes_7_area far_wastes_8_area far_wastes_9_area far_wastes_10_area
 		far_wastes_11_area  inevitable_city_area kuldevind_islands_area chaos_wastes_26_area 
 		# far_wastes_12_area
-		naggaroth_23_area land_of_chill_6_area
+		land_of_chill_6_area
 	}
 }
 the_western_wastes_region = {

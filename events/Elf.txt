@@ -496,7 +496,8 @@ country_event = {
 
 	option = { 
 		ai_chance = { factor = 50 }
-		name = asur_events.7.a 
+		name = asur_events.7.a
+		trigger = { years_of_manpower = 2.0 }
 
 		add_yearly_manpower = -1.5
 

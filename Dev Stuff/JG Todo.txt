@@ -34,10 +34,38 @@ Misc Mission Trees
 
 	Random person stuff
 
-	Remove the +1 electors from restore lost princes Empire reform
+	Make everchosen even more likely for players, include vassal development and warband development in it.
 
-	Improve Suidockk Marienburg Monument
+	If only one player, event at the start of the end times to determine - I'm the everchosen, no everchosen, easy everychosen, medium everchosen, hard everchosen.
 
+	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
+
+	Make sure everybody gets an event for connecting the world tree, and for severing it.
+
+	Tamarka Position
+
+	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
+
+	Discover the far east (and probably those other places) if ally should require 100 trust
+
+	Make it so forming does not give you new missions
+
+	Monument religious groups are activating no matter the tolerance.
+
+	The province 4346 is impassable and should not be in an area.
+	The province 1646 is impassable and should not be in an area.
+	The province 1685 is impassable and should not be in an area.
+	The province 1719 is impassable and should not be in an area.
+	The province 1736 is impassable and should not be in an area.
+	The province 1740 is impassable and should not be in an area.
+	The province 617 is already in another area.
+	The province 619 is already in another area.
+	The province 855 is already in another area.
+	The province 984 is already in another area.
+	The province 997 is already in another area.
+	The province 1326 is a lake and should not be in an area.
+	The province 1256 is already in another area.
+	The province 1711 is already in another area.
 
 #############################
 ###### RANDOM TO DOS ########
@@ -47,9 +75,11 @@ Misc Mission Trees
 	Chaos Warband
 		Change it to normal migration stuff, we don't need all this nonsense?
 
-	Was Reikland, Emperor, conquering into bret. Died, became emperor again, got the event for embarking on a quest for a name I didn't recognize.
+	Was Reikland, Emperor, conquering into bret. Died, became emperor again, got the event for embarking on a grail quest for a name I didn't recognize.
 
 	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
+
+	Someone figured out an ironman vanilla way to keep a ruler alive for 450 years, reproducible. Maybe we could alter the immortal traits to that? Since all it takes in vanilla is a gov reform and making it so the event has no valid options, which we could just program in to have none
 
 	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
 
@@ -857,10 +887,14 @@ Pirate Coast
 
 	has_discovered = ROOT for highlighted privinces
 
-	Use this for region triggers:
+	Use this for region, continent, etc... triggers:
 		plain_of_zharr_region = {
 			type = all
+# 			hidden_trigger = { is_wasteland = yes } # Might want this or things may not work
+#			hidden_trigger = { is_sea = yes } # Might want this or things may not work
+
 			owned_by = ROOT
+
 		}
 
 

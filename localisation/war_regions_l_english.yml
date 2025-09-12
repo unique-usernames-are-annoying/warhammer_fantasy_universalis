@@ -250,6 +250,14 @@
  colonial_qurveza:0 "Colonial Qurveza"
  colonial_settler_coast:0 "Colonial Settler Coast"
  colonial_arnheim:0 "Colonial Arnheim"
+
+  short_colonial_naggaroth:0 "Colonial Naggaroth"
+ short_colonial_broken_lands:0 "Colonial Broken Lands"
+ short_colonial_sotek:0 "Colonial Sotek"
+ short_colonial_culchan:0 "Colonial Culchan"
+ short_colonial_qurveza:0 "Colonial Qurveza"
+ short_colonial_settler_coast:0 "Colonial Settler Coast"
+ short_colonial_arnheim:0 "Colonial Arnheim"
  
  fabled_lumbria_region:0 "Fabled Lumbria"
  imperial_river_region:0 "Imperial Rivers"

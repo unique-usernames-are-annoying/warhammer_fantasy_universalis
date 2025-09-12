@@ -4,7 +4,7 @@
 #### New Missions
 
 nobles_administer_land_tt:0 "Nobles travel our lands and our subjects' lands in Ulthuan, reducing Devastation, Autonomy, and Separatism."
-claim_naggaroth_tt:0 "Gain permanent claims on all Ulthuan."
+claim_ulthuan_tt:0 "Gain permanent claims on all Ulthuan."
 claim_naggaroth_tt:0 "Gain permanent claims on all Naggaroth."
 claim_lustria_tt:0 "Gain permanent claims on all of Lustria."
 claim_old_world_tt:0 "Gain permanent claims on all the Old World."
@@ -13,6 +13,7 @@ asur_diplomatic_outreach_tt:0 "Gain 25 opinion and 10 trust with all countries."
 war_asur_diplomatic_outreach:0 "High Elven Outreach"
 desc_war_asur_diplomatic_outreach:0 "Asur diplomats have graced our halls with fine words and gifts."
 war_asur_diplomatic_outreach_desc:0 "Asur diplomats have graced our halls with fine words and gifts."
+beat_or_ally_all_great_powers_tt:0 "Every other great power must either be an ally with 100 Trust, or be defeated in war in the past 25 years."
 
 asur_grow_1_title:0 "Consolidate the Lands"
 asur_grow_1_desc:0 "The Breaking of the Asur was more than a civil war—it was a shattering of identity. The Broken Lands, once loyal to the Phoenix Crown, now lie fragmented and contested. Under the guidance of the High Loremaster Elthirion, we shall restore order, claim what is ours, and begin the long march toward unity."
@@ -363,6 +364,9 @@ desc_asur_innovativeness_5:0 "The Asur have achieved unmatched magical supremacy
 
 asur_old_world_foothold_1:0 "Envoys in the Old World"
 desc_asur_old_world_foothold_1:0 "We have established envoys among the peoples of the Old World, offering guidance and monitoring their strength against corruption."
+
+asur_old_world_foothold_2:0 "Tolerance of the Humans"
+desc_asur_old_world_foothold_2:0 "We have established envoys among the peoples of the Old World, offering guidance and monitoring their strength against corruption."
 
 asur_old_world_foothold_3:0 "Living Among Humans"
 desc_asur_old_world_foothold_3:0 "With deeper integration in the Old World, we learn from humans even as we help guide them toward order and enlightenment."
