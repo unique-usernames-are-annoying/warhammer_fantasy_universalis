@@ -7,8 +7,8 @@ custom_button = {
 		AND = {
 			FROM = {
 				ai = no
+				is_chaos_warband_tag = yes
 			}
-			## is_chaos_warband_tag = yes
 			is_potential_warp_province = yes
 		}
 	}
