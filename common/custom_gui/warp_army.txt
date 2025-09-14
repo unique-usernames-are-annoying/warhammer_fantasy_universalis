@@ -20,8 +20,8 @@ custom_button = {
 			add_adm_power = -50
 			add_dip_power = -50
 			add_mil_power = -50
-		}
 
+		}
 		hidden_effect = {
 			take_and_spawn_army_at_province = yes
 		}

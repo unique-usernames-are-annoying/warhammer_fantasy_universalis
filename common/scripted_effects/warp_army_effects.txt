@@ -1,27 +1,47 @@
 take_and_spawn_army_at_province = {
 	from = {
-		set_variable = {
-			which = infantry_units_to_warp
-			value = 0
+		export_to_variable = {
+			which = max_units_to_warp
+			value = land_forcelimit
 		}
-		set_variable = {
-			which = cavalry_units_to_warp
-			value = 0
+		# set_variable = {
+		# 	which = max_units_to_warp
+		# 	which = forcelimit
+		# }
+		multiply_variable = {
+			which = max_units_to_warp
+			value = 0.5
 		}
-		set_variable = {
-			which = artillery_units_to_warp
-			value = 0
-		}
+
+		log = "[From.GetName] max_units_to_warp after divide = [From.max_units_to_warp.GetValue]"
+
+        set_variable = { which = infantry_units_to_warp value = 0 }
+        set_variable = { which = cavalry_units_to_warp  value = 0 }
+        set_variable = { which = artillery_units_to_warp value = 0 }
 		
 		capital_scope = {
 			## registering inf
 			while = {
 				limit = {
-					infantry_in_province = OWNER
+					## if there are units in the capital and there's still room in max_units_to_warp
+					AND = {
+						infantry_in_province = OWNER
+						owner = {
+							check_variable = {
+								which = max_units_to_warp
+								value = 1
+							}
+						}
+					}
 				}
+				## increase inf by one and remove a slot from max_units_to_warp
 				owner = {
 					change_variable = {
 						which = infantry_units_to_warp 
+						value = 1
+					}
+					subtract_variable = {
+						which = max_units_to_warp
 						value = 1
 					}
 				}
@@ -35,17 +55,29 @@ take_and_spawn_army_at_province = {
 			## registering cav
 			while = {
 				limit = {
-					cavalry_in_province = OWNER
+					AND = {
+						cavalry_in_province = OWNER
+						owner = {
+							check_variable = {
+								which = max_units_to_warp
+								value = 1
+							}
+						}
+					}
 				}
 				owner = {
 					change_variable = {
 						which = cavalry_units_to_warp  
 						value = 1
 					}
+					subtract_variable = {
+						which = max_units_to_warp
+						value = 1
+					}
 				}
 				kill_units = {
 					who = OWNER
-					type = cavarly
+					type = cavalry
 					amount = 1
 				}
 			}
@@ -53,11 +85,23 @@ take_and_spawn_army_at_province = {
 			## registering arty
 			while = {
 				limit = {
-					artillery_in_province = OWNER
+					AND = {
+						artillery_in_province = OWNER
+						owner = {
+							check_variable = {
+								which = max_units_to_warp
+								value = 1
+							}
+						}
+					}
 				}
 				owner = {
 					change_variable = {
 						which = artillery_units_to_warp   
+						value = 1
+					}
+					subtract_variable = {
+						which = max_units_to_warp
 						value = 1
 					}
 				}
@@ -78,8 +122,9 @@ take_and_spawn_army_at_province = {
 						value = 1
 					}
 			}
-			
+			## prev here is the province
 			prev = {
+				## prev here is FROM
 				infantry = PREV
 			}
 
