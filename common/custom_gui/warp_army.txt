@@ -24,6 +24,9 @@ custom_button = {
 		}
 		hidden_effect = {
 			take_and_spawn_army_at_province = yes
+
+			## more effect can be added here. 
+
 		}
 	}
 }

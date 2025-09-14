@@ -176,3 +176,11 @@ take_and_spawn_army_at_province = {
 	}
 
 }
+
+slaanesh_warp_effect = {
+	## root = prov
+	## from = player looking at UI 
+	## owner = province owner
+	
+
+}
