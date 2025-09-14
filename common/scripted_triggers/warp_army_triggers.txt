@@ -1,0 +1,40 @@
+is_chaos_warband_tag = {
+	OR = {
+		has_reform = chaos_settled_horde 
+		has_reform = chaos_warband 
+	}
+}
+
+is_potential_warp_province = {
+	NOT = {
+		OR = {
+			controlled_by = FROM
+			is_capital = yes
+			fort_level = 1
+			infantry_in_province = OWNER
+			cavalry_in_province = OWNER
+			artillery_in_province = OWNER
+		}
+	}
+}
+
+can_warp = {
+	owner = {
+		war_with = FROM 
+	}
+
+	FROM = {
+		adm_power = 50
+		dip_power = 50
+		mil_power = 50
+
+		capital_scope = {
+			OR = {
+				infantry_in_province = FROM
+				cavalry_in_province = FROM
+				artillery_in_province = FROM
+			}
+		}
+
+	}
+}

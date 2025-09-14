@@ -279,6 +279,8 @@ guiTypes = {
 		position = { x = 0 y = 17 }
 	}
 
+
+	## MAIN
 	windowType =
 	{
 		name = "provinceview"
@@ -545,6 +547,9 @@ guiTypes = {
 				shortcut = "ESCAPE"
 				clicksound = close_window
 			}
+
+
+
 		}
 
 
@@ -2623,7 +2628,13 @@ guiTypes = {
 				quadTextureSprite = "GFX_province_gui_firestorm_button"
 				scripted = yes
 			}
-				
+			## WARP BUTTON
+			guiButtonType = {
+				name = "warp_army_button"
+				position = { x = 375 y = -5}
+				quadTextureSprite = "GFX_warparmybutton"
+				scripted = yes
+			}
 		}
 
 
@@ -3969,6 +3980,7 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 			}
 		}
+
 
 
 	}

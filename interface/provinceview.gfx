@@ -1263,5 +1263,8 @@ spriteTypes = {
 		texturefile = "gfx//interface//spellbook//spellbook_window_bg.dds"
 		transparencecheck = yes
 	}
-	
+	spriteType = {
+		name = "GFX_warparmybutton"
+		texturefile = "gfx/interface/warparmybutton.dds"
+	}
 }

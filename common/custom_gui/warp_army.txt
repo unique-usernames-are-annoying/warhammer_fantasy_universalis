@@ -1,0 +1,29 @@
+
+custom_button = {
+	name = warp_army_button
+	tooltip = tt_warp_army
+	potential = { 
+		## ai probs should get some random event that selects it from them
+		AND = {
+			FROM = {
+				ai = no
+			}
+			## is_chaos_warband_tag = yes
+			is_potential_warp_province = yes
+		}
+	}
+	trigger = { 
+		can_warp = yes
+	}
+	effect = {
+		FROM = {
+			add_adm_power = -50
+			add_dip_power = -50
+			add_mil_power = -50
+		}
+
+		hidden_effect = {
+			take_and_spawn_army_at_province = yes
+		}
+	}
+}
