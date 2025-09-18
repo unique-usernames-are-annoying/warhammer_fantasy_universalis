@@ -1,0 +1,20 @@
+country_decisions = {
+    show_favor_decision = {
+    
+        color = { 50 50 200 }
+    
+        potential = {
+            has_country_flag = has_soul_favor
+        }
+        allow = {
+            hidden_trigger = {
+                always = no
+            }
+        }
+        effect = {
+            custom_tooltip = show_soul_favor_tt
+        }
+    }
+    
+    ## form greater chaos nation
+}

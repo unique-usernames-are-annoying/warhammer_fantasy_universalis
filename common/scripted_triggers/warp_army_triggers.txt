@@ -28,6 +28,8 @@ can_warp = {
 		dip_power = 50
 		mil_power = 50
 
+		has_enough_soul_favors = {amount=20}
+
 		capital_scope = {
 			OR = {
 				infantry_in_province = FROM

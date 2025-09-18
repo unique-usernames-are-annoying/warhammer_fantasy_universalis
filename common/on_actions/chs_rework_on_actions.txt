@@ -1,0 +1,148 @@
+on_startup = {
+    if = {
+        limit = {
+            OR = {
+                religion = khornate_religion
+                religion = slaaneshi_religion
+                religion = tzeentchian_religion
+                religion = nurglite_religion
+            }
+        }
+        set_variable = {
+            which = SOUL_FAVOR
+            value = 0
+        }
+        set_country_flag = has_soul_favor
+
+        country_event = {
+            id = soul_favor_ev.1
+            days = 365
+        }
+    }
+}
+
+on_religion_change = {
+    if = {
+        limit = {
+            OR = {
+                religion = khornate_religion
+                religion = slaaneshi_religion
+                religion = tzeentchian_religion
+                religion = nurglite_religion
+            }
+        }
+        set_variable = {
+            which = SOUL_FAVOR
+            value = 0
+        }
+        set_country_flag = has_soul_favor
+    }
+}
+
+## for gaining soul favor
+on_province_owner_change = {
+    ROOT = {
+        owner = {
+            if = {
+                limit = {
+                    has_country_flag = has_soul_favor
+                }
+                ## get the development
+                export_to_variable = {
+                    which = favor_gain_dev
+                    value = development
+                    who = ROOT ## current scope owner, root scope prov
+                }
+
+                change_variable = {
+                    which = SOUL_FAVOR
+                    which = favor_gain_dev
+                }
+            }
+        }
+    }
+}
+
+on_battle_won_country = {
+    ROOT = {
+        if = {
+            limit = {
+                has_country_flag = has_soul_favor
+            }
+
+            set_variable = {
+                which = favor_gain_units
+                value = land_units_killed
+            }
+
+            multiply_variable = {
+                which = favor_gain_units
+                value = 0.05
+            }
+
+            round_variable = {
+                which = favor_gain
+                value = -1
+            }
+
+            change_variable = {
+                which = SOUL_FAVOR 
+                which = favor_gain_rounded
+            }
+        }
+    }
+}
+# QUEST_TARGET_NURGLE
+# QUEST_TARGET_TZEENTCH
+# QUEST_TARGET_KHORNE
+# QUEST_TARGET_SLAANESH
+on_war_won = {
+    if = {
+        limit = {
+            OR = {
+                AND = {
+                    ROOT = {
+                        has_country_flag = QUEST_TARGET_TZEENTCH
+                    }
+                    FROM = {
+                        religion = tzeentchian_religion
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        has_country_flag = QUEST_TARGET_NURGLE
+                    }
+                    FROM = {
+                        religion = nurglite_religion
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        has_country_flag = QUEST_TARGET_KHORNE
+                    }
+                    FROM = {
+                        religion = khornate_religion
+                    }
+                }
+                AND = {
+                    ROOT = {
+                        has_country_flag = QUEST_TARGET_SLAANESH
+                    }
+                    FROM = {
+                        religion = slaaneshi_religion
+                    }
+                }
+            }
+        }
+        country_event = {
+            id = soul_favor_ev.2
+        }
+        # give new quest
+        country_event = {
+            id = soul_favor_ev.1
+            days = 365
+            random = 1825
+        }
+    }
+}
+

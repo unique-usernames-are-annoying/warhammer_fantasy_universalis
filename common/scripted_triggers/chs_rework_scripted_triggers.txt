@@ -1,0 +1,25 @@
+has_enough_soul_favors = {
+
+    change_variable = {
+        which = SOUL_FAVOR
+        value = $amount$
+    }
+}
+
+can_be_target_for_dark_quest = {
+    OR = {
+        religion = khornate_religion
+        religion = slaaneshi_religion
+        religion = tzeentchian_religion
+        religion = nurglite_religion
+    }
+}
+
+has_dark_quest_issued = {
+    OR = {
+        has_country_flag = QUEST_TARGET_NURGLE
+        has_country_flag = QUEST_TARGET_TZEENTCH
+        has_country_flag = QUEST_TARGET_KHORNE
+        has_country_flag = QUEST_TARGET_SLAANESH
+    }
+}

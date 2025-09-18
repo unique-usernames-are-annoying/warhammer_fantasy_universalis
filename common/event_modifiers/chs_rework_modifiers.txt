@@ -1,0 +1,3 @@
+dark_quest_target = {
+    recover_army_morale_speed = 0.05
+}

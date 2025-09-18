@@ -1,0 +1,25 @@
+﻿l_english:
+# soul favor
+ text_SOUL_FAVOR_loc:0 "[Root.SOUL_FAVOR.GetValue]"
+ show_soul_favor_tt:0 "Current Soul Favour; §T[Root.SOUL_FAVOR.GetValue]§"
+ show_favor_decision_title:0 "Current Soul Favour"
+ show_favor_decision_desc:0 "Show the amount of soul favour you have ( §T[Root.SOUL_FAVOR.GetValue]§! ). Gain by capturing provinces, winning battles and through Dark Quests"
+
+# custom loc / dark quest
+ dark_quest_event_tt:0 "Your Target is [Root.GET_DARK_QUEST_TARGET], defeat it and You'll be rewarded.."
+ dark_quest_nurgle_target:0 "Nurgle"
+ dark_quest_khorne_target:0 "Khnorne"
+ dark_quest_tzeentch_target:0 "Tzeentch"
+ dark_quest_slaanesh_target:0 "Slaanesh"
+ dark_quest_null:0 "Bruh there's nothing here"
+ dark_quest_target:0 "Dark Quest Target"
+ dark_quest_target_tt:0 "Your target is set, defeat it and You'll be rewarded.."
+ dark_quest_complete_tt:0 "Gain §Y50§! §TSoul Favor§!"
+
+## events
+ soul_favor_ev.1.t:0 "Dark Quest Issued"
+ soul_favor_ev.1.d:0 "The Dark God has bestowed a Quest upon you. The filfth of [Root.GET_DARK_QUEST_TARGET] must be taught a lesson about who really is in charge here. \n Win a war against a §R[Root.GET_DARK_QUEST_TARGET]§! faction and reveive a reward."
+ soul_favor_ev.1.a:0 "I will obey, for i am the servant."
+ soul_favor_ev.2.t:0 "Dark Quest Completed"
+ soul_favor_ev.2.d:0 "[Root.GET_DARK_QUEST_TARGET] has been humbled by the greatness of my obediant apostle. You have gained youself a favor"
+ soul_favor_ev.2.a:0 "Fight in the name of the great one, for all who stand in their way must be buried."

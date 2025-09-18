@@ -1,0 +1,104 @@
+namespace = soul_favor_ev
+
+## possible flags;
+# QUEST_TARGET_NURGLE
+# QUEST_TARGET_TZEENTCH
+# QUEST_TARGET_KHORNE
+# QUEST_TARGET_SLAANESH
+
+
+### getting a quest
+country_event = {
+	id = soul_favor_ev.1
+	title = soul_favor_ev.1.t
+	desc = soul_favor_ev.1.d
+	picture = indiangfx_RELIGIOUS_TURMOIL_eventPicture
+	
+    is_triggered_only = yes
+
+    immediate = {
+        random_country = {
+            limit = {
+                can_be_target_for_dark_quest = yes
+                NOT = {
+                    tag = ROOT
+                }
+            }
+            if = {
+                limit = {
+                    religion = khornate_religion
+                }
+    
+                hidden_effect = {
+                    ROOT = {
+                        set_country_flag = QUEST_TARGET_KHORNE
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    religion = slaaneshi_religion
+                }
+                hidden_effect = {
+                    ROOT = {
+                        set_country_flag = QUEST_TARGET_SLAANESH
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    religion = tzeentchian_religion
+                }
+                hidden_effect = {
+                    ROOT = {
+                        set_country_flag = QUEST_TARGET_TZEENTCH
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    religion = nurglite_religion
+                }
+                hidden_effect = {
+                    ROOT = {
+                        set_country_flag = QUEST_TARGET_NURGLE
+                    }
+                }
+            }
+        }
+    }
+
+    
+	option = {
+        name = soul_favor_ev.1.a
+
+        add_prestige = 10
+
+        custom_tooltip = dark_quest_event_tt
+        
+    }
+}
+
+### completing a quest
+country_event = {
+	id = soul_favor_ev.2
+	title = soul_favor_ev.2.t
+	desc = soul_favor_ev.2.d
+	picture = SWORD_OF_OSMAN_eventPicture
+	
+   is_triggered_only = yes
+
+    
+	option = {
+        name = soul_favor_ev.2.a
+
+        custom_tooltip = dark_quest_complete_tt
+       
+        hidden_effect = {
+            change_variable = {
+                which = SOUL_FAVOR
+                value = 50
+            }
+        }
+    }
+}
