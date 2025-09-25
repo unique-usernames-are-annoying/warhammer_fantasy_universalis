@@ -80,7 +80,7 @@ country_decisions = {
 			add_prestige = 25
 			set_country_flag = formed_norse_dwarfs_flag
 			change_tag = U97
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			on_change_tag_effect = yes
 			if = {
 				limit = { has_custom_ideas = no }

@@ -50,7 +50,7 @@ cathay_missions_1 = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 5
+				value = 3
 				province_has_center_of_trade_of_level = 3
 			}
 		}
@@ -1034,7 +1034,7 @@ cathay_missions_3 = {
 			prestige = 99
 			legitimacy_equivalent = 99
 			development_in_provinces = {
-				value = 2500
+				value = 2250
 				superregion = cathay_superregion
 			}
 			cathay_superregion = {

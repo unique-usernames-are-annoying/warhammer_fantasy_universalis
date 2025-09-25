@@ -1274,7 +1274,6 @@ country_event = {
 		random_neighbor_country = {
 			limit = {
 				culture_group = indish_cg
-				religion = myrmidia
 			}
 			save_event_target_as = neighbor_country
 		}

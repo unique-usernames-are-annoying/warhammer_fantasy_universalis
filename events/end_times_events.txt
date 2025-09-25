@@ -38,7 +38,7 @@ country_event = {
 
 	}
 	mean_time_to_happen = {
-		years = 100
+		years = 200
 		### Increases the chance if it's a player
 		modifier = {
 			factor = 0.1
@@ -103,31 +103,7 @@ country_event = {
 		### Development
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 25
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 50
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 75
-		}
-		modifier = {
-			factor = 0.5
 			total_own_and_non_tributary_subject_development = 100
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 125
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 150
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 175
 		}
 		modifier = {
 			factor = 0.5
@@ -135,15 +111,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 250
-		}
-		modifier = {
-			factor = 0.5
 			total_own_and_non_tributary_subject_development = 300
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 350
 		}
 		modifier = {
 			factor = 0.5
@@ -151,23 +119,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 450
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 500
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 550
-		}
-		modifier = {
-			factor = 0.5
 			total_own_and_non_tributary_subject_development = 600
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 650
 		}
 		modifier = {
 			factor = 0.5
@@ -175,15 +127,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 750
-		}
-		modifier = {
-			factor = 0.5
 			total_own_and_non_tributary_subject_development = 800
-		}
-		modifier = {
-			factor = 0.5
-			total_own_and_non_tributary_subject_development = 850
 		}
 		modifier = {
 			factor = 0.5
@@ -191,11 +135,67 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 950
+			total_own_and_non_tributary_subject_development = 1000
 		}
 		modifier = {
 			factor = 0.5
-			total_own_and_non_tributary_subject_development = 1000
+			total_own_and_non_tributary_subject_development = 1100
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1200
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1300
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1400
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1500
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1600
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1700
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1800
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 1900
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2000
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2100
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2200
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2300
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2400
+		}
+		modifier = {
+			factor = 0.5
+			total_own_and_non_tributary_subject_development = 2500
 		}
 		#archaon is favored
 		modifier = {
@@ -240,6 +240,8 @@ country_event = {
 
 			save_global_event_target_as = original_everchosen_country
 
+			add_devotion = 100
+
 			capital_scope = {
 
 				add_reform_center = chaos_undivided_religion
@@ -250,6 +252,12 @@ country_event = {
 					name = chaos_gate_defenses
 					duration = -1
 				}
+
+				add_province_modifier = {
+					name = temp_energy_defenses
+					duration = 3650
+				}
+
 
 				add_building = fort_17th
 

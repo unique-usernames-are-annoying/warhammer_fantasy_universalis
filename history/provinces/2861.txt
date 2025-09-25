@@ -2,7 +2,7 @@ base_tax = 1
 base_manpower = 6
 base_production = 3
 trade_goods = tea
-religion = yin_yang
+religion = dragon_cult
 
 owner = I29
 controller = I29

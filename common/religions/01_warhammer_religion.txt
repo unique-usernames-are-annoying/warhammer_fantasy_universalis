@@ -1631,6 +1631,8 @@ the_old_faith = {
 			HERETIC
 		}
 	}
+
+
 	## BALANCE: Overpowered Basic ideas worth 4, will need rebalancing.
 	dragon_cult = {
 		color = {
@@ -1642,6 +1644,9 @@ the_old_faith = {
 		country = {
 			movement_speed = 0.3
 			fire_damage = 0.2
+			can_recruit_cossacks = yes
+			allowed_cossack_fraction = 0.05
+			special_unit_cost_modifier = -0.05
 		}
 		country_as_secondary = {
 			movement_speed = 0.3
@@ -2294,6 +2299,11 @@ lizardmen_denominations = {
 		heretic = {
 			OLD_ONES_HERETIC
 		}
+
+		allowed_conversion = {
+			dragon_cult
+		}
+
 	}
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_lizardmen
@@ -2345,6 +2355,11 @@ eastern_denominations = {
 		heretic = {
 			YIN_YANG_HERETIC
 		}
+
+		allowed_conversion = {
+			dragon_cult
+		}
+
 		uses_karma = yes
 	}
 	crusade_name = CRUSADE

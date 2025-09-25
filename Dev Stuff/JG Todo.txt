@@ -30,12 +30,6 @@ Misc Mission Trees
 	you left the .git folder in the mod upload
 		Move this to a folder above?
 
-	gitignore and deletion of all those DS_Store files
-
-	Random person stuff
-
-	Make everchosen even more likely for players, include vassal development and warband development in it.
-
 	If only one player, event at the start of the end times to determine - I'm the everchosen, no everchosen, easy everychosen, medium everchosen, hard everchosen.
 
 	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
@@ -46,11 +40,14 @@ Misc Mission Trees
 
 	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
 
-	Discover the far east (and probably those other places) if ally should require 100 trust
+	Make trade companies from trade nodes
 
-	Make it so forming does not give you new missions
+	Developing should increase Karma? And building buildings, and building great projects? Force converting
+		Make sure this is localized
 
-	Monument religious groups are activating no matter the tolerance.
+	Warping foundations happening way too much
+
+	Cannot vassalize in anti-evil? Should fix that
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.
@@ -71,7 +68,8 @@ Misc Mission Trees
 ###### RANDOM TO DOS ########
 #############################
 
-	Make Dominions take a diplo slot. But figure out how this affects Cathay, Bretonia, Eatine
+	Use China Empire mechanic. And revolutionary war target mechanic?
+	
 	Chaos Warband
 		Change it to normal migration stuff, we don't need all this nonsense?
 
@@ -81,7 +79,7 @@ Misc Mission Trees
 
 	Someone figured out an ironman vanilla way to keep a ruler alive for 450 years, reproducible. Maybe we could alter the immortal traits to that? Since all it takes in vanilla is a gov reform and making it so the event has no valid options, which we could just program in to have none
 
-	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100 manpower to feed it
+	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100k manpower to feed it
 
 	Check Barrow Legion
 

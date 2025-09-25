@@ -13,7 +13,7 @@ country_event = {
 		NOT = {
 			overlord = {
 				OR = {
-					has_truce = ROOT
+					truce_with = ROOT
 					war_with = ROOT
 				}
 			}
@@ -103,14 +103,14 @@ country_event = {
 
 	is_triggered_only = no
 	hidden = yes
-	mean_time_to_happen = { months = 12 }
+	mean_time_to_happen = { months = 6 }
 	
 ### 
 	option = {
 		name = dominion_events.2.option_1
 		ai_chance = { factor = 100 }
 
-		random_subject_country = {
+		every_subject_country = {
 			limit  = {
 				is_subject_of_type = dominion
 
@@ -127,9 +127,11 @@ country_event = {
 				}
 			}
 
-			add_favors = {
-			   who = ROOT
-			   amount = -10
+			ROOT = {
+				add_favors = {
+			   		who = PREV
+			   		amount = -10
+				}
 			}
 
 			add_trust = {
