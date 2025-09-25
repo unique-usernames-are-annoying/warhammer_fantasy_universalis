@@ -1592,6 +1592,12 @@ pirate_subject = {
 	naval_forcelimit = 2
 }
 
+
+## Warhammer WARHAMMER
+free_dominion = {
+	diplomatic_upkeep = 1
+}
+
 subject_tax_modifier = {
 	global_tax_modifier = 0.25
 }

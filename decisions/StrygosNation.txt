@@ -131,7 +131,7 @@ country_decisions = {
 				}
 				#Swap Ideas
 			}
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			set_country_flag = formed_strygos_flag
 		}
 		ai_will_do = {

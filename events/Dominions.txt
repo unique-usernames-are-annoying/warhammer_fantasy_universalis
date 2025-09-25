@@ -13,7 +13,7 @@ country_event = {
 		NOT = {
 			overlord = {
 				OR = {
-					has_truce = ROOT
+					truce_with = ROOT
 					war_with = ROOT
 				}
 			}
