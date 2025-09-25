@@ -50,7 +50,7 @@ cathay_missions_1 = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 5
+				value = 3
 				province_has_center_of_trade_of_level = 3
 			}
 		}

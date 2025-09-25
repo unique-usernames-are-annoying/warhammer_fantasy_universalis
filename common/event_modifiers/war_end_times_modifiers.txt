@@ -27,6 +27,15 @@ chaos_gate_defenses = {
 	fort_level = 4
 }
 
+
+temp_energy_defenses = {
+	local_assault_fort_cost_modifier = 200
+	local_garrison_damage = 1.0
+	local_garrison_size = 1.0
+	local_defensiveness = 3.0
+	fort_level = 4
+}
+
 everchosen_buff_1 = {
 	global_manpower = 100
 	land_forcelimit = 100

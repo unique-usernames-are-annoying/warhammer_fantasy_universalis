@@ -140,7 +140,7 @@ country_decisions = {
 				#Swap Ideas
 			}
 			add_government_reform = grand_cathay_reform	
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			set_country_flag = formed_cathay_flag
 		}
 		ai_will_do = {

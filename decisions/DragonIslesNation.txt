@@ -49,7 +49,7 @@ country_decisions = {
 				}
 			}
 			change_tag = Z95
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			if = {
 				limit = { ai = no }
 				on_change_tag_effect = yes
@@ -108,7 +108,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = Z95
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			remove_government_reform = shogunate
@@ -177,7 +177,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = Z95
-			swap_non_generic_missions = yes
+			# swap_non_generic_missions = yes
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			set_country_flag = formed_dragon_isles_flag

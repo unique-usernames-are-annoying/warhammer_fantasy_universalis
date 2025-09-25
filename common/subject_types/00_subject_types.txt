@@ -1472,7 +1472,7 @@ dominion = {
 	
 	# Properties:
 	has_power_projection = yes
-	takes_diplo_slot = no
+	takes_diplo_slot = yes
 	gets_help_with_rebels = yes
 	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
@@ -1568,6 +1568,22 @@ dominion = {
 			}
 		}
 	}
+
+	modifier_overlord = {
+		modifier = free_dominion
+		trigger = {
+			overlord = {
+				OR = {
+					has_reform = bretonnian_royarch_reform
+					has_reform = cathay_splinter_state
+					has_reform = phoenix_king_reform
+					has_reform = everqueen_court_reform
+				}
+				culture_group = ROOT
+			}
+		}
+	}
+
 
 }
 
