@@ -40,16 +40,12 @@ Misc Mission Trees
 
 	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
 
-	Make it so forming does not give you new missions - Done?
-
 	Make trade companies from trade nodes
 
 	Developing should increase Karma? And building buildings, and building great projects? Force converting
 		Make sure this is localized
 
 	Warping foundations happening way too much
-
-	Make Wyrmkin Dragon Cult?
 
 	Cannot vassalize in anti-evil? Should fix that
 
