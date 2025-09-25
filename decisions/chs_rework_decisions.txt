@@ -4,7 +4,7 @@ country_decisions = {
         color = { 50 50 200 }
     
         potential = {
-            has_country_flag = has_soul_favor
+            has_country_flag = has_chaos_favor
         }
         allow = {
             hidden_trigger = {
@@ -12,7 +12,7 @@ country_decisions = {
             }
         }
         effect = {
-            custom_tooltip = show_soul_favor_tt
+            custom_tooltip = show_chaos_favor_tt
         }
     }
     

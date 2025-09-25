@@ -558,35 +558,22 @@ guiTypes = {
 	############### Power mechanics for a country ################
 
 		instantTextBoxType = {
-			name = "text_SOUL_FAVOR"
-			position = { x = 469 y = 52 }
+			name = "text_chaos_favor"
+			position = { x = 455 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			text = "soul_favor_text"
 			maxWidth = 36
 			maxHeight = 32
 			format = left
-			trigger = {
-				has_country_flag = has_soul_favor
-			}
-		}
-		scriptedGuiText = {
-		    name = "soul_favor_text"
-		    localisation_key = "text_SOUL_FAVOR_loc"
-		    trigger = {
-		        always = yes
-		    }
+			scripted = yes
 		}
 		iconType = {
-			name ="icon_SOUL_FAVOR"
-			spriteType = "GFX_icon_soul_favor"
+			name ="icon_chaos_favor"
+			spriteType = "GFX_icon_chaos_favor"
 			position = { x= 428 y = 49 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = ""
-			trigger = {
-				has_country_flag = has_soul_favor
-			}
 		}
 
 		iconType =

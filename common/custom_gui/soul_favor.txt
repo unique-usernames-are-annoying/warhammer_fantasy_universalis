@@ -1,0 +1,12 @@
+custom_text_box = {
+    name = text_chaos_favor
+    potential = {
+        has_country_flag = has_chaos_favor
+    }
+}
+custom_icon = {
+    name = icon_chaos_favor
+    potential = {
+        has_country_flag = has_chaos_favor
+    }
+}

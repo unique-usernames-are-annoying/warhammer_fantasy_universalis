@@ -9,13 +9,13 @@ on_startup = {
             }
         }
         set_variable = {
-            which = SOUL_FAVOR
+            which = chaos_favor
             value = 0
         }
-        set_country_flag = has_soul_favor
+        set_country_flag = has_chaos_favor
 
         country_event = {
-            id = soul_favor_ev.1
+            id = chaos_favor_ev.1
             days = 365
         }
     }
@@ -32,20 +32,19 @@ on_religion_change = {
             }
         }
         set_variable = {
-            which = SOUL_FAVOR
+            which = chaos_favor
             value = 0
         }
-        set_country_flag = has_soul_favor
+        set_country_flag = has_chaos_favor
     }
 }
 
 ## for gaining soul favor
-on_province_owner_change = {
-    ROOT = {
+on_siege_won_province = {
         owner = {
             if = {
                 limit = {
-                    has_country_flag = has_soul_favor
+                    has_country_flag = has_chaos_favor
                 }
                 ## get the development
                 export_to_variable = {
@@ -55,24 +54,28 @@ on_province_owner_change = {
                 }
 
                 change_variable = {
-                    which = SOUL_FAVOR
+                    which = chaos_favor
                     which = favor_gain_dev
                 }
             }
         }
-    }
+    
 }
 
 on_battle_won_country = {
-    ROOT = {
         if = {
             limit = {
-                has_country_flag = has_soul_favor
+                has_country_flag = has_chaos_favor
             }
 
             set_variable = {
                 which = favor_gain_units
-                value = land_units_killed
+                value = 0
+            }
+
+            change_variable = {
+                which = favor_gain_units
+                which = land_units_killed                
             }
 
             multiply_variable = {
@@ -81,16 +84,16 @@ on_battle_won_country = {
             }
 
             round_variable = {
-                which = favor_gain
+                which = favor_gain_units
                 value = -1
             }
 
             change_variable = {
-                which = SOUL_FAVOR 
-                which = favor_gain_rounded
+                which = chaos_favor 
+                which = favor_gain_units
             }
         }
-    }
+    
 }
 # QUEST_TARGET_NURGLE
 # QUEST_TARGET_TZEENTCH
@@ -135,11 +138,11 @@ on_war_won = {
             }
         }
         country_event = {
-            id = soul_favor_ev.2
+            id = chaos_favor_ev.2
         }
         # give new quest
         country_event = {
-            id = soul_favor_ev.1
+            id = chaos_favor_ev.1
             days = 365
             random = 1825
         }

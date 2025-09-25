@@ -1,4 +1,4 @@
-namespace = soul_favor_ev
+namespace = chaos_favor_ev
 
 ## possible flags;
 # QUEST_TARGET_NURGLE
@@ -9,9 +9,9 @@ namespace = soul_favor_ev
 
 ### getting a quest
 country_event = {
-	id = soul_favor_ev.1
-	title = soul_favor_ev.1.t
-	desc = soul_favor_ev.1.d
+	id = chaos_favor_ev.1
+	title = chaos_favor_ev.1.t
+	desc = chaos_favor_ev.1.d
 	picture = indiangfx_RELIGIOUS_TURMOIL_eventPicture
 	
     is_triggered_only = yes
@@ -70,7 +70,7 @@ country_event = {
 
     
 	option = {
-        name = soul_favor_ev.1.a
+        name = chaos_favor_ev.1.a
 
         add_prestige = 10
 
@@ -81,22 +81,22 @@ country_event = {
 
 ### completing a quest
 country_event = {
-	id = soul_favor_ev.2
-	title = soul_favor_ev.2.t
-	desc = soul_favor_ev.2.d
+	id = chaos_favor_ev.2
+	title = chaos_favor_ev.2.t
+	desc = chaos_favor_ev.2.d
 	picture = SWORD_OF_OSMAN_eventPicture
 	
    is_triggered_only = yes
 
     
 	option = {
-        name = soul_favor_ev.2.a
+        name = chaos_favor_ev.2.a
 
         custom_tooltip = dark_quest_complete_tt
        
         hidden_effect = {
             change_variable = {
-                which = SOUL_FAVOR
+                which = chaos_favor
                 value = 50
             }
         }

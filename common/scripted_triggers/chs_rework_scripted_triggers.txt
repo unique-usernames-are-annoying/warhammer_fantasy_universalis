@@ -1,7 +1,7 @@
-has_enough_soul_favors = {
+has_enough_chaos_favors = {
 
     change_variable = {
-        which = SOUL_FAVOR
+        which = chaos_favor
         value = $amount$
     }
 }

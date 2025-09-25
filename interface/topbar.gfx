@@ -278,8 +278,8 @@ spriteTypes = {
 		texturefile = "gfx//interface//music_player//button_list.dds"
 	}	
 	spriteType = {
-		name = "GFX_icon_soul_favor"
-		texturefile = "gfx//interface//icon_blue_skull.dds"
+		name = "GFX_icon_chaos_favor"
+		texturefile = "gfx//interface//icon_chaos.dds"
 	}
 
 }
