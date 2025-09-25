@@ -1034,7 +1034,7 @@ cathay_missions_3 = {
 			prestige = 99
 			legitimacy_equivalent = 99
 			development_in_provinces = {
-				value = 2500
+				value = 2250
 				superregion = cathay_superregion
 			}
 			cathay_superregion = {

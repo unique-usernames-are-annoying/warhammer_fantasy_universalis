@@ -248,7 +248,10 @@ asur_missions_1 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}			
@@ -260,7 +263,10 @@ asur_missions_1 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}
@@ -333,7 +339,10 @@ asur_missions_1 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}			
@@ -345,7 +354,10 @@ asur_missions_1 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}
@@ -1326,7 +1338,10 @@ asur_missions_3 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}			
@@ -1338,7 +1353,10 @@ asur_missions_3 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}
@@ -2165,7 +2183,10 @@ asur_missions_5 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}			
@@ -2177,7 +2198,10 @@ asur_missions_5 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}
@@ -2251,7 +2275,10 @@ asur_missions_5 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}			
@@ -2263,7 +2290,10 @@ asur_missions_5 = {
 				owner = {
 					OR = {
 						tag = ROOT
-						alliance_with = ROOT
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 100 }
+						}
 						is_subject_of = ROOT
 					}
 				}
