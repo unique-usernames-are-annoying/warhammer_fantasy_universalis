@@ -32,22 +32,28 @@ Misc Mission Trees
 
 	If only one player, event at the start of the end times to determine - I'm the everchosen, no everchosen, easy everychosen, medium everchosen, hard everchosen.
 
-	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
-
-	Make sure everybody gets an event for connecting the world tree, and for severing it.
-
-	Tamarka Position
-
-	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
+	Bugs and suggestions in discord
 
 	Make trade companies from trade nodes
 
 	Developing should increase Karma? And building buildings, and building great projects? Force converting
 		Make sure this is localized
 
-	Warping foundations happening way too much
+	Get rid of dragon isles religion, replace with dragon cults, harmony, thousand gods, and animism.
+		Maybe knock them down to tech 1/1/1 as well, or something.
+		Replace localization here too.
 
 	Cannot vassalize in anti-evil? Should fix that
+
+	Expand Grail Chapels does nothing after forming Bretonnia
+
+	No new Bretonnian Flag?
+
+	Bretonnian unification was a little fast, make it a bit slower. Maybe a few events to lose bretonnian reformation or something else bad
+
+	United Bretonnia should give +25% naval and land forcelimit. It should not have Royarch Ability
+
+	The "continue the quest" should give +1 grail quest progress
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.
@@ -73,9 +79,18 @@ Misc Mission Trees
 	Chaos Warband
 		Change it to normal migration stuff, we don't need all this nonsense?
 
+	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
+
+	Make sure everybody gets an event for connecting the world tree, and for severing it.
+
+	Tamarka Position
+
+	If you declare on somebody, and they draw in your dominion as their ally, you cannot re-dominion the dominion because it says they are in an independence war. Is this fixable?
+
 	Was Reikland, Emperor, conquering into bret. Died, became emperor again, got the event for embarking on a grail quest for a name I didn't recognize.
 
 	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
+		Warping foundations happening way too much
 
 	Someone figured out an ironman vanilla way to keep a ruler alive for 450 years, reproducible. Maybe we could alter the immortal traits to that? Since all it takes in vanilla is a gov reform and making it so the event has no valid options, which we could just program in to have none
 

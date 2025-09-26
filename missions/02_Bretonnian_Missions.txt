@@ -838,6 +838,7 @@ bretonnian_2_missions = {
 				is_capital = yes
 				owner = {
 					is_subject_of = ROOT
+					culture_group = ROOT
 					NOT = {
 						OR = {
 							has_opinion = {
@@ -854,6 +855,7 @@ bretonnian_2_missions = {
 			has_reform = bretonnian_royarch_reform
 			NOT = {
 				any_subject_country = {
+					culture_group = ROOT
 					OR = {
 						NOT = {
 							has_opinion = {
@@ -968,6 +970,7 @@ bretonnian_3_missions = {
 				OR = {
 					owned_by_subject_of = ROOT
 					owned_by = ROOT
+					is_empty = yes
 				}
 			}
 		}
@@ -977,7 +980,10 @@ bretonnian_3_missions = {
 		trigger = {
 			bretonnia_region = {
 				type = all
-				country_or_subject_holds = ROOT
+				OR = {
+					country_or_subject_holds = ROOT
+					is_empty = yes
+				}
 			}
 		}
 		effect = {
@@ -1148,24 +1154,23 @@ bretonnian_4_missions = {
 		provinces_to_highlight = {
 			owned_by_subject_of = ROOT
 			is_capital = yes
-			OR = {
-				NOT = { base_manpower = 5 }
-				NOT = { base_tax = 5 }
-				NOT = { base_production = 5 }
-			}
+			owner = { culture_group = ROOT }
+			NOT = { development = 12 }
 		}
 		trigger = {
 			all_subject_country = {
-				capital_scope = {
-					base_manpower = 5
-					base_tax = 5
-					base_production = 5
+				OR = {
+					NOT = { culture_group = ROOT }
+					capital_scope = {
+						development = 12
+					}
 				}
 			}
 		}
 		effect = {
 			add_prestige_or_monarch_power = { amount = 10 }
 			every_subject_country = {
+				limit = { culture_group = ROOT }
 				capital_scope = {
 					add_base_tax = 2
 					add_base_production = 2
@@ -1181,19 +1186,24 @@ bretonnian_4_missions = {
 		provinces_to_highlight = {
 			owned_by_subject_of = ROOT
 			is_capital = yes
+			owner = { culture_group = ROOT }
 			NOT = {
 				has_tax_building_trigger = yes
 			}
 		}
 		trigger = {
 			all_subject_country = {
-				capital_scope = {
-					has_tax_building_trigger = yes
+				OR = {
+					NOT = { culture_group = ROOT }
+					capital_scope = {
+						has_tax_building_trigger = yes
+					}
 				}
 			}
 		}
 		effect = {
 			every_subject_country = {
+				limit = { culture_group = ROOT }
 				capital_scope = {
 					add_or_upgrade_tax_building = yes
 					add_base_tax = 2

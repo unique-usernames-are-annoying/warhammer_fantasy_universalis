@@ -3036,6 +3036,14 @@ scaled_estate_nobles_negative_land_share_effect = {
 	scaled_estate_land_share_reduce_effect = { estate = estate_nobles }
 }
 
+scaled_estate_mages_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_mages }
+}
+
+scaled_estate_mages_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_mages }
+}
+
 scaled_estate_burghers_land_share_effect = {
 	scaled_estate_land_share_add_effect = { estate = estate_burghers }
 }
@@ -3139,6 +3147,8 @@ scaled_estate_ghulams_land_share_effect = {
 scaled_estate_ghulams = {
 	scaled_estate_land_share_reduce_effect = { estate = estate_ghulams }
 }
+
+
 
 #Based on those above, but you can choose which estate you use
 #example of usage: scaled_estate_land_share_add_effect = { estate = estate_nobles }

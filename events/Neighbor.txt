@@ -740,7 +740,7 @@ country_event = {
 		ai_chance = { factor = 50 }
 		name = neighbor_events.7.option_1
 
-		add_army_professionalism = 0.05	
+		add_army_professionalism = 0.03
 	}
 
 # Desertion! Send him back to [neighbor_country.Monarch.GetTitle] [neighbor_country.Monarch.GetName]
@@ -762,7 +762,7 @@ country_event = {
 		name = neighbor_events.7.option_3
 		goto = target_province
 
-		add_army_professionalism = 0.05	
+		add_army_professionalism = 0.03
 
 		event_target:target_province = {
 			change_religion = old_world_cults_religion
@@ -853,7 +853,7 @@ country_event = {
 
 		add_treasury = -100
 		add_manpower = 10
-		add_army_professionalism = -0.05
+		add_army_professionalism = -0.03
 	}
 
 
@@ -950,7 +950,7 @@ country_event = {
 
 		add_treasury = -100
 		add_manpower = 10
-		add_army_professionalism = -0.05
+		add_army_professionalism = -0.03
 	}
 
 
@@ -3128,7 +3128,6 @@ country_event = {
 				}
 			}
 			save_event_target_as = target_province
-			add_devastation = 15
 		}
 	}
 
@@ -3170,7 +3169,6 @@ country_event = {
 
 		add_manpower = 20
 		add_army_professionalism = -0.05
-		add_stability = -1
 
 	}
 
