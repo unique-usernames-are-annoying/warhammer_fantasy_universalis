@@ -43,6 +43,8 @@ Misc Mission Trees
 		Maybe knock them down to tech 1/1/1 as well, or something.
 		Replace localization here too.
 
+	Allow subjects to form formables
+
 	Cannot vassalize in anti-evil? Should fix that
 
 	Expand Grail Chapels does nothing after forming Bretonnia
@@ -51,9 +53,7 @@ Misc Mission Trees
 
 	Bretonnian unification was a little fast, make it a bit slower. Maybe a few events to lose bretonnian reformation or something else bad
 
-	United Bretonnia should give +25% naval and land forcelimit. It should not have Royarch Ability
-
-	The "continue the quest" should give +1 grail quest progress
+	Look at grail quest events more carefully
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.

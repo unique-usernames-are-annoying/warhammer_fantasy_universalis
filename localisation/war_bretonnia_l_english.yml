@@ -209,7 +209,7 @@ flavor_bretonnia.910.a:0 "Face the final test of your quest."
 
  flavor_bretonnia.911.t: "[Root.Heir.GetName] Returns!"
  flavor_bretonnia.911.d: "With banners waving high and trumpets sounding, the realm of Bretonnia welcomes the triumphant return of [Root.Heir.GetName], who emerges from the mists of legend as a true champion of the Lady's grace. Their successful completion of the sacred Grail Quest fills the hearts of all with hope and inspiration, as tales of their valor and virtue spread far and wide throughout the kingdom. Long live [Root.Heir.GetName], the embodiment of Bretonnian chivalry and honor!\n\n While [Root.Heir.GetName] drank from the Grail, some part of him yearns again for the life of adventure. The Lady has promised the Grail to the greatest knight of them all..."
- flavor_bretonnia.911.a: "[Root.Heir.GetName] triumphant return fills our hearts with joy and our realm with hope!"
+ flavor_bretonnia.911.a: "[Root.Heir.GetName]'s triumphant return fills our hearts with joy and our realm with hope!"
  flavor_bretonnia.911.b: "I must continue my quest! The Grail shall be mine!"
 
 flavor_bretonnia.912.t:0 "The Grail is Found!"
