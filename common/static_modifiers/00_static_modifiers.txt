@@ -660,7 +660,7 @@ positive_stability = {
 	yearly_harmony = 0.25
 	monthly_ottoman_decadence = -0.05
 	# WAR
-	monthly_brt_authority = 0.05
+	monthly_brt_authority = 0.025
 	monthly_great_plan_insight_power = 0.02
 }
 
@@ -679,7 +679,7 @@ negative_stability = {
 	monthly_russian_modernization = 0.03
 	monthly_ottoman_decadence = -0.15
 	# WAR
-	monthly_brt_authority = -0.05
+	monthly_brt_authority = -0.025
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate

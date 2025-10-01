@@ -10,7 +10,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = A99 } #empire does not exist
@@ -62,7 +62,7 @@ country_decisions = {
 
 		allow = {
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			custom_trigger_tooltip = {
 				tooltip = hre_dismanted_tt

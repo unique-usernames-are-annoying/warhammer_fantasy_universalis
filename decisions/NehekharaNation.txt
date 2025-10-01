@@ -13,7 +13,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = {
@@ -84,7 +84,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			owns_or_non_sovereign_subject_of = 862			#khemri
 			owns_or_non_sovereign_subject_of = 896			#Zandri

@@ -32,8 +32,8 @@ cb_chaos_invasion = {
 		has_reform = chaos_warband
 	}
 
-	prerequisites = { 
-		is_neighbor_of = FROM 
+	prerequisites = {
+		always = yes
 		FROM = {
 			NOT = {
 				has_reform = chaos_warband

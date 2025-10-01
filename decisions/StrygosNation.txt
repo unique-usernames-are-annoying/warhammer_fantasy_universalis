@@ -12,7 +12,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = {
@@ -62,7 +62,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			owns_or_non_sovereign_subject_of = 177			#khemri
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {

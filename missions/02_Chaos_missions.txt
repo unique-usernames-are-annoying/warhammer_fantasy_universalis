@@ -293,7 +293,7 @@ chaos_missions_2 = {
 		}
 		effect = {
 			add_country_modifier = { 
-			    name = chaos_khorne_nurgle_1
+			    name = chaos_nurgle_favor_1
 			    duration = -1  
 			}
 			if = {

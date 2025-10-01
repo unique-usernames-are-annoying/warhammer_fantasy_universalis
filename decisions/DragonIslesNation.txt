@@ -21,7 +21,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = Z95 }
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			num_of_cities = 25
@@ -94,7 +94,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = Z95 }
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			owns = 4261
 			all_country = {
 				NOT = {
@@ -161,7 +161,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = Z95 }
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			owns = 4261
 			all_country = {
 				OR = {
