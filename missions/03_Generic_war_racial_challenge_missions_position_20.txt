@@ -7,10 +7,26 @@ race_relations_1_missions_20 = {
 	generic = yes
 	ai = yes
 	potential = {
-		war_mission_priority_1 = no
-		culture_group = asur_group
-		any_owned_province = {
-			superregion = ulthuan_superregion
+		OR = {
+			AND = {
+				war_mission_priority_1 = no
+				culture_group = asur_group
+				any_owned_province = {
+					superregion = ulthuan_superregion
+				}
+			}
+			AND = {
+				OR = {
+					religion = khornate_religion
+					religion = nurglite_religion
+					religion = chaos_undivided_religion
+					religion = tzeentchian_religion
+					religion = slaaneshi_religion
+				}
+				
+				war_mission_priority_1 = no
+				war_mission_priority_2 = no			
+			}
 		}
 	}
 	### Humans ###
@@ -131,10 +147,26 @@ race_relations_2_missions_20 = {
 	generic = yes
 	ai = yes
 	potential = {
-		war_mission_priority_1 = no
-		culture_group = asur_group
-		any_owned_province = {
-			superregion = ulthuan_superregion
+		OR = {
+			AND = {
+				war_mission_priority_1 = no
+				culture_group = asur_group
+				any_owned_province = {
+					superregion = ulthuan_superregion
+				}
+			}
+			AND = {
+				OR = {
+					religion = khornate_religion
+					religion = nurglite_religion
+					religion = chaos_undivided_religion
+					religion = tzeentchian_religion
+					religion = slaaneshi_religion
+				}
+				
+				war_mission_priority_1 = no
+				war_mission_priority_2 = no			
+			}
 		}
 	}
 	### Dwarves ###
@@ -290,10 +322,26 @@ race_relations_3_missions_20 = {
 	generic = yes
 	ai = yes
 	potential = {
-		war_mission_priority_1 = no
-		culture_group = asur_group
-		any_owned_province = {
-			superregion = ulthuan_superregion
+		OR = {
+			AND = {
+				war_mission_priority_1 = no
+				culture_group = asur_group
+				any_owned_province = {
+					superregion = ulthuan_superregion
+				}
+			}
+			AND = {
+				OR = {
+					religion = khornate_religion
+					religion = nurglite_religion
+					religion = chaos_undivided_religion
+					religion = tzeentchian_religion
+					religion = slaaneshi_religion
+				}
+				
+				war_mission_priority_1 = no
+				war_mission_priority_2 = no			
+			}
 		}
 	}
 	### Lizardmen ###
@@ -412,10 +460,26 @@ race_relations_4_missions_20 = {
 	generic = yes
 	ai = yes
 	potential = {
-		war_mission_priority_1 = no
-		culture_group = asur_group
-		any_owned_province = {
-			superregion = ulthuan_superregion
+		OR = {
+			AND = {
+				war_mission_priority_1 = no
+				culture_group = asur_group
+				any_owned_province = {
+					superregion = ulthuan_superregion
+				}
+			}
+			AND = {
+				OR = {
+					religion = khornate_religion
+					religion = nurglite_religion
+					religion = chaos_undivided_religion
+					religion = tzeentchian_religion
+					religion = slaaneshi_religion
+				}
+				
+				war_mission_priority_1 = no
+				war_mission_priority_2 = no			
+			}
 		}
 	}
 	### Ogre ###
@@ -568,10 +632,26 @@ race_relations_5_missions_20 = {
 	generic = yes
 	ai = yes
 	potential = {
-		war_mission_priority_1 = no
-		culture_group = asur_group
-		any_owned_province = {
-			superregion = ulthuan_superregion
+		OR = {
+			AND = {
+				war_mission_priority_1 = no
+				culture_group = asur_group
+				any_owned_province = {
+					superregion = ulthuan_superregion
+				}
+			}
+			AND = {
+				OR = {
+					religion = khornate_religion
+					religion = nurglite_religion
+					religion = chaos_undivided_religion
+					religion = tzeentchian_religion
+					religion = slaaneshi_religion
+				}
+				
+				war_mission_priority_1 = no
+				war_mission_priority_2 = no			
+			}
 		}
 	}
 	### Beastfolk ###

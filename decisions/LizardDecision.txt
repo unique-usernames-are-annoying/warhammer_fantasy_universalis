@@ -25,7 +25,7 @@ country_decisions = {
 		allow = {
 			culture_group = lizardmen_group
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_tribal = no
 			NOT = { exists = Z93 }
 

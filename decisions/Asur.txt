@@ -128,7 +128,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = {
@@ -187,7 +187,7 @@ country_decisions = {
 				exists = H11
 			}
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_nomad = no
 
 			num_of_owned_provinces_with = {

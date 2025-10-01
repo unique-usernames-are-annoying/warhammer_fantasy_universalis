@@ -41,7 +41,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = A98 }
@@ -85,7 +85,7 @@ country_decisions = {
 		}
 		
 		allow = {
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			num_of_owned_provinces_with = {
 				value = 40

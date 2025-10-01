@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = B17 }
@@ -44,7 +44,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = B17 }
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			owns_or_non_sovereign_subject_of = 810	# zharr_naggrund
 		}
@@ -100,7 +100,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			OR = {
@@ -124,7 +124,7 @@ country_decisions = {
 			hidden_trigger = {
 				culture_group = chaos_dwarf_group
 			}
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_at_war = no				
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 30

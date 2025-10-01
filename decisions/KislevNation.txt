@@ -12,7 +12,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+#				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = A29 }
@@ -49,7 +49,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = A29 }
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			owns_core_province = 339	# Praag
 			owns_core_province = 325	# Kislev City

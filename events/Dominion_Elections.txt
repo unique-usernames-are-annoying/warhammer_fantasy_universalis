@@ -676,7 +676,7 @@ country_event = {
 
 			## Grail Knight
 				if = {
-					limit = { personality = grail_knight_personality }
+					limit = { ruler_has_personality = grail_knight_personality }
 
 					set_variable = {
 					    which = grail_knight_votes

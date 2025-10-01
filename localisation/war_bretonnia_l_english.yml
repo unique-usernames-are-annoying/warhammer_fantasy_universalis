@@ -160,8 +160,8 @@ bretonnia_rid_world_of_evil_desc:0 "The Lady calls us to a higher purpose. It is
 
  # use [Root.grail_quest_heir_name.GetName] instead of Heir 
 
- flavor_bretonnia.900.t: "[Root.grail_quest_heir_name.GetName] Embarks on the Grail Quest"
- flavor_bretonnia.900.d: "Amidst whispers of anticipation and reverence, [Root.grail_quest_heir_name.GetName] stands before you, eyes filled with determination and resolve. With a solemn voice, they declare their intention to embark on the Grail Quest, a sacred pilgrimage in search of the legendary Grail that has long been the symbol of Bretonnian honor and chivalry.\n\nAs a ruler of Bretonnia, you are faced with a momentous decision. Will you grant [Root.grail_quest_heir_name.GetName] your blessing and support in their noble quest, knowing that they may face dangers and trials beyond imagination? Or will you counsel caution, urging them to remain by your side and fulfill their duties to the realm?\n\nChoose wisely, for the fate of your heir and the future of Bretonnia hang in the balance. Should you grant your blessing, your heir will set forth on a journey of epic proportions, seeking to prove themselves worthy of the Grail and the divine favor of the Lady of the Lake. But be warned - the road ahead is fraught with peril, and not all who embark on the Grail Quest return unchanged.\n\nConsider your decision carefully, for the choices you make now will shape the destiny of [Root.grail_quest_heir_name.GetName] and the kingdom of Bretonnia for generations to come. Will they emerge victorious, bathed in the light of the Lady's grace? Or will they be lost to the mists of legend, their fate forever intertwined with the mysteries of the Grail?"
+ flavor_bretonnia.900.t: "[Root.Heir.GetName] Embarks on the Grail Quest"
+ flavor_bretonnia.900.d: "Amidst whispers of anticipation and reverence, [Root.Heir.GetName] stands before you, eyes filled with determination and resolve. With a solemn voice, they declare their intention to embark on the Grail Quest, a sacred pilgrimage in search of the legendary Grail that has long been the symbol of Bretonnian honor and chivalry.\n\nAs a ruler of Bretonnia, you are faced with a momentous decision. Will you grant [Root.Heir.GetName] your blessing and support in their noble quest, knowing that they may face dangers and trials beyond imagination? Or will you counsel caution, urging them to remain by your side and fulfill their duties to the realm?\n\nChoose wisely, for the fate of your heir and the future of Bretonnia hang in the balance. Should you grant your blessing, your heir will set forth on a journey of epic proportions, seeking to prove themselves worthy of the Grail and the divine favor of the Lady of the Lake. But be warned - the road ahead is fraught with peril, and not all who embark on the Grail Quest return unchanged.\n\nConsider your decision carefully, for the choices you make now will shape the destiny of [Root.Heir.GetName] and the kingdom of Bretonnia for generations to come. Will they emerge victorious, bathed in the light of the Lady's grace? Or will they be lost to the mists of legend, their fate forever intertwined with the mysteries of the Grail?"
  flavor_bretonnia.900.a: "May the Lady guide and protect you on your noble quest!"
 
 flavor_bretonnia.901.t:0 "A Fearsome Beast"
@@ -207,14 +207,14 @@ flavor_bretonnia.910.t:0 "A Journey's End?"
 flavor_bretonnia.910.d:0 "The heir’s journey nears its end, the trials and tribulations weighing heavily upon him. Through battles fought, doubts conquered, and sacrifices made, the path to the grail now stands before him—or so it seems. What awaits is not yet clear: triumph, mediocrity, or failure.\n\nThe grail is a prize granted only to the most virtuous. Has the heir proven himself worthy, or will the Lady of the Lake deny his request? This moment defines the legacy of the quest and the future of the realm."
 flavor_bretonnia.910.a:0 "Face the final test of your quest."
 
- flavor_bretonnia.911.t: "[Root.grail_quest_heir_name.GetName] Returns!"
- flavor_bretonnia.911.d: "With banners waving high and trumpets sounding, the realm of Bretonnia welcomes the triumphant return of [Root.grail_quest_heir_name.GetName], who emerges from the mists of legend as a true champion of the Lady's grace. Their successful completion of the sacred Grail Quest fills the hearts of all with hope and inspiration, as tales of their valor and virtue spread far and wide throughout the kingdom. Long live [Root.grail_quest_heir_name.GetName], the embodiment of Bretonnian chivalry and honor!\n\n While [Root.grail_quest_heir_name.GetName] drank from the Grail, some part of him yearns again for the life of adventure. The Lady has promised the Grail to the greatest knight of them all..."
- flavor_bretonnia.911.a: "[Root.grail_quest_heir_name.GetName] triumphant return fills our hearts with joy and our realm with hope!"
+ flavor_bretonnia.911.t: "[Root.Heir.GetName] Returns!"
+ flavor_bretonnia.911.d: "With banners waving high and trumpets sounding, the realm of Bretonnia welcomes the triumphant return of [Root.Heir.GetName], who emerges from the mists of legend as a true champion of the Lady's grace. Their successful completion of the sacred Grail Quest fills the hearts of all with hope and inspiration, as tales of their valor and virtue spread far and wide throughout the kingdom. Long live [Root.Heir.GetName], the embodiment of Bretonnian chivalry and honor!\n\n While [Root.Heir.GetName] drank from the Grail, some part of him yearns again for the life of adventure. The Lady has promised the Grail to the greatest knight of them all..."
+ flavor_bretonnia.911.a: "[Root.Heir.GetName]'s triumphant return fills our hearts with joy and our realm with hope!"
  flavor_bretonnia.911.b: "I must continue my quest! The Grail shall be mine!"
 
 flavor_bretonnia.912.t:0 "The Grail is Found!"
-flavor_bretonnia.912.d:0 "Through peril and sacrifice, the heir has achieved the impossible—he has earned the grail. The Lady herself appears to grant him her blessing, her divine light sanctifying his quest. As he drinks from the grail, his mortal form is transformed, becoming a beacon of virtue for the realm.\n\nBretonnia rejoices, for such a champion arises only once in an age. The Lady’s blessing shall ensure the land prospers, its people forever inspired by this paragon of knighthood."
-flavor_bretonnia.912.a:0 "Hail the knight who earned the grail!"
+flavor_bretonnia.912.d:0 "Through peril and sacrifice, [Root.Heir.GetName] has achieved the impossible—he has earned the grail. The Lady herself appears to grant him her blessing, her divine light sanctifying his quest. As he drinks from the grail, his mortal form is transformed, becoming a beacon of virtue for the realm.\n\nBretonnia rejoices, for such a champion arises only once in an age. The Lady’s blessing shall ensure the land prospers, its people forever inspired by this paragon of knighthood."
+flavor_bretonnia.912.a:0 "Hail [Root.Heir.GetName], who earned the grail!"
 
 
 
@@ -426,6 +426,9 @@ desc_bretonnia_virtue_stoicism:0 "Neither pain nor loss may shake a knight’s r
 
 bretonnia_virtue_the_ideal:0 "Virtue of the Ideal"
 desc_bretonnia_virtue_the_ideal:0 "He is the very image of Bretonnian knighthood—valiant, pious, and noble in all things. This knight serves as an inspiration to peers and commoners alike."
+
+bretonnia_virtue_the_penitent:0 "Virtue of Penitence"
+desc_bretonnia_virtue_the_penitent:0 "Corduin of L'Anguille ever mourned the loss of his beloved to the curse of a hag, yet he fought bravely when summoned."
 
 bretonnia_virtue_empathy:0 "Virtue of Empathy"
 desc_bretonnia_virtue_empathy:0 "True nobility is not merely strength of arms, but care for the weak. The empathetic knight protects the lowborn and treats all with fairness and mercy."

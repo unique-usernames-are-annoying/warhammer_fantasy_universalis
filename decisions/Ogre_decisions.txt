@@ -26,7 +26,7 @@ country_decisions = {
 		allow = {
 			culture_group = ogre_group
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+#			is_free_or_tributary_trigger = yes
 			is_tribal = no
 			NOT = { exists = I96 }
 
