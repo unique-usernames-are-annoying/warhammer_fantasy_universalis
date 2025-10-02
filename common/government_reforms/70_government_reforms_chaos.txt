@@ -177,6 +177,7 @@ chaos_warband = {
 		land_attrition = -0.2
 		global_allowed_num_of_buildings = 3
 		ignore_coring_distance = yes
+		can_not_build_colonies = yes
 	}
 }
 

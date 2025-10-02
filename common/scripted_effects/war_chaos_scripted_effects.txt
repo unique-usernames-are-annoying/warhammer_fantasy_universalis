@@ -22,7 +22,7 @@ chaos_setup_horde_development = {
 #			which = chaos_country_horde_development_manpower
 #			value = 2
 #		}
-		chaos_horde_development_set_handler = yes
+#		chaos_horde_development_set_handler = yes
 		#here to keep all game start effects together
 		random = {
 			chance = 50
@@ -36,26 +36,26 @@ chaos_setup_horde_development = {
 			chance = 50
 			add_ruler_personality = cruel_personality
 		}
-		if = {
-			limit = {
-				ai = yes
-			}
-			add_manpower = 10
-			add_treasury = 400
-		}
-		else = {
-			add_manpower = 5
-			add_treasury = 100
-		}
-		if = {
-			limit = {
-				ai = yes
-			}
-			set_ai_personality = {
-				personality = ai_militarist
-				locked = yes
-			}
-		}
+#		if = {
+#			limit = {
+#				ai = yes
+#			}
+#			add_manpower = 10
+#			add_treasury = 400
+#		}
+#		else = {
+#			add_manpower = 5
+#			add_treasury = 100
+#		}
+#		if = {
+#			limit = {
+#				ai = yes
+#			}
+#			set_ai_personality = {
+#				personality = ai_militarist
+#				locked = yes
+#			}
+#		}
 		set_variable = {
 			which = chaos_provs_destroyed
 			value = 0
@@ -70,70 +70,70 @@ chaos_setup_horde_development = {
 
 #Always Call in Country Scope
 #Sets the Chaos Development up when Called
-chaos_horde_development_set_handler = {
-	capital_scope = {
-		if = {
-			limit = {
-				not = {
-					has_province_modifier = chaos_horde_development
-				}
-			}
-		}
-		add_permanent_province_modifier = {
-			name = chaos_horde_development
-			duration = -1
-		}
-		set_province_flag = chaos_horde_capital
-	}
-	set_variable = {
-		which = chaos_local_horde_development_tax
-		which = chaos_country_horde_development_tax
-	}
-	set_variable = {
-		which = chaos_local_horde_development_production
-		which = chaos_country_horde_development_production
-	}
-	set_variable = {
-		which = chaos_local_horde_development_manpower
-		which = chaos_country_horde_development_manpower
-	}
-	chaos_horde_development_set_type = {
-		TYPE = tax
-	}
-	chaos_horde_development_set_type = {
-		TYPE = production
-	}
-	chaos_horde_development_set_type = {
-		TYPE = manpower
-	}
-	chaos_horde_modifier_setter = {
-		TYPE = tax
-	}
-	chaos_horde_modifier_setter = {
-		TYPE = production
-	}
-	chaos_horde_modifier_setter = {
-		TYPE = manpower
-	}
-}
+#chaos_horde_development_set_handler = {
+#	capital_scope = {
+#		if = {
+#			limit = {
+#				not = {
+#					has_province_modifier = chaos_horde_development
+#				}
+#			}
+#		}
+#		add_permanent_province_modifier = {
+#			name = chaos_horde_development
+#			duration = -1
+#		}
+#		set_province_flag = chaos_horde_capital
+#	}
+#	set_variable = {
+#		which = chaos_local_horde_development_tax
+#		which = chaos_country_horde_development_tax
+#	}
+#	set_variable = {
+#		which = chaos_local_horde_development_production
+#		which = chaos_country_horde_development_production
+#	}
+#	set_variable = {
+#		which = chaos_local_horde_development_manpower
+#		which = chaos_country_horde_development_manpower
+#	}
+#	chaos_horde_development_set_type = {
+#		TYPE = tax
+#	}
+#	chaos_horde_development_set_type = {
+#		TYPE = production
+#	}
+#	chaos_horde_development_set_type = {
+#		TYPE = manpower
+#	}
+#	chaos_horde_modifier_setter = {
+#		TYPE = tax
+#	}
+#	chaos_horde_modifier_setter = {
+#		TYPE = production
+#	}
+#	chaos_horde_modifier_setter = {
+#		TYPE = manpower
+#	}
+#}
 
-chaos_horde_development_set_type = {
-	while = {
-		limit = {
-			check_variable = {
-				which = chaos_local_horde_development_$TYPE$
-				value = 1
-			}
-		}
-		subtract_variable = {
-			which = chaos_local_horde_development_$TYPE$
-			value = 1
-		}
-		capital_scope = {
-			add_base_$TYPE$ = 1
-		}
-	}
-}
+#chaos_horde_development_set_type = {
+#	while = {
+#		limit = {
+#			check_variable = {
+#				which = chaos_local_horde_development_$TYPE$
+#				value = 1
+#			}
+#		}
+#		subtract_variable = {
+#			which = chaos_local_horde_development_$TYPE$
+#			value = 1
+#		}
+#		capital_scope = {
+#			add_base_$TYPE$ = 1
+#		}
+#	}
+#}
 
 chaos_horde_modifier_setter = {
 	capital_scope = {

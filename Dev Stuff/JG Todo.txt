@@ -53,9 +53,11 @@ Misc Mission Trees
 
 	Chaos Stuff
 		Subjugating another warband should give pp if appropriate
-		Reformed Chaos Horde reform is incredibly OP, fix that. Tier 5
 		Chaos Warband Development is still popping up
-		There are some who have multiple provinces as a warband. How? Because of colonists? Make it so that they can't colonize?
+		Make Archaeon a Legendary Warrior?
+		Everybody starts off with too much money
+
+		Put a chaos warband in the eastern Southlands
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.

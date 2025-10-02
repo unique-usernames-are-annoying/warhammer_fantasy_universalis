@@ -250,8 +250,8 @@ chaos_horde_upgrading_horde = {
 	local_manpower_modifier = -0.5
 }
 
-chaos_horde_development = {
-}
+#chaos_horde_development = {
+#}
 
 #used on non-chaos-wastes terrain in the Chaos Waste Continent
 #modifiers copied from Chaos Waste Terrain

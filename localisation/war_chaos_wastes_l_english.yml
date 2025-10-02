@@ -331,7 +331,7 @@ khornate_idea_5_desc:0 "From the blasted hellscapes of the Realm of Chaos to the
  ability_chaos_favor_mechanic:0 "Chaos Favor"
  chaos_favor_gain_modifier:0 "Chaos Favor"
  chaos_favor:0 "Favor"
- chaos_favor_desc:0 "\n§YFavor§! is increased by the following:\n Conquering a Province: §G+0.1 per 10 Development§!\n\n"
+ chaos_favor_desc:0 "\n§YFavor§! is increased by the following:\n Conquering a Province: §G+0.1 plus +0.1 per 10 Development§!\n\n"
  monthly_chaos_favor:0 "Monthly Favor"
  favor_ability_magic_to_the_gods:0 "Magic to the Gods"
  favor_ability_sacrifice_to_the_gods:0 "Great Sacrifices"
