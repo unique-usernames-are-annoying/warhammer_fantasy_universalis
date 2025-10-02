@@ -204,8 +204,8 @@
  flavor_chaos.3.a:0 "Reinforce our Leadership"
  flavor_chaos.3.b:0 "Empower the Dark Faith"
  flavor_chaos.3.c:0 "Strengthen the Warhost"
- flavor_chaos.4.t:0 "The Gifts of Chaos"
- flavor_chaos.4.d:0 "The Dark Gods, having accepted our offerings, have chosen to bestow a gift upon our champions. Whether a mark of their favor or perhaps cruel joke, the power granted will shape our destiny."
+ flavor_chaos.4.t:0 "Summon Daemons"
+ flavor_chaos.4.d:0 "The warband stood at the edge of the mortal world, its champions gathered in a circle of blood and ruin. As the darkened skies thundered with unnatural power, the ritual began—incantations guttural and blasphemous, drawn from the forgotten tongues of the Warp. With each sacrifice, the veil thinned, until reality tore like parchment. From the sundered air poured the daemonic hosts, shrieking and formless, shaped by the will of the gods and the fervor of mortal madness. The earth cracked beneath clawed feet, and the air itself screamed in agony as the Realms Beyond birthed their horrors into the world.\n\nYet even as the daemons swarmed forth, the warlord dared to ask for more. Bathed in the glow of warpflame and emboldened by the blood-spattered altar, he raised his voice to the heavens—not in prayer, but in demand. 'Grant me your favor, Dark Ones,' he roared, 'that my legions may carry your wrath across the world!' The skies answered with fire and whispers, and whether his call would bring exaltation or destruction none could say. But one truth remained: the gods do not grant gifts freely, and the price for power is always paid—in blood, in souls, and in eternal servitude."
 
  estate_warlords_cn:0 "Champions"
  estate_warlords_cn_desc:0 "Champions"
@@ -331,53 +331,72 @@ khornate_idea_5_desc:0 "From the blasted hellscapes of the Realm of Chaos to the
  ability_chaos_favor_mechanic:0 "Chaos Favor"
  chaos_favor_gain_modifier:0 "Chaos Favor"
  chaos_favor:0 "Favor"
- chaos_favor_desc:0 "\n§YFavor§! is increased by the following:\nConquering Provinces: §G+2§!\nEvery 1,000 Casualties Dealt on Battle Won or Lost: §G+0.5§!\n\n§YFavor§! is decreased by the following:\nAt Peace: §R-0.275§!\n\n"
+ chaos_favor_desc:0 "\n§YFavor§! is increased by the following:\n Conquering a Province: §G+0.1 per 10 Development§!\n\n"
  monthly_chaos_favor:0 "Monthly Favor"
- chaos_champion_arises:0 "Ascend Champion"
- chaos_champion_arises_desc:0 "The Chaos Wastes are filled with brutal warriors, hardened by endless war and devoted to the Dark Gods. From among them, the most worthy can ascend to lead our armies in battle.\n\n"
- draw_warriors:0 "Draw Warriors"
- draw_warriors_desc:0 "The relentless warriors of Chaos march under the banner of a Champion when called to war.\n\n"
- gifts_of_chaos:0 "The Gifts of Chaos"
- gifts_of_chaos_desc:0 "The Chaos Gods bestow their favored champions with Gifts of Chaos, which come in many different forms and serve various purposes. These gifts can range from tangible items like Daemon Weapons or enchanted armor to physical mutations that grant the champion daemonic traits or other extraordinary attributes. Each gift is unique, reflecting the nature and favor of the Chaos God who bestows it."
+ favor_ability_magic_to_the_gods:0 "Magic to the Gods"
+ favor_ability_sacrifice_to_the_gods:0 "Great Sacrifices"
+ favor_ability_request_men_and_money:0 "Favor from the Gods"
+favor_ability_magic_to_the_gods_desc:0 "The winds of magic are not merely tools—they are offerings. By siphoning arcane energies into the Immaterium, we feed the endless hunger of the Dark Gods. Such acts draw their gaze and deepen their favor, though the balance between mortal will and daemonic influence grows ever more fragile."
+favor_ability_sacrifice_to_the_gods_desc:0 "Through fire, blood, and ruin, we honor the Ruinous Powers. Entire villages burn upon the altars, and hosts of captives are offered in ritual slaughter. The more we sacrifice—wealth, lives, and hope—the more the gods bestow upon us their twisted blessings."
+favor_ability_request_men_and_money_desc:0 "We kneel not in worship, but in demand. From the shifting madness of the Warp, we call for daemonic reinforcements, unholy riches, and war-fuelled thralls. In return, the gods may grant permanent mutations and boons to our infernal hosts, twisting them into ever more potent instruments of divine ruin."
+
+ #chaos_champion_arises:0 "Ascend Champion"
+ #chaos_champion_arises_desc:0 "The Chaos Wastes are filled with brutal warriors, hardened by endless war and devoted to the Dark Gods. From among them, the most worthy can ascend to lead our armies in battle.\n\n"
+ #draw_warriors:0 "Draw Warriors"
+ #draw_warriors_desc:0 "The relentless warriors of Chaos march under the banner of a Champion when called to war.\n\n"
+ #gifts_of_chaos:0 "The Gifts of Chaos"
+ #gifts_of_chaos_desc:0 "The Chaos Gods bestow their favored champions with Gifts of Chaos, which come in many different forms and serve various purposes. These gifts can range from tangible items like Daemon Weapons or enchanted armor to physical mutations that grant the champion daemonic traits or other extraordinary attributes. Each gift is unique, reflecting the nature and favor of the Chaos God who bestows it."
  
+
+
+
  chaos_waste_terrain_modifier:0 "Chaos Wastes"
  desc_chaos_waste_terrain_modifier:0 "Here is the natural corrupted to become Unnatural. Here the very earth rebels against what it has become: trees moan in eldritch voices, and the rocks scream their hate at an uncaring sky. Here Chaos gods and Daemons stalk the Earth, destroying and perverting all in their reach. These are the Chaos Wastes."
  can_upgrade_adm_warband_tooltip:0 "Can Upgrade Warband Administratively"
  can_upgrade_dip_warband_tooltip:0 "Can Upgrade Warband Diplomatically"
  can_upgrade_mil_warband_tooltip:0 "Can Upgrade Warband Militarily"
  
- flavor_chaos.4.a:0 "The Mark of Khorne - Strength in Slaughter"
- chaos_gift_1:0 "Gift of the Blood God"
- desc_chaos_gift_1:0 "Khorne's favor surges through our warriors, igniting an unrelenting thirst for battle. With heightened morale, they fight with greater ferocity, their fury driving them ever forward."
+flavor_chaos.4.option_3:0 "The Mark of Khorne – Strength in Slaughter"
+chaos_gift_1:0 "Gift of the Blood God"
+desc_chaos_gift_1:0 "Khorne’s wrath pours into our daemonic legions, sharpening their frenzy and fueling their hatred. With every kill, their bloodlust grows, driving them to greater feats of carnage. They surge across the battlefield with unmatched ferocity, immune to fear and weakness."
 
- flavor_chaos.4.b:0 "The Mark of Tzeentch - Knowledge Beyond Mortal Ken"
- chaos_gift_2:0 "Gift of the Changer"
- desc_chaos_gift_2:0 "The Great Schemer whispers strategies beyond mortal comprehension, unraveling enemy fortifications with uncanny efficiency. Our sieges are quicker, our conquests assured."
- 
- flavor_chaos.4.c:0 "The Mark of Slaanesh - Unmatched Prowess"
- chaos_gift_3:0 "Gift of the Dark Prince"
- desc_chaos_gift_3:0 "The sensation of battle is intoxicating, and our warriors revel in it. Their heightened reflexes allow them to dance through fire unscathed, avoiding destruction with unnatural grace."
- 
- flavor_chaos.4.dd:0 "The Mark of Nurgle - Unholy Resilience"
- chaos_gift_4:0 "Gift of the Plague Lord"
- desc_chaos_gift_4:0 "Blessed by rot and decay, our warriors strike with unnatural strength. They crush all who stand before them, their blows landing with devastating force."
+flavor_chaos.4.option_4:0 "The Mark of Tzeentch – Knowledge Beyond Mortal Ken"
+chaos_gift_2:0 "Gift of the Changer"
+desc_chaos_gift_2:0 "The daemons of Tzeentch are vessels for forbidden knowledge and swirling arcane energies. With the Changer’s blessing, they unleash sorcery that rends both flesh and fate. Their spells confound enemies and reshape reality itself to suit the Architect’s designs."
 
- flavor_chaos.4.e:0 "Daemonic Mutation - A Body Reforged"
- chaos_gift_5:0 "Gift of the Warp"
- desc_chaos_gift_5:0 "Warp-infused mutations have enhanced our warriors beyond human limits, their bodies hardened and their movements precise. They fight with supernatural discipline."
+flavor_chaos.4.option_5:0 "The Mark of Slaanesh – Unmatched Prowess"
+chaos_gift_3:0 "Gift of the Dark Prince"
+desc_chaos_gift_3:0 "Slaanesh’s favor cloaks our daemons in supernatural grace and lethal allure. They move with mesmerizing speed, their strikes precise and cruel. The enemy falters before their beauty and horror, and few can steel themselves against such exquisite dread."
 
- flavor_chaos.4.f:0 "The Daemon Weapon - A Blade of Chaos"
- chaos_gift_6:0 "Warpforged Armament"
- desc_chaos_gift_6:0 "This weapon is no mere steel—it is alive, hungry for carnage. It twists fate itself, turning the tide of battle in our favor."
+flavor_chaos.4.option_6:0 "The Mark of Nurgle – Unholy Resilience"
+chaos_gift_4:0 "Gift of the Plague Lord"
+desc_chaos_gift_4:0 "Nurgle’s daemons are swollen with rot and blessed with decay. Pain is meaningless to them, and their corrupted forms endure even the most grievous blows. In battle, they shamble forward undeterred, spreading pestilence and despair with every step."
 
- flavor_chaos.4.g:0 "A Suit of Daemonic Armor"
- chaos_gift_7:0 "Hellforged Plate"
- desc_chaos_gift_7:0 "This armor was forged in the fires of the Warp, bound with the souls of the damned. It absorbs the brunt of incoming fire and dulls the terror of war."
+flavor_chaos.4.option_7:0 "Daemonic Mutation – A Mind Reforged"
+chaos_gift_5:0 "Gift of the Warp"
+desc_chaos_gift_5:0 "The Warp has reshaped our daemonic hosts, forging them into terrifying engines of war. Their limbs twist with unholy precision, their reflexes honed beyond mortal limits. Where once was madness, now there is brutal discipline born of raw Chaos."
 
- flavor_chaos.4.h:0 "The Boon of the Gods - A Mystery Unfolds"
- chaos_gift_8:0 "Fickle Blessing"
- desc_chaos_gift_8:0 "The Gods have granted a boon of immense power, yet its true nature is unpredictable. Our warriors fight with unearthly precision, but whether this blessing lasts remains uncertain."
+flavor_chaos.4.option_8:0 "Daemonic Weapons – Blades of Chaos"
+chaos_gift_6:0 "Warpforged Armament"
+desc_chaos_gift_6:0 "Forged in the depths of the Immaterium, these weapons hunger for suffering. Each blade is a living extension of the Warp, tearing through armor and reason alike. Empowered daemons wield them with glee, their strikes turning slaughter into ritual."
 
+flavor_chaos.4.option_9:0 "A Suit of Daemonic Armor"
+chaos_gift_7:0 "Hellforged Plate"
+desc_chaos_gift_7:0 "Crafted in the forges of damnation, this armor is bound with screaming souls and clad in infernal metal. It shields our daemons from mortal harm and dulls the horrors of war, allowing them to advance where lesser beings would fall."
 
  annex_subjugated_warband_title:0 "Annex Subjugated Warband"
  annex_subjugated_warband_desc:0 "Annex a Warband that you have subjugated."
+
+
+
+demote_warband_action: "Vassalize Warband"
+demote_warband_action_title: "Vassalize Warband"
+demote_warband_action_desc: "Demote a Warband into a vassal, reducing its independence. Also reduces your trust with all other subjects."
+demote_warband_action_tooltip: "Demote a Warband into a vassal, reducing its independence. Also reduces your trust with all other subjects."
+
+release_warband_action: "Release Warband"
+release_warband_action_title: "Release Warband"
+release_warband_action_desc: "This warband is more trouble than they are worth. Let them fend for themselves."
+release_warband_action_tooltip: "This warband is more trouble than they are worth. Let them fend for themselves."
+
+

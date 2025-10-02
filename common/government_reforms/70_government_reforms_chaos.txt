@@ -14,7 +14,7 @@ chaos_gov_mechanic = {
 		enables_aristocratic_idea_group = no
 		enables_divine_idea_group = no
 		enables_horde_idea_group = no
-		enables_chaotic_idea_group = yes
+#		enables_chaotic_idea_group = yes
 		locked_government_type = yes
 	}
 	modifiers = {
@@ -24,13 +24,16 @@ chaos_gov_mechanic = {
 		land_maintenance_modifier = -0.25
 		global_regiment_cost = -0.5
 		global_supply_limit_modifier = 0.5
-		relation_with_heathens = -50
-		relation_with_same_religion = -50
+
 		can_recruit_revolutionary_guards = yes
-		allowed_rev_guard_fraction = 0.2
+		allowed_rev_guard_fraction = 0.15
+
 		may_recruit_female_generals = yes
 		female_advisor_chance = 0.25
+		
 		envoy_travel_time = -0.25
+#		relation_with_heathens = -50
+#		relation_with_same_religion = -50
 	}
 	trigger = {
 		religion_group = ruinous_powers_denominations
@@ -134,6 +137,7 @@ chaos_chosen_of_the_dark_gods = {
 	lock_level_when_selected = yes
 	modifiers = {
 		devotion = 1
+		church_power_modifier = 0.2
 	}
 }
 
@@ -169,10 +173,10 @@ chaos_warband = {
 		native_uprising_chance = -2
 		war_exhaustion = -0.03
 		loot_amount = 0.5
-		governing_capacity_modifier = -0.9
 		global_supply_limit_modifier = 0.5
 		land_attrition = -0.2
 		global_allowed_num_of_buildings = 3
+		ignore_coring_distance = yes
 	}
 }
 

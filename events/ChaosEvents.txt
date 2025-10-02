@@ -272,7 +272,6 @@ country_event = {
 		    	random_owned_province= {
 			       	spawn_rebels = {
 					    type = pretender_rebels
-					    leader = rebel_preacher
 					    size = 1
 					}
 				}
@@ -684,7 +683,6 @@ country_event = {
 			spawn_rebels = {
 	 			type = pretender_rebels
 	  			size = 1
-	   			leader = rebel_preacher
 			}
 		}
 	}
@@ -751,7 +749,6 @@ country_event = {
 				spawn_rebels = {
 		 		   type = pretender_rebels
 		  		  size = 1
-		   		 leader = rebel_preacher
 				}
 			}
 
@@ -759,7 +756,6 @@ country_event = {
 				spawn_rebels = {
 		 		   type = pretender_rebels
 		  		  size = 1
-		   		 leader = rebel_preacher
 				}
 			}
 
@@ -767,7 +763,6 @@ country_event = {
 				spawn_rebels = {
 		 		   type = pretender_rebels
 		  		  size = 1
-		   		 leader = rebel_preacher
 				}
 			}
 

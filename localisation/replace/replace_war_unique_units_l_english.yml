@@ -52,17 +52,17 @@
  HUSSARS_LIMIT_CULTURE:0 "$PROVINCE$ is a $CULTURE$ province, so you cannot recruit Grail Knights Regiments here."
  
  #CHAOS LEGION
- REVOLUTIONARY_GUARD_REGIMENT:0 "Chaos Legion Regiment\n$EFFECT$"
- REGCAT_revolutionary_guard:0 "Chaos Legion"
- REVOLUTIONARY_GUARD_DESC:0 "The Chaos Legion are elite regiments of your army."
- REVOLUTIONARY_GUARD_NAME:0 "$HOME$'s $NUM$$ORDER$ Chaos Legion"
- ONLY_REVOLUTIONARY_GUARD_MODIFIER:0 "§YAffects only Chaos Legion Regiments§!"
- HAVE_LESS_REVOLUTIONARY_GUARD_THAN:0 "Have less Chaos Legion Regiments than $VALUE|Y$.\n"
- HAVE_AT_LEAST_REVOLUTIONARY_GUARD_THAN:0 "Have at least $VALUE|Y$ Chaos Legion Regiments.\n"
- REVOLUTIONARY_GUARD_REGIMENT_TYPE:0 "Chaos Legion"
- MODIFIER_CAN_RECRUIT_REVOLUTIONARY_GUARDS:0 "Can recruit Chaos Legions"
- REV_GUARD_FORCELIMIT:1 "We can recruit up to $VAL|%Y$ of our force-limit of $FL$ as §GChaos Legions§! due to:\n"
- MODIFIER_ALLOWED_REV_GUARD_FRACTION:0 "Chaos Legion Force Limit Fraction"
+ REVOLUTIONARY_GUARD_REGIMENT:0 "Daemonic Regiment\n$EFFECT$"
+ REGCAT_revolutionary_guard:0 "Daemonic"
+ REVOLUTIONARY_GUARD_DESC:0 "The Daemons are powerful warriors gifted from the Chaos Gods."
+ REVOLUTIONARY_GUARD_NAME:0 "$HOME$'s $NUM$$ORDER$ Daemon"
+ ONLY_REVOLUTIONARY_GUARD_MODIFIER:0 "§YAffects only Daemonic Regiments§!"
+ HAVE_LESS_REVOLUTIONARY_GUARD_THAN:0 "Have less Daemonic Regiments than $VALUE|Y$.\n"
+ HAVE_AT_LEAST_REVOLUTIONARY_GUARD_THAN:0 "Have at least $VALUE|Y$ Daemonic Regiments.\n"
+ REVOLUTIONARY_GUARD_REGIMENT_TYPE:0 "Daemon"
+ MODIFIER_CAN_RECRUIT_REVOLUTIONARY_GUARDS:0 "Can recruit Daemons"
+ REV_GUARD_FORCELIMIT:1 "We can recruit up to $VAL|%Y$ of our force-limit of $FL$ as §GDaemons§! due to:\n"
+ MODIFIER_ALLOWED_REV_GUARD_FRACTION:0 "Daemonic Force Limit Fraction"
 
  # Galleass -> Longship
  galleass_ship:1 "Longship"

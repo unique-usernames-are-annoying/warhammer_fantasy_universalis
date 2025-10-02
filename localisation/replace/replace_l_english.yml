@@ -1580,3 +1580,7 @@ LOADING_TIP_101:0 "Sigmar’s twin-tailed comet heralded the birth of a god, and
  WECRUSADE_2:0 "$MONARCHTITLE$,"
  WECRUSADE_3:0 "$RECIPIENT$"
  WECRUSADE_4:0 "will soon learn to fear the might of the Horned Rat!"
+
+
+
+  MIGRATE_TO_DESC:0 "$COUNTRY$ will migrate to $NEWPROV$ and lose control over $OLDPROV$. $COUNTRY$ will have to wait to $DATE$ until they can migrate again."

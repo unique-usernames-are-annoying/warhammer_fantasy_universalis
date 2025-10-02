@@ -288,7 +288,7 @@ chaos_missions_2 = {
 					has_church_aspect = find_beauty
 					amount = 2
 				}
-				treasury = 150
+				treasury = 200
 			}
 		}
 		effect = {
@@ -311,7 +311,7 @@ chaos_missions_2 = {
 						}
 					}
 				}
-				add_treasury = -150
+				add_treasury = -200
 			}
 		}
 	}
