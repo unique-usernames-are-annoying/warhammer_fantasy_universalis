@@ -1,4 +1,56 @@
 country_decisions = {
+	share_chaos_favor = {
+		potential = {
+
+			has_government_mechanic = chaos_favor_mechanic
+
+		}
+		allow = {
+
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 5
+			}
+
+			any_subject_country = {
+				has_government_mechanic = chaos_favor_mechanic
+			}
+
+			NOT = { has_country_modifier = shared_chaos_favor }
+
+		}
+		effect = {
+
+			add_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = -1
+			}
+
+			every_subject_country = {
+				limit = { has_government_mechanic = chaos_favor_mechanic }
+				add_government_power = {
+					mechanic_type = chaos_favor_mechanic
+					power_type = chaos_favor
+					value = 0.2
+				}
+			}
+
+			add_country_modifier = { 
+			    name = shared_chaos_favor
+			    duration = 1825
+			}
+
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+
+
+
 #	chaos_teleport = {
 #		potential = {
 #			always = no ### JG I don't think this is necessary.
@@ -40,53 +92,54 @@ country_decisions = {
 #		}
 #	}
 
-	chaos_settle = {
-		potential = {
+#	chaos_settle = {
+#		potential = {
+#
+#			OR = {
+#				ai = no
+#				AND = {
+#					is_year = 2504
+#					capital_scope = {
+#						OR = {
+#							has_terrain = urban_terrain
+#							has_terrain = ruins
+#						}
+#					}
+#				}
+#			}
+#
+#			is_vassal = no
+#			else = {
+#				ai = no
+#			}
+#			has_reform = chaos_warband
+#			NOT = {
+#				num_of_cities = 2
+#			}
+#		}
+#		allow = {
+#			is_at_war = no
+#			has_reform = chaos_warband
+#			NOT = {
+#				num_of_cities = 2
+#			}
+#			capital_scope = {
+#				or = {
+#					has_terrain = urban_terrain
+#					has_terrain = ruins
+#				}
+#			}
+#		}
+#		effect = {
+#			remove_government_reform = chaos_warband
+#			add_government_reform = chaos_settled_horde
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#		ai_importance = 0
+#	}
 
-			OR = {
-				ai = no
-				AND = {
-					is_year = 2504
-					capital_scope = {
-						OR = {
-							has_terrain = urban_terrain
-							has_terrain = ruins
-						}
-					}
-				}
-			}
-
-			is_vassal = no
-			else = {
-				ai = no
-			}
-			has_reform = chaos_warband
-			NOT = {
-				num_of_cities = 2
-			}
-		}
-		allow = {
-			is_at_war = no
-			has_reform = chaos_warband
-			NOT = {
-				num_of_cities = 2
-			}
-			capital_scope = {
-				or = {
-					has_terrain = urban_terrain
-					has_terrain = ruins
-				}
-			}
-		}
-		effect = {
-			remove_government_reform = chaos_warband
-			add_government_reform = chaos_settled_horde
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		ai_importance = 0
-	}
 #	chaos_upgrade = {
 #		potential = {
 #			has_reform = chaos_warband

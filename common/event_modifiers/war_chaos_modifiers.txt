@@ -432,3 +432,11 @@ chaos_gift_7 = {
 #	war_exhaustion = -0.075
 #	land_morale = 0.10
 #}
+
+
+shared_chaos_favor = {
+	reduced_liberty_desire = 5
+}
+	
+
+}

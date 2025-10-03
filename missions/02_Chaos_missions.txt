@@ -354,7 +354,10 @@ chaos_missions_2 = {
 		trigger = {
 			calc_true_if = {
 				all_province = {
-					controlled_by = ROOT
+					OR = {
+						controlled_by = ROOT
+						owned_by_subject_of = ROOT
+					}
 					OR = {
 				 		has_building = marketplace
 				 		has_building = trade_depot
@@ -487,7 +490,10 @@ chaos_missions_2 = {
 		trigger = {
 			calc_true_if = {
 				all_province = {
-					controlled_by = ROOT
+					OR = {
+						controlled_by = ROOT
+						owned_by_subject_of = ROOT
+					}
 					province_has_center_of_trade_of_level = 2
 				}
 				amount = 5
@@ -582,88 +588,11 @@ chaos_missions_3 = {
 		}
 	}
 
-## It is time to profane temples - ours or those of others.
+## We must put aside our differences and unite
 	chaos_undivided_2 = {
 		icon = mission_chaos_culture
 		required_missions = { chaos_undivided_1 }
 		position = 4
-		provinces_to_highlight = {
-			OR = {
-				has_building = temple
-				has_building = cathedral
-			}
-			has_discovered = ROOT
-		}
-		trigger = {
-			calc_true_if = {
-				all_province = {
-					controlled_by = ROOT
-					OR = {
-						has_building = temple
-						has_building = cathedral
-					}
-				}
-				amount = 5
-			}
-
-		}
-		effect = {
-			add_stability_or_adm_power = yes
-			add_legitimacy = 50
-			add_republican_tradition = 15
-			add_devotion = 50
-			add_horde_unity = 50
-			add_meritocracy = 50
-		}
-	}
-
-
-## We may be a disorganized horde, but power can still be consolidated behind our ruler.
-	chaos_undivided_3 = {
-		icon = mission_chaos_culture
-		required_missions = { chaos_undivided_2 }
-		position = 6
-		trigger = {
-
-			crown_land_share = 50
-
-		}
-		effect = {
-			remove_country_modifier = chaos_undivided_favor_1
-			add_country_modifier = { 
-			    name = chaos_undivided_favor_2
-			    duration = -1  
-			}
-			custom_tooltip = upgrade_replace_tt		
-		}
-	}
-
-## To know chaos undivided, we must try chaos undivided
-	chaos_undivided_4 = {
-		icon = mission_chaos_culture
-		required_missions = { chaos_undivided_3 }
-		position = 8
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tried_undivided_tt
-				has_country_flag = tried_undivided
-			}
-		}
-		effect = {
-			add_stability_or_adm_power = yes
-			add_legitimacy = 50
-			add_republican_tradition = 15
-			add_devotion = 50
-			add_horde_unity = 50
-			add_meritocracy = 50
-		}
-	}
-
-## We must put aside our differences and unite
-	chaos_undivided_5 = {
-		icon = mission_chaos_culture
-		required_missions = { chaos_undivided_4 }
-		position = 10
 		trigger = {
 			estate_loyalty = {
     			estate = estate_burghers
@@ -684,6 +613,88 @@ chaos_missions_3 = {
 
 		}
 		effect = {
+			add_stability_or_adm_power = yes
+			add_legitimacy = 50
+			add_republican_tradition = 15
+			add_devotion = 50
+			add_horde_unity = 50
+			add_meritocracy = 50
+		}
+	}
+
+## It is time to profane temples - ours or those of others.
+	chaos_undivided_3 = {
+		icon = mission_chaos_culture
+		required_missions = { chaos_undivided_2 }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				has_building = temple
+				has_building = cathedral
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					OR = {
+						controlled_by = ROOT
+						owned_by_subject_of = ROOT
+					}
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				amount = 5
+			}
+
+		}
+
+		effect = {
+			remove_country_modifier = chaos_undivided_favor_1
+			add_country_modifier = { 
+			    name = chaos_undivided_favor_2
+			    duration = -1  
+			}
+			custom_tooltip = upgrade_replace_tt		
+		}
+
+	}
+
+
+## We may be a disorganized horde, but power can still be consolidated behind our ruler.
+	chaos_undivided_4 = {
+		icon = mission_chaos_culture
+		required_missions = { chaos_undivided_3 }
+		position = 8
+		trigger = {
+
+			crown_land_share = 45
+
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_legitimacy = 50
+			add_republican_tradition = 15
+			add_devotion = 50
+			add_horde_unity = 50
+			add_meritocracy = 50
+		}
+	}
+
+## To know chaos undivided, we must try chaos undivided
+	chaos_undivided_5 = {
+		icon = mission_chaos_culture
+		required_missions = { chaos_undivided_4 }
+		position = 10
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tried_undivided_tt
+				has_country_flag = tried_undivided
+			}
+		}
+		effect = {
 			remove_country_modifier = chaos_undivided_favor_2
 			add_country_modifier = { 
 			    name = chaos_undivided_favor_3
@@ -692,6 +703,8 @@ chaos_missions_3 = {
 			custom_tooltip = upgrade_replace_tt		
 		}
 	}
+
+
 
 ## To know chaos undivided, we must defeat chaos undivided
 	chaos_undivided_6 = {

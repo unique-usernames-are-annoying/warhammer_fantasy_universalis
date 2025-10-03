@@ -1296,27 +1296,27 @@ chaos_warrior_ideas = {
 	chaos_warrior_idea_1 = { #Warriors from all the gods
 		shock_damage = 0.025
 		fire_damage = 0.025
-		defensiveness = 0.10
+		defensiveness = 0.05
 		movement_speed = 0.05
 	}
 	chaos_warrior_idea_2 = { #Chaos Knights
 		cavalry_power = 0.15
 	}
 	chaos_warrior_idea_3 = { #Everchosen Unites Chaos
-		vassal_forcelimit_bonus = 0.50
+		vassal_forcelimit_bonus = 1.0
 	}
 	chaos_warrior_idea_4 = {
-		global_missionary_strength = 0.02
+		land_maintenance_modifier = -0.05
 	}
 	chaos_warrior_idea_5 = { #Demon Engines
-		siege_ability = 0.10
+		siege_ability = 0.20
 	}
 	chaos_warrior_idea_6 = { #Chaos Undivided should be conquest based
-		core_creation = -0.15
+		warscore_cost_vs_other_religion = -0.125
 	}
 	chaos_warrior_idea_7 = { #Gaze of the Dark God's
 		prestige_from_land = 0.5
-		monthly_church_power = 0.05
+		church_power_modifier = 0.1
 	}
 }
 

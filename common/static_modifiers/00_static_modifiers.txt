@@ -2200,7 +2200,7 @@ carolean_regiment = {
 }
 
 revolutionary_guard_regiment = {
-	land_maintenance_modifier = -0.75
+	land_maintenance_modifier = -0.5
 	regiment_manpower_usage = -0.75
 	reinforce_speed = -0.75
 	land_attrition = -0.5
