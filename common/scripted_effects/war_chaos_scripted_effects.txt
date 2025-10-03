@@ -541,10 +541,10 @@ chaos_move_buildings_effect = {
 	}
 }
 
-#chaos_conquest_effects = {
-#	remove_core = ROOT
-#	add_devastation = 100
-#	remove_all_buildings = yes
+chaos_conquest_effects = {
+	remove_core = ROOT
+	add_devastation = 100
+	remove_all_buildings = yes
 #	while = {
 #		limit = {
 #			base_tax = 2
@@ -578,8 +578,8 @@ chaos_move_buildings_effect = {
 #		add_dip_power = 5
 #		add_mil_power = 5
 #	}
-#	decolonize = yes
-#}
+	decolonize = yes
+}
 
 chaos_horde_upgrader = {
 	if = {
