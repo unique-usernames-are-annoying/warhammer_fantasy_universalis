@@ -1447,7 +1447,7 @@ B12_ideas = {
 #Archaeon
 B99_ideas = {
 	start = {
-		morale_damage = 0.1
+		morale_damage = 0.15
 		land_attrition = -0.15
 	}
 	bonus = {
@@ -1473,18 +1473,12 @@ B99_ideas = {
 	## Chosen of the gods
 	B99_idea_4 = {
 		church_power_modifier = 0.1
-		legitimacy = 1
 		devotion = 1
-		horde_unity = 1
-		meritocracy = 1
-		republican_tradition = 0.3
 	}
 	# Great Unifier
 	B99_idea_5 = {
 		diplomats = 1
-		reduced_liberty_desire = 10
-		reverse_relation_with_same_religion = 25
-		reverse_relation_with_heretic_religion = 25
+		diplomatic_upkeep = 2
 	}
 	# Chaos Knights
 	B99_idea_6 = {

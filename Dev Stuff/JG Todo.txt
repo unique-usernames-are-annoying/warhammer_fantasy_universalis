@@ -54,23 +54,13 @@ Misc Mission Trees
 
 		Purging shouldn't be available to warbands
 
-		Get rid of "settle the warband" decision
-
 		Somewhere in war_chaos_on_actions, something is broken. Not sure what. Possibly before giving church power for slanesh getting vassals, that's not working. Nurgle admin is workin
 
 		Absorb chaos host diplomatic ability?
 
-		Should be able to take the provinces of other chaos nations through warband subjugation. Or just make chaos invasion for all, but you can only warband subjugate other warbands.
-
-		Warband vassals give a very small amount of monthly chaos favor? They should also get bonuses to military so they aren'y useless.
-
 		Humiliated Khorne mission should also work if there are no eligible rivals
 
-		magic to the gods should be a little less favor? Maybe 150 for .2 favor?
-
-		Corrupt trade routes should just be level 1 centers of trade
-
-		How to deal with Crown land changing from destroying provinces? 
+		How to deal with Crown land changing from destroying provinces? Maybe just give the crown land per province taken?
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.

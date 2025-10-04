@@ -356,6 +356,8 @@ favor_ability_request_men_and_money_desc:0 "We kneel not in worship, but in dema
  can_upgrade_dip_warband_tooltip:0 "Can Upgrade Warband Diplomatically"
  can_upgrade_mil_warband_tooltip:0 "Can Upgrade Warband Militarily"
  
+ flavor_chaos.4.option_1:0 "We have asked for enough"
+ flavor_chaos.4.option_2:0 "Give us more Daemonic warriors!"
 flavor_chaos.4.option_3:0 "The Mark of Khorne – Strength in Slaughter"
 chaos_gift_1:0 "Gift of the Blood God"
 desc_chaos_gift_1:0 "Khorne’s wrath pours into our daemonic legions, sharpening their frenzy and fueling their hatred. With every kill, their bloodlust grows, driving them to greater feats of carnage. They surge across the battlefield with unmatched ferocity, immune to fear and weakness."
@@ -380,7 +382,7 @@ flavor_chaos.4.option_8:0 "Daemonic Weapons – Blades of Chaos"
 chaos_gift_6:0 "Warpforged Armament"
 desc_chaos_gift_6:0 "Forged in the depths of the Immaterium, these weapons hunger for suffering. Each blade is a living extension of the Warp, tearing through armor and reason alike. Empowered daemons wield them with glee, their strikes turning slaughter into ritual."
 
-flavor_chaos.4.option_9:0 "A Suit of Daemonic Armor"
+flavor_chaos.4.option_9:0 "Daemonic Armor – Plate of Chaos"
 chaos_gift_7:0 "Hellforged Plate"
 desc_chaos_gift_7:0 "Crafted in the forges of damnation, this armor is bound with screaming souls and clad in infernal metal. It shields our daemons from mortal harm and dulls the horrors of war, allowing them to advance where lesser beings would fall."
 
@@ -403,3 +405,5 @@ release_warband_action_tooltip: "This warband is more trouble than they are wort
  share_chaos_Favor_desc:0 "We are generous tyrants. By sharing our chaos favor among our subjects, and can empower them to better further our own aims. Perhaps they won't be so useless with the gifts of the gods flowing through them."
 shared_chaos_favor:0 "Shared Chaos Favor"
 shared_chaos_favor_desc:0 "We have shared our chaos favor with our subjects, and in so doing we have earned their trust."
+
+spawn_daemon_at_capital_tt:0 "Spawn a Daemonic infantry at your capital."

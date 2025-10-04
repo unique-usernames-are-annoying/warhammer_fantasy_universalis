@@ -22,6 +22,23 @@ on_province_owner_change = {
 				power_type = chaos_favor
 				value = 0.1
 			}
+			change_estate_land_share = {
+			    estate = estate_church
+			    share = -0.1
+			}
+			change_estate_land_share = {
+			    estate = estate_nobles
+			    share = -0.1
+			}
+			change_estate_land_share = {
+			    estate = estate_burghers
+			    share = -0.1
+			}
+			change_estate_land_share = {
+			    estate = estate_mages
+			    share = -0.1
+			}
+
 		}
 
 		if = {

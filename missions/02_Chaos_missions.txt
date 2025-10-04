@@ -31,6 +31,7 @@ chaos_missions_1 = {
 		required_missions = { }
 		position = 2
 		trigger = {
+			is_at_war = yes
 			OR = {
 				calc_true_if = {
 					has_church_aspect = khornate_warriors
@@ -77,6 +78,7 @@ chaos_missions_1 = {
 		required_missions = { chaos_khorne_1 }
 		position = 4
 		trigger = {
+			is_at_war = yes
 			estate_loyalty = {
 			    estate = estate_nobles
 			    loyalty = 65
@@ -99,6 +101,7 @@ chaos_missions_1 = {
 		required_missions = { chaos_khorne_2 }
 		position = 6
 		trigger = {
+			is_at_war = yes
 			any_country = {
 				humiliated_by = ROOT
 			}
@@ -113,16 +116,23 @@ chaos_missions_1 = {
 		}
 	}
 
-## To know Khorne, we must worship him.
+## Scour the Lands
 	chaos_khorne_4 = {
 		icon = mission_khorne
 		required_missions = { chaos_khorne_3 }
 		position = 8
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tried_khorne_tt
-				has_country_flag = tried_khorne
+			is_at_war = yes
+
+			calc_true_if = {
+				all_province = {
+					NOT = { owned_by = ROOT }
+					controlled_by = ROOT
+				}
+				amount = 40
 			}
+
+
 		}
 		effect = {
 
@@ -137,6 +147,7 @@ chaos_missions_1 = {
 		required_missions = { chaos_khorne_4 }
 		position = 10
 		trigger = {
+			is_at_war = yes
 			any_war_enemy_country = {
 				OR = {
 					NOT = { manpower = 0.001 }
@@ -166,6 +177,13 @@ chaos_missions_1 = {
 			has_discovered = ROOT
 		}
 		trigger = {
+			is_at_war = yes
+
+			custom_trigger_tooltip = {
+				tooltip = tried_khorne_tt
+				has_country_flag = tried_khorne
+			}
+
 			OR = {
 				NOT = {
 					any_country = {
@@ -192,18 +210,13 @@ chaos_missions_1 = {
 		required_missions = { chaos_khorne_6 }
 		position = 14
 		provinces_to_highlight = {
+			is_at_war = yes
 			development = 40
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			# Performance
-			hidden_trigger = {
-				OR = {
-					ai = no
-					is_at_war = yes
-				}
-			}
 
+			is_at_war = yes
 
 			any_province = {
 				NOT = {
@@ -231,6 +244,7 @@ chaos_missions_1 = {
 		required_missions = { chaos_khorne_7 }
 		position = 16
 		trigger = {
+			is_at_war = yes
 			OR = {
 				army_professionalism = 0.5
 				has_country_modifier = war_modern_army
@@ -238,7 +252,6 @@ chaos_missions_1 = {
 
 		}
 		effect = {
-
 			add_yearly_manpower = 5
 
 			remove_country_modifier = chaos_khorne_favor_4
@@ -384,10 +397,15 @@ chaos_missions_2 = {
 		required_missions = { chaos_nurgle_3 }
 		position = 7
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tried_nurgle_tt
-				has_country_flag = tried_nurgle
+
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 51
+				}
 			}
+
+
 		}
 		effect = {
 
@@ -402,15 +420,18 @@ chaos_missions_2 = {
 		required_missions = { chaos_nurgle_4 }
 		position = 9
 		trigger = {
+
 			calc_true_if = {
-				all_trade_node = {
-					is_strongest_trade_power = ROOT
+				all_province = {
+					OR = {
+						controlled_by = ROOT
+						owned_by_subject_of = ROOT
+					}
+					province_has_center_of_trade_of_level = 1
 				}
-				amount = 1
+				amount = 5
 			}
-			any_owned_province = {
-				province_has_center_of_trade_of_level = 3
-			}
+
 		}
 		effect = {
 			remove_country_modifier = chaos_nurgle_favor_2
@@ -435,6 +456,12 @@ chaos_missions_2 = {
 			has_discovered = ROOT
 		}
 		trigger = {
+
+			custom_trigger_tooltip = {
+				tooltip = tried_nurgle_tt
+				has_country_flag = tried_nurgle
+			}
+
 			OR = {
 				NOT = {
 					any_country = {
@@ -663,15 +690,19 @@ chaos_missions_3 = {
 	}
 
 
-## We may be a disorganized horde, but power can still be consolidated behind our ruler.
 	chaos_undivided_4 = {
 		icon = mission_chaos_culture
 		required_missions = { chaos_undivided_3 }
 		position = 8
 		trigger = {
-
-			crown_land_share = 45
-
+			OR = {
+				grown_by_development = 300
+				has_government_power = {
+					mechanic_type = chaos_favor_mechanic
+					power_type = chaos_favor
+					value = 10
+				}
+			}
 		}
 		effect = {
 			add_stability_or_adm_power = yes
@@ -683,16 +714,16 @@ chaos_missions_3 = {
 		}
 	}
 
-## To know chaos undivided, we must try chaos undivided
+## We may be a disorganized horde, but power can still be consolidated behind our ruler.
+
 	chaos_undivided_5 = {
 		icon = mission_chaos_culture
 		required_missions = { chaos_undivided_4 }
 		position = 10
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tried_undivided_tt
-				has_country_flag = tried_undivided
-			}
+
+			crown_land_share = 45
+
 		}
 		effect = {
 			remove_country_modifier = chaos_undivided_favor_2
@@ -717,6 +748,11 @@ chaos_missions_3 = {
 			has_discovered = ROOT
 		}
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tried_undivided_tt
+				has_country_flag = tried_undivided
+			}
+
 			OR = {
 				NOT = {
 					any_country = {
@@ -772,6 +808,7 @@ chaos_missions_3 = {
 			OR ={
 				has_had_golden_age = yes
 				in_golden_age = yes
+				splendor = 1600
 			}
 		}
 		effect = {
@@ -951,7 +988,10 @@ chaos_missions_4 = {
 		required_missions = { chaos_tzeentch_2 }
 		position = 5
 		trigger = {
-			innovativeness = 10
+			OR = {
+				innovativeness = 10
+				has_country_modifier = war_modern_science
+			}
 		}
 		effect = {
 			remove_country_modifier = chaos_tzeentch_favor_1
@@ -971,9 +1011,11 @@ chaos_missions_4 = {
 		required_missions = { chaos_tzeentch_3 }
 		position = 7
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = tried_tzeentch_tt
-				has_country_flag = tried_tzeentch
+			any_country = {
+				has_spy_network_from = {
+					who = ROOT
+					value = 100
+				}
 			}
 		}
 		effect = {
@@ -1012,11 +1054,9 @@ chaos_missions_4 = {
 		required_missions = { chaos_tzeentch_4 }
 		position = 9
 		trigger = {
-			any_country = {
-				has_spy_network_from = {
-					who = ROOT
-					value = 100
-				}
+			check_variable = {
+				which = num_rulers_killed
+				value = 3
 			}
 		}
 		effect = {
@@ -1040,6 +1080,11 @@ chaos_missions_4 = {
 			has_discovered = ROOT
 		}
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tried_tzeentch_tt
+				has_country_flag = tried_tzeentch
+			}
+
 			OR = {
 				NOT = {
 					any_country = {
@@ -1092,9 +1137,9 @@ chaos_missions_4 = {
 		required_missions = { chaos_tzeentch_6 }
 		position = 13
 		trigger = {
-			check_variable = {
-				which = num_rulers_killed
-				value = 3
+			OR = {
+				innovativeness = 50
+				has_country_modifier = war_modern_science
 			}
 		}
 		effect = {
@@ -1172,7 +1217,10 @@ chaos_missions_4 = {
 		position = 17
 		trigger = {
 			diplomatic_reputation = 4
-			innovativeness = 50
+			OR = {
+				innovativeness = 75
+				has_country_modifier = war_modern_science
+			}
 		}
 		effect = {
 			add_country_modifier = { 
@@ -1306,8 +1354,8 @@ chaos_missions_5 = {
 		position = 8
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = tried_slaanesh_tt
-				has_country_flag = tried_slaanesh
+				tooltip = obj_force_converted_tooltip
+				has_country_flag = force_converted
 			}
 		}
 		effect = {
@@ -1323,11 +1371,12 @@ chaos_missions_5 = {
 		required_missions = { chaos_slaanesh_4 }
 		position = 10
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = obj_force_converted_tooltip
-				has_country_flag = force_converted
+			calc_true_if = {
+				all_country = {
+					trust = { who = ROOT value = 100 }
+				}
+				amount = 3
 			}
-
 		}
 		effect = {
 			remove_country_modifier = chaos_slaanesh_favor_2
@@ -1350,6 +1399,12 @@ chaos_missions_5 = {
 			has_discovered = ROOT
 		}
 		trigger = {
+
+			custom_trigger_tooltip = {
+				tooltip = tried_slaanesh_tt
+				has_country_flag = tried_slaanesh
+			}
+
 			OR = {
 				NOT = {
 					any_country = {
@@ -1387,7 +1442,7 @@ chaos_missions_5 = {
 					    value = 50
 					}
 				}
-				amount = 5
+				amount = 7
 			}
 
 		}
@@ -1408,7 +1463,7 @@ chaos_missions_5 = {
 		required_missions = { chaos_slaanesh_7 }
 		position = 16
 		trigger = {
-			num_of_subjects = 4
+			num_of_subjects = 7
 		}
 		effect = {
 

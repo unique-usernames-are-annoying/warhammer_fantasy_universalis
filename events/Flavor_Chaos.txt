@@ -462,33 +462,33 @@ country_event = {
 			always = yes
 		}
 	}
-	option = {
-		## We must have daemon warriors!
-		name = flavor_chaos.4.option_2
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			has_government_power = {
-				mechanic_type = chaos_favor_mechanic
-				power_type = chaos_favor
-				value = 1
-			}
-		}
-
-		add_government_power = {
-			mechanic_type = chaos_favor_mechanic
-			power_type = chaos_favor
-			value = -0.5
-		}
-
-		capital_scope = {
-		    revolutionary_guard_cavalry = ROOT
-		    revolutionary_guard_infantry = ROOT
-		}
-
-
-	}
+#	option = {
+#		## We must have daemon warriors!
+#		name = flavor_chaos.4.option_2
+#		ai_chance = {
+#			factor = 1
+#		}
+#		trigger = {
+#			has_government_power = {
+#				mechanic_type = chaos_favor_mechanic
+#				power_type = chaos_favor
+#				value = 1
+#			}
+#		}
+#
+#		add_government_power = {
+#			mechanic_type = chaos_favor_mechanic
+#			power_type = chaos_favor
+#			value = -0.5
+#		}
+#
+#		capital_scope = {
+#		    revolutionary_guard_cavalry = ROOT
+#		    revolutionary_guard_infantry = ROOT
+#		}
+#
+#
+#	}
 	option = {
 		name = flavor_chaos.4.option_3
 		ai_chance = {
@@ -518,6 +518,15 @@ country_event = {
 			name = chaos_gift_1
 			duration = -1
 		}
+
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
+		}
+
 	}
 
 	option = {
@@ -549,6 +558,15 @@ country_event = {
 			name = chaos_gift_2
 			duration = -1
 		}
+
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
+		}
+
 	}
 
 	option = {
@@ -579,6 +597,14 @@ country_event = {
 		add_country_modifier = {
 			name = chaos_gift_3
 			duration = -1
+		}
+		
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
 		}
 	}
 
@@ -611,6 +637,13 @@ country_event = {
 			name = chaos_gift_4
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
+		}
 	}
 
 	option = {
@@ -641,6 +674,13 @@ country_event = {
 		add_country_modifier = {
 			name = chaos_gift_5
 			duration = -1
+		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
 		}
 	}
 
@@ -673,6 +713,13 @@ country_event = {
 			name = chaos_gift_6
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
+		}
 	}
 
 	option = {
@@ -703,6 +750,13 @@ country_event = {
 		add_country_modifier = {
 			name = chaos_gift_7
 			duration = -1
+		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
+		hidden_effect = {
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
+			}
 		}
 	}
 }

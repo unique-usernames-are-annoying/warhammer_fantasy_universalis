@@ -51,19 +51,19 @@ chaos_favor_mechanic = {
 			cost_type = chaos_favor
 			cost = 0
 			trigger = {
-				adm_power = 200
-				dip_power = 200
-				mil_power = 200
+				adm_power = 300
+				dip_power = 300
+				mil_power = 300
 			}
 			effect = {
-				add_adm_power = -200
-				add_dip_power = -200
-				add_mil_power = -200
+				add_adm_power = -300
+				add_dip_power = -300
+				add_mil_power = -300
 
 				add_government_power = {
 					mechanic_type = chaos_favor_mechanic
 					power_type = chaos_favor
-					value = 0.3
+					value = 0.4
 				}
 			}
 			cooldown_years = 1

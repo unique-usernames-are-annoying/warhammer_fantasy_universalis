@@ -1616,9 +1616,9 @@ chaos_warband_vassal = {
 	has_power_projection = no
 	gets_help_with_rebels = yes
 	can_fight_independence_war = yes
-	takes_diplo_slot = no
+	takes_diplo_slot = yes
 	counts_for_borders = yes
-	relative_power_class = 8 #unique
+	relative_power_class = 8
 
 	max_government_rank = 1
 
