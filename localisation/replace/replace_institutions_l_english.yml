@@ -138,9 +138,9 @@
  tooltip_special_goods_development_20:0 "Province has 20 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, chinaware, cocoa, or wine"
  tooltip_special_goods_development_25:0 "Province has 25 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, chinaware, cocoa, or wine"
  tooltip_special_goods_development_30:0 "Province has 30 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, chinaware, cocoa, or wine"
- tooltip_has_1_vassal:0 "Has at least one vassal or march"
- tooltip_has_2_vassal:0 "Has at least two vassals or marches"
- tooltip_has_3_vassal:0 "Has at least three vassals or marches"
+ tooltip_has_1_vassal:0 "Has at least one subject"
+ tooltip_has_2_vassal:0 "Has at least two subject"
+ tooltip_has_3_vassal:0 "Has at least three subject"
  tooltip_has_exploration_ideas:0 "Capital of nation with an explorer or a colonist."
 
  nontribal_dev_15:0 "Non-Tribal Capital with a development of at least 15"

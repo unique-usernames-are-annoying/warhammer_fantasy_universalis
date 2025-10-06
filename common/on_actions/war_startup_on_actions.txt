@@ -8,6 +8,13 @@ on_startup = {
 		vampire_events.0		# Sylvania Intro Event
 		kislev_events.100		# Kislev Intro Event
 		vampire_events.2		# Mousilion Intro Event
+		flavor_sigvald.0 		# Sigvald Intro Event
+		flavor_archaon.0 		#Archaeon Intro Event
+		flavor_nameless_one.0 	# Namesless One Intro Event
+		dark_elf_events.100		   # Naggaroth H12 Event
+
+		chaos_nations_events.101   # Chaos Warband Event
+
 		cathay_events.100		# Cathay Intro Event
 		cathay_events.101		# Jade Blooded Vampires I30 Start
 		cathay_events.102		# Monkey King
@@ -20,16 +27,15 @@ on_startup = {
 		ogre_events.1000		# Ogre Intro Event
 		asur_events.100			# Asur Intro Event
 		lizardmen_events.1000	   # Lizardmen Old Ones Intro Event
-		dark_elf_events.100		   # Naggaroth H!2 Event
 		flavor_norscan_events.100  # Norsca
-		chaos_nations_events.100   # Chaos Intro Event
 		war_sow_events.1000			# Tilea Intro Event
 		war_sow_events.1001			# EStalia Intro Event
 
+		chaos_nations_events.100   # Chaos Intro Event
+
+
 		karak_eight_peaks.1 # war for karak eight peaks
-		flavor_sigvald.0
-		flavor_archaon.0
-		flavor_nameless_one.0
+
 
 ## Fixer Events
 	

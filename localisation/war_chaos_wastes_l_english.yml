@@ -172,7 +172,8 @@
  superiority_chaotic:0 "Chaotic Superiority"
  superiority_chaotic_desc:0 "War goal is to show them superiority by winning battles."
  po_chaos_vassalize:0 "§OChaotic Subjugation§!"
- po_chaos_vassalize_desc:0 "Our victory over their warband is proof that our champion is more worthy then who we have bested. We will allow the defeated champion to continue leadership of their Warband, however it will be under our command.\n\n§Y[Root.GetName]§! will subjugate §Y[From.GetName]§!, as Subjugated Warband vassal. They will pay their overlord a tax, and fight in our wars."
+ po_chaos_vassalize_desc:0 "Our victory over their warband is proof that our champion is more worthy then who we have bested. We will allow the defeated champion to continue leadership of their Warband, however it will be under our command.\n\n§Y[Root.GetName]§! will subjugate §Y[From.GetName]§!, as Subjugated Warband vassal. They will pay their overlord a tax, and fight in our wars. They have reduced liberty desire."
+
  po_chaos_absorb_warriors:0 "Destory Warband"
  po_chaos_absorb_warriors_desc:0 "Our victory over their warband is proof that our champion is more worthy then who we have bested. Such is our ways, that the ranks of successful champions may swell with those of his former foes.\n\nDestroys the defeated Warband and will increase our Warband Development by 2/2/2."
  CB_ALLOWED_po_chaos_absorb_warriors:0 "Warband Scarifices"
@@ -338,7 +339,7 @@ khornate_idea_5_desc:0 "From the blasted hellscapes of the Realm of Chaos to the
  favor_ability_request_men_and_money:0 "Favor from the Gods"
 favor_ability_magic_to_the_gods_desc:0 "The winds of magic are not merely tools—they are offerings. By siphoning arcane energies into the Immaterium, we feed the endless hunger of the Dark Gods. Such acts draw their gaze and deepen their favor, though the balance between mortal will and daemonic influence grows ever more fragile."
 favor_ability_sacrifice_to_the_gods_desc:0 "Through fire, blood, and ruin, we honor the Ruinous Powers. Entire villages burn upon the altars, and hosts of captives are offered in ritual slaughter. The more we sacrifice—wealth, lives, and hope—the more the gods bestow upon us their twisted blessings."
-favor_ability_request_men_and_money_desc:0 "We kneel not in worship, but in demand. From the shifting madness of the Warp, we call for daemonic reinforcements, unholy riches, and war-fuelled thralls. In return, the gods may grant permanent mutations and boons to our infernal hosts, twisting them into ever more potent instruments of divine ruin.\n\n In addition to men and money, we can request §Rpermanent upgrades to our daemonic units§!."
+favor_ability_request_men_and_money_desc:0 "We kneel not in worship, but in demand. From the shifting madness of the Warp, we call for daemonic reinforcements, unholy riches, and war-fuelled thralls. In return, the gods may grant permanent mutations and boons to our infernal hosts, twisting them into ever more potent instruments of divine ruin.\n\nIn addition to men and money, we can request §Rpermanent upgrades to our daemonic units§!."
 
  #chaos_champion_arises:0 "Ascend Champion"
  #chaos_champion_arises_desc:0 "The Chaos Wastes are filled with brutal warriors, hardened by endless war and devoted to the Dark Gods. From among them, the most worthy can ascend to lead our armies in battle.\n\n"

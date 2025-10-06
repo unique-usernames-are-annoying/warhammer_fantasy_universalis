@@ -776,13 +776,42 @@ country_event = {
 			religion = khornate_religion
 			religion = chaos_undivided_religion
 		}
-		NOT= { has_country_flag = did_intro_event }
+		NOT = { has_reform = chaos_warband }
+		NOT = { tag = B99 }
+		NOT = { has_country_flag = did_intro_event }
 	}
 
 	immediate = { set_country_flag = did_intro_event }
-	## For the lady!
+
 	option = {
 		name = chaos_nations_events.100.a
+		ai_chance = { factor = 1 }
+
+		add_army_tradition = 10
+		add_church_power = 100
+	}
+}
+
+
+
+country_event = { 
+	id = chaos_nations_events.101
+	title = chaos_nations_events.101.title
+	desc = chaos_nations_events.101.desc
+	picture = ARCHAON_eventPicture
+	
+	fire_only_once = no
+	is_triggered_only = yes
+		
+	trigger = {
+		has_reform = chaos_warband
+		NOT = { tag = B99 }
+		NOT = { has_country_flag = did_intro_event }
+	}
+
+	immediate = { set_country_flag = did_intro_event }
+	option = {
+		name = chaos_nations_events.101.a
 		ai_chance = { factor = 1 }
 
 		add_army_tradition = 10

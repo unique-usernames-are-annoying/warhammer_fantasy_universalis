@@ -39,7 +39,7 @@ chaos_favor_mechanic = {
 					#
 					defensiveness = 5
 					#
-					liberty_desire_from_subject_development = -1.0
+					reduced_liberty_desire = 100
 
 				}
 			}

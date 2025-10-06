@@ -4,7 +4,7 @@ po_chaos_vassalize = {
 	power_projection = vassalized_rival	# "power_projection" will only be applied if giver is your rival.
 	power_cost_base = 1	# Base factor for diplomatic power cost when treaty is not allowed by casus belli. Scales with war score cost.
 	prestige_base = 0.1	# Base factor for prestige gain and loss. Scales with war score cost.
-	ae_base = 0.45	# Base factor for aggressive expansion. Scales with war score cost.
+	ae_base = 0.10	# Base factor for aggressive expansion. Scales with war score cost.
 	warscore_cost = {
 		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
 		all_provinces = 0.5		# All the giver's provinces
@@ -28,7 +28,10 @@ po_chaos_vassalize = {
 			religion_group = ruinous_powers_denominations
 		}
 		is_subject = no
-		FROM = { is_subject = no }
+		FROM = {
+			is_subject = no
+			government = chaos_gov
+		}
 	}
 	is_allowed = {
 		always = yes

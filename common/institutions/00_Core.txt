@@ -191,7 +191,7 @@ feudalism = {
 				tooltip = tooltip_has_1_vassal
 				is_capital = yes
 				owner = {
-					vassal = 1
+					num_of_subjects = 1
 				}
 			}
 		}
@@ -202,7 +202,7 @@ feudalism = {
 				tooltip = tooltip_has_2_vassal
 				is_capital = yes
 				owner = {
-					vassal = 2
+					num_of_subjects = 2
 				}
 			}
 		}
@@ -213,7 +213,7 @@ feudalism = {
 				tooltip = tooltip_has_3_vassal
 				is_capital = yes
 				owner = {
-					vassal = 3
+					num_of_subjects = 3
 				}
 			}
 		}

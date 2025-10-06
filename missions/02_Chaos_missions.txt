@@ -623,19 +623,19 @@ chaos_missions_3 = {
 		trigger = {
 			estate_loyalty = {
     			estate = estate_burghers
-    			loyalty = 65
+    			loyalty = 60
 			}
 			estate_loyalty = {
     			estate = estate_church
-    			loyalty = 65
+    			loyalty = 60
 			}
 			estate_loyalty = {
     			estate = estate_nobles
-    			loyalty = 65
+    			loyalty = 60
 			}
 			estate_loyalty = {
     			estate = estate_mages
-    			loyalty = 65
+    			loyalty = 60
 			}
 
 		}
