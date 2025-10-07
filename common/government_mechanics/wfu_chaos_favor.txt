@@ -1,6 +1,6 @@
 chaos_favor_mechanic = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
-	alert_icon_index = 5
+	alert_icon_index = 18
 	available = {
 		always = yes
 #		OR = {
@@ -47,7 +47,7 @@ chaos_favor_mechanic = {
 	}
 	interactions = {
 		favor_ability_magic_to_the_gods = {
-			icon = GFX_enlist_general_button
+			icon = GFX_war_magic_to_the_gods
 			cost_type = chaos_favor
 			cost = 0
 			trigger = {
@@ -82,7 +82,7 @@ chaos_favor_mechanic = {
 			}
 		}
 		favor_ability_sacrifice_to_the_gods = {
-			icon = GFX_train_horsemanship_button
+			icon = GFX_war_sacrifice_to_the_gods
 
 			trigger = {
 				manpower = 50
@@ -117,7 +117,7 @@ chaos_favor_mechanic = {
 		}
 
 		favor_ability_request_men_and_money = {
-			icon = GFX_conscript_from_tribes_button
+			icon = GFX_war_request_men_and_money
 			cost_type = chaos_favor
 			cost = 1
 			trigger = {

@@ -3524,6 +3524,7 @@ estate_guild_enslave_lesser_races = {
 	is_valid = {
 		always = yes
 		NOT = { has_country_modifier = chaos_dwarf_chains_of_hashut_3 }
+		NOT = { has_reform = chaos_warband }
 	}
 	can_select = {
 		NOT = {  has_country_modifier = order_nation }

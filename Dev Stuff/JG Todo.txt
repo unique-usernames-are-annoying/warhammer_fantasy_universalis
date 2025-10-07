@@ -47,26 +47,12 @@ Misc Mission Trees
 
 	No new Bretonnian Flag?
 
-	Adjust purging mechanic
-
 	Chaos Stuff
 		Put a chaos warband in the eastern Southlands, and maybe somewhere in Lustria.
 
-		Purging shouldn't be available to warbands
-
 		Somewhere in war_chaos_on_actions, something is broken. Not sure what. Possibly before giving church power for slanesh getting vassals, that's not working. Nurgle admin is workin
 
-		Absorb chaos host diplomatic ability?
-
-		Humiliated Khorne mission should also work if there are no eligible rivals
-
 		How to deal with Crown land changing from destroying provinces? Maybe just give the crown land per province taken?
-
-		Fix Chaos Govt. Actions Graphics
-
-		Need an alternative to the khorne humiliated one
-
-
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.
