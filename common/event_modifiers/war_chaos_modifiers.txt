@@ -250,8 +250,8 @@ chaos_horde_upgrading_horde = {
 	local_manpower_modifier = -0.5
 }
 
-chaos_horde_development = {
-}
+#chaos_horde_development = {
+#}
 
 #used on non-chaos-wastes terrain in the Chaos Waste Continent
 #modifiers copied from Chaos Waste Terrain
@@ -380,55 +380,63 @@ chaos_production_5 = {
 
 
 chaos_gift_1 = {
-	land_morale = 0.15
+	morale_damage_received = -0.15
 	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_2 = {
-	siege_ability = 0.10
+	fire_damage = 0.15
+	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_3 = {
-	shock_damage = 0.2
+	morale_damage = 0.15
 	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_4 = {
-	fire_damage_received = -0.2
+	shock_damage_received = -0.15
 	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_5 = {
-	discipline = 0.10
+	discipline = 0.05
 	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_6 = {
-	shock_damage_received = -0.2
+	shock_damage = 0.15
 	is_revolutionary_guard_modifier = yes
 }
 
 chaos_gift_7 = {
-	fire_damage_received = -0.10
-	morale_damage_received = -0.10
+	fire_damage_received = -0.15
 	is_revolutionary_guard_modifier = yes
 }
 
-chaos_gift_8 = {
-	infantry_fire = 0.2
-	infantry_shock = 0.2
-	is_revolutionary_guard_modifier = yes
-}
+#chaos_gift_8 = {
+#	infantry_fire = 0.2
+#	infantry_shock = 0.2
+#	is_revolutionary_guard_modifier = yes
+#}
 
-chaos_gift_10 = {
-	free_leader_pool = 1
-	army_tradition = 1
-}
+#chaos_gift_10 = {
+#	free_leader_pool = 1
+#	army_tradition = 1
+#}
 
-chaos_favor_of_the_gods = {
-	land_forcelimit = 10
-	global_manpower = 20
-	free_leader_pool = 2
-	war_exhaustion = -0.075
-	land_morale = 0.10
+#chaos_favor_of_the_gods = {
+#	land_forcelimit = 10
+#	global_manpower = 20
+#	free_leader_pool = 2
+#	war_exhaustion = -0.075
+#	land_morale = 0.10
+#}
+
+
+shared_chaos_favor = {
+	reduced_liberty_desire = 5
+}
+	
+
 }

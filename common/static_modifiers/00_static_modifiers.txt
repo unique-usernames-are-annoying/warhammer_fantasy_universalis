@@ -792,7 +792,7 @@ peace = {
 	monthly_asha_vahishta = 0.25
 	# WAR
 	monthly_orc_fightiness_power = -1.0
-	monthly_chaos_favor = -0.25
+#	monthly_chaos_favor = -0.01
 	monthly_flexible_industry_focus = -10
 }
 
@@ -2200,11 +2200,11 @@ carolean_regiment = {
 }
 
 revolutionary_guard_regiment = {
-	land_maintenance_modifier = 0.25
-	reinforce_cost_modifier = 0.25
-	reinforce_speed = -0.1
-	drill_gain_modifier = 1.0
-	drill_decay_modifier = -0.5
+	land_maintenance_modifier = -0.5
+	regiment_manpower_usage = -0.75
+	reinforce_speed = -0.75
+	land_attrition = -0.5
+	morale_damage = 0.2
 }
 
 innovativeness = {

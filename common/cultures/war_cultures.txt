@@ -55,12 +55,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -113,12 +113,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -170,12 +170,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -227,12 +227,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -283,12 +283,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -339,12 +339,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -395,12 +395,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -451,12 +451,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -507,12 +507,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -563,12 +563,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -619,12 +619,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -722,12 +722,12 @@ imperial_group = {
 			Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 			Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 			Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+			Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+			Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 			Immanuel Ingmar Ignaz Ingo Ivan Ivo
-			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+			Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 			Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-			Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+			Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 			Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 			Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 			Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -882,12 +882,12 @@ imperial_group = {
 		Dahlbert Detlef Dettel Dieter Diether Dietmar Dietpold Dietrich Dietwin Dirk Dortmund
 		Eberhard Eberhardt Eckard Eckehard Eckhard Edgard Egbert Eggerd Egilmar Eduard Ehrenfried Eginolf Egolf Egon Ekbert Ellhard Emelrich Emich Emil Engelbrecht Engelbert Engelhard Engelmar Engmar Eorpwald Erich Erik Ernst Ernulf Erwin Erzbet Ethelbert Etzel Eugen Ewald Ezzo
 		Fedor Felix Florian Folkhard Folkmar Frank Franz Frederick Frederik Friard Friedrich Fritz
-		Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Günzel Gustaf Gustav Gustavus
-		Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjürgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
+		Gamalbert Gebhard Georg Gerald Geralt Gerard Gerbert Gerhardt Gerd Gerhard Gerhoh Gerlach Gesebert Giselbert Godric Goderick Godfric Godfried Gotelind Gottfried Gotthard Gottschalk Gotthilm Gotthold Gotz Gotzelo Gozwin Gregor Guenther Gundechar Gundulf Gunnwald Gunter Gunther Gunthram Guntram Gunzel Gustaf Gustav Gustavus
+		Haldred Hammond Harland Hannes Hans Hansel Hanzi Hartmann Harold Hartwig Hasjurgen Hebert Heiko Heiner Heinrich Heinz Heironymus Helmut Henri Herbert Heriman Hermann Herrand Herschel Hesso Hewald Hilderic Himmler Hincmar Hogan Holger Horaz Hugh Hugo Humbert
 		Immanuel Ingmar Ignaz Ingo Ivan Ivo
-		Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jürgen Justin
+		Jakob Jens Jens-Peter Jerome Joachim Jochim Johann Johannes Jonas Jorg Josef Josias Jozef Jurgen Justin
 		Kai Kail Karl Karl-Franz Karloman Kaspar Kaster Kastor Klaus Knud Konrad Kristof Kuno Kurt Kyle
-		Lambert Lämmerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
+		Lambert Lammerslint Laurent Laurenz Leberecht Lembert Leo Leonard Leonhard Leopold Linus Lodeweik Lodewik Lorenzo Lothar Lou Lubert Lucas Ludolf Ludwig Luidgard Luidolf Luitpold Luitprand Luke Lukas Lutbert Luther Lutz
 		Magnus Malekai Manfred Mannfred Mannricht Mannslieb Marius Mark Markus Markwald Markward Martin Mathias Mathieu Matthias Maurice Maximillian Maynard Meinhard Meinhart Meinward Melchior Michael Mies Mikhail Moritz Mortmore
 		Nathaniel Nicholas Nicholaus Nicolaes Niedhart Nikola Niklaus Nikolaus Norbert Norman
 		Olfin Ordulf Ortolf Oswald Oswin Otho Ottmar Otto
@@ -941,7 +941,7 @@ estalian_group	= {
 		primary = A47
 	}
 	dynasty_names = {
-		"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
+		"de Aviz" "de Braganca" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
 		"de Moura" "de Napoles" "de Menezes" "de Saldanha" 
 		#CK2
 		"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
@@ -949,20 +949,20 @@ estalian_group	= {
 	male_names = {
 		João Filipe Afonso Pedro Antonio Duarte Henrique Jose Manuel Sebastião Miguel Teodosio Dinis 
 		Alexandre Carlos Diego Jaime Luis Alvaro Andre Bartolomeu Caetano Damião Estevão Francisco 
-		Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inacio Joaquim Jorge Lourenço Marco Nicolau 
+		Xavier Gabriel Garcia Gaspar Gil Goncalo Guilherme Inacio Joaquim Jorge Lourenco Marco Nicolau 
 		Paulo Rafael Rogerio Rui Simão Uriel Vicente Octavio
 		Afonso Alphonse Aires Alvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
-		Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
-		Walter Henrique Henry Hermigio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
+		Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Goncalo Gonzalo Guterre 
+		Walter Henrique Henry Hermigio João John Lopo Lupo Lourenco Laurence Martim Martin Mem Mendo 
 		Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
 		Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
 		Vincent Pons
 	}
 	female_names = {
-		Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengaria Berengaria Branca Blanche
+		Aldara Alduara Aldonca Aldonza Beatriz Beatrice Berengaria Berengaria Branca Blanche
 		Constance Dordia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
 		Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
-		Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+		Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constanca
 	}
 }
 
@@ -1013,7 +1013,7 @@ bretonnian_group = {
 		Edouard Errard Etienne Ademar Adrien Aimery Alain 
 		Aldebert Alderic Alphonse Amaury Amedee Ancel Andre Antoine Archambaud Arnaud 
 		Arnault Arnoul Aubry Aymar Barthelemi Baudouin Benoît Berenger Bernard Bertrand Bohemond 
-		Boson Bouchard Centule Charles Clotaire Ebbon Enguerrand Eudes Eustache Evrard Foulques François 
+		Boson Bouchard Centule Charles Clotaire Ebbon Enguerrand Eudes Eustache Evrard Foulques Francois 
 		Frederic Gaucher Gaucelin Gauthier Geoffroi Geraud Gilbert Gilles Godefroi
 		Guichard Guiges Guilhem Guillaume Guy Helie Hamelin Henri Herbert Hildebert Hugues Humbert Jacques 
 		Jaufre Jaspert Jean Jourdain Julien Leon Leonard Lothaire Louis Loup Mathieu Maurice Nicolas Ogier Onfroi Orson Othon
@@ -1023,16 +1023,16 @@ bretonnian_group = {
 		Barnabe Barthomieu Basile Bastien Baudouin Bedivere Beau Beldane Benoît Benezet Bernard Franchot
 		Charles-Louis Charles-Leon "Charles Maurice" "Charles Bon-Adrien" "Claude Ambroise" Claude-Perrin Claude Christophe Clement Constantin 
 		Donatien Dion Didier Diderot Denis 
-		Edmond Edgard Emery Emmanuel Eugène Etienne Etienne-François 
-		Fabien Fabrice Felix Fernand Ferrand Ferrant Florentin Franck François François-Louis François-Marie François-Paul François-Rene François-Joseph Frederic Gabriel Gaston Gautier Geoffroi Georges Georges-Louis Gerald Geraud Gratien Guilbert Guillaume-Chretien 
+		Edmond Edgard Emery Emmanuel Eugène Etienne Etienne-Francois 
+		Fabien Fabrice Felix Fernand Ferrand Ferrant Florentin Franck Francois Francois-Louis Francois-Marie Francois-Paul Francois-Rene Francois-Joseph Frederic Gabriel Gaston Gautier Geoffroi Georges Georges-Louis Gerald Geraud Gratien Guilbert Guillaume-Chretien 
 		Hamon Hercule Hilaire Horace Hyacinth 
 		Ilbert 
-		Jean-Andre Jean-Baptiste Jean-Frederic Jean-François Jean-Jacques Jean-Luc "Jean Moreau" Jeannot Julien 
+		Jean-Andre Jean-Baptiste Jean-Frederic Jean-Francois Jean-Jacques Jean-Luc "Jean Moreau" Jeannot Julien 
 		Laurent Laurence Lammert Lazare Leon Leopold Lionel Louis-Alexandre Louis-Bernard Louis-Gabriel Louis-Joseph Louis-Marie Louis-Nicolas Louis Lucien 
 		Marcel Marin Maurice Maxence Michel Morris
 		Nazaire Nicholas Nicholas-Joseph Nicolas Nicolas-Charles Niel 
 		Olivier 
-		Pepin Perrin Philip Philippe-Antoine Philippe Pierre-Charles Pierre-François 
+		Pepin Perrin Philip Philippe-Antoine Philippe Pierre-Charles Pierre-Francois 
 		Raoul Raimund Rene Renard Remi Remy Rodolph Rodrigue Roger Rolande 
 		Sebastien Sieur Simon Sylvestre 
 		Theodore Theo Timothee Tristan 
@@ -1674,15 +1674,15 @@ norse_group = {
 	}
 	gharhar = {
 		male_names = {
-			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temür Buzan 
-			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temür Eljigidey Esen Buqa Ilbars Ilyas Ismail 
+			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temur Buzan 
+			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temur Eljigidey Esen Buqa Ilbars Ilyas Ismail 
 			Khabul Khizr Konchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
 			Hulagu Qazaghan Qazan Quraysh Sa'id Satuq Shams-i-Jahan Sher Muhammad Soyurghatmish Taliqu 
-			Temür Tughlugh Temür Uwais Yasa'ur Yesu Mongke Yesun Temür Yunus Chagatay Tarmashirin Negübei Qara 
+			Temur Tughlugh Temur Uwais Yasa'ur Yesu Mongke Yesun Temur Yunus Chagatay Tarmashirin Negubei Qara 
 			Kebek Yahballaha 
 		}
 		female_names = {
-			Sakina Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Sakina Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene "Fatima" "Ibtisam" "Jalila" "Janan" 
 			"Layla" "Sakina" "Sharifa"
 		}
@@ -2750,48 +2750,48 @@ hung_group = {
 	province = { local_manpower_modifier = 0.1 }
 	aghols = {
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	mung = { # now korchin
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	chian = {
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	kuj = {
 		male_names = {
-			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
-			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori 
+			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Gushi Lha-bzang Khara Khula Kho Sengge Tseten 
+			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Baki Bayan Dayan Hami Molon Oori 
 			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlok
 		}
 		female_names = {
-			Hoelun Tamülün Sorghaghtani Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Hoelun Tamulun Sorghaghtani Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	tuka = {
@@ -2805,7 +2805,7 @@ hung_group = {
 			Iskandar
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	manchu_warhammer = {
@@ -2824,15 +2824,15 @@ hung_group = {
 	}
 	yin = {
 		male_names = {
-			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temür Buzan 
-			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temür Eljigidey Esen Buqa Ilbars Ilyas Ismail 
+			Abdul-Karim Abdul-Latif Abdul-Rashîd Abdullah Ahmad Alghu Ali Baraq Bayan Quli Buqa Temur Buzan 
+			Changshi Danishmendji Dost Muhammad Dughlat Duwa Duwa Temur Eljigidey Esen Buqa Ilbars Ilyas Ismail 
 			Khabul Khizr Konchek Mahmud Mansur Mubarak Muhammad Muhammad Amin Muhammad Mumin Naqsh-i-Jahan 
 			Hulagu Qazaghan Qazan Quraysh Sa'id Satuq Shams-i-Jahan Sher Muhammad Soyurghatmish Taliqu 
-			Temür Tughlugh Temür Uwais Yasa'ur Yesu Mongke Yesun Temür Yunus Chagatay Tarmashirin Negübei Qara 
+			Temur Tughlugh Temur Uwais Yasa'ur Yesu Mongke Yesun Temur Yunus Chagatay Tarmashirin Negubei Qara 
 			Kebek Yahballaha 
 		}
 		female_names = {
-			Sakina Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Sakina Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene "Fatima" "Ibtisam" "Jalila" "Janan" 
 			"Layla" "Sakina" "Sharifa"
 		}
@@ -2851,29 +2851,29 @@ hung_group = {
 		Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur Todogen Toghoril Toghtoga Tokhtamis 
 		Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
 		# PECHENEG
-		Çelgil Aba Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
+		Celgil Aba Baitzas Balgor Batan Batas Bator Bayca Bickili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
 		Kabuksin Karaca Kaydum Kegen Konel
-		Korkutan Kortan Kostas Kourkoutai Kuerçi Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
+		Korkutan Kortan Kostas Kourkoutai Kuerci Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
 		# CUMAN / KARLUK / KIRGHIZ
-		Çilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi 
-		Itlar Ituk Konçek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan 
+		Cilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borc Eldecyuk Etrek Girgen Gzi 
+		Itlar Ituk Koncek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenc Sircan 
 		Sokal Sotan Sugr Tortogul Togli Tolun Tugor Uzluk Uzur
 		# AVAR
-		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambär Balambar Barjik 
+		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambar Balambar Barjik 
 		Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha 
-		Bughra Bulan Bulger Bulçan Busir Buzan Buzer Bälgiçi Bori 
+		Bughra Bulan Bulger Bulcan Busir Buzan Buzer Balgici Bori 
 		Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda 
-		Gostun Guar Hudbad Iani Ilik Iltäbär Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
+		Gostun Guar Hudbad Iani Ilik Iltabar Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
 		Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
-		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundaç 
-		Kundaçiq Kurt Kutrigur Kälaç Labertam Magotin Malamir Mugel Mänär Mänäs Mënümarot Odolgan Okhsi 
+		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundac 
+		Kundaciq Kurt Kutrigur Kalac Labertam Magotin Malamir Mugel Manar Manas Mënumarot Odolgan Okhsi 
 		Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
-		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papaçyz Paväl Praksa Rassate Rugila Sabin Samsam Sandil 
-		Sandilkh Sarkhan Sartäç Savin Sevar Shilki Simsam Sondoke Tabghaç Tarasiy Taridin Tarkhan Tarmaç 
-		Tatra Telec Telerig Tervel Timër Timur Timëreç Timërpälat 
-		Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Täbär Teber Tähtaman 
-		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yençepi Yerneslu Yeçtirek Yilig 
-		Zabergan Zenti Çat Çat'n Çorpan Otemis
+		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papacyz Paval Praksa Rassate Rugila Sabin Samsam Sandil 
+		Sandilkh Sarkhan Sartac Savin Sevar Shilki Simsam Sondoke Tabghac Tarasiy Taridin Tarkhan Tarmac 
+		Tatra Telec Telerig Tervel Timër Timur Timërec Timërpalat 
+		Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Tabar Teber Tahtaman 
+		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yencepi Yerneslu Yectirek Yilig 
+		Zabergan Zenti Cat Cat'n Corpan Otemis
 	}
 	female_names = { 
 		Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene 
@@ -2881,26 +2881,26 @@ hung_group = {
 		Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Toregene 
 		Yesugun Yesui Hoelun
 		# PECHENEG
-		Çiçek Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay 
+		Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay 
 		Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay 
-		Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sevindik Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
 		# CUMAN
-		Çiçek Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz 
+		Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay Gunduz 
 		Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik 
-		Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
 		# KHAZAR / BOLGHAR
-		Çiçäk Çiçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek 
-		Esin Gulçiçäk Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
-		Karacik Kätyarikka Këlnissa Këlyamal Khatun Lärkka Lyukha Mala Maturkka Mutlu Naça Parsbit Patiyer 
-		Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
-		Sati Savaçka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
-		Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+		Cicak Cicek Ceceppi Cecki Cectilet Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek 
+		Esin Gulcicak Gulcicek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+		Karacik Katyarikka Këlnissa Këlyamal Khatun Larkka Lyukha Mala Maturkka Mutlu Naca Parsbit Patiyer 
+		Paykëlti Peksen Puyantay Samur Sarantay Sara Sarica Sarikel 
+		Sati Savacka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
+		Tahtani Tekce Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
 		# AVAR
-		Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulay Gulçiçäk Gulçiçek Gundes Gunduz Gunes Ikalay Ilkay 
-		Ipek Ipekel Irge Karacik Khatun Kätyarikka Këlnissa Këlyamal Lyukha Lärkka Mala Maturkka Mutlu Naça 
-		Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sarä Sati Savaçka Savilay 
-		Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekçe Tura Tähtani 
-		Umay Usunbike Yartilek Yasar Yeldem Yildiz Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Çiçäk Çiçek Ozgul 
+		Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulay Gulcicak Gulcicek Gundes Gunduz Gunes Ikalay Ilkay 
+		Ipek Ipekel Irge Karacik Khatun Katyarikka Këlnissa Këlyamal Lyukha Larkka Mala Maturkka Mutlu Naca 
+		Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sara Sati Savacka Savilay 
+		Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekce Tura Tahtani 
+		Umay Usunbike Yartilek Yasar Yeldem Yildiz Ceceppi Cecki Cectilet Cilen Ciltanesi Cicak Cicek Ozgul 
 		Ozlem
 	}
 	dynasty_names = {
@@ -2936,49 +2936,49 @@ kurgan_group = {
 	province = { local_manpower_modifier = 0.1 }
 	dolgan = {
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 
 	}
 	kul = { # now korchin
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	khazags = {
 		male_names = {
-			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-			Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+			Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+			Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+			Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	tahmaks = {
 		male_names = {
-			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
-			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori 
+			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Gushi Lha-bzang Khara Khula Kho Sengge Tseten 
+			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Baki Bayan Dayan Hami Molon Oori 
 			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlok
 		}
 		female_names = {
-			Hoelun Tamülün Sorghaghtani Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Hoelun Tamulun Sorghaghtani Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	tokmar = {
@@ -2992,7 +2992,7 @@ kurgan_group = {
 			Iskandar
 		}
 		female_names = {
-			Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	hastling = {
@@ -3032,29 +3032,29 @@ kurgan_group = {
 		Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur Todogen Toghoril Toghtoga Tokhtamis 
 		Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
 		# PECHENEG
-		Çelgil Aba Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
+		Celgil Aba Baitzas Balgor Batan Batas Bator Bayca Bickili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
 		Kabuksin Karaca Kaydum Kegen Konel
-		Korkutan Kortan Kostas Kourkoutai Kuerçi Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
+		Korkutan Kortan Kostas Kourkoutai Kuerci Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
 		# CUMAN / KARLUK / KIRGHIZ
-		Çilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi 
-		Itlar Ituk Konçek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan 
+		Cilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borc Eldecyuk Etrek Girgen Gzi 
+		Itlar Ituk Koncek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenc Sircan 
 		Sokal Sotan Sugr Tortogul Togli Tolun Tugor Uzluk Uzur
 		# AVAR
-		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambär Balambar Barjik 
+		Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambar Balambar Barjik 
 		Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha 
-		Bughra Bulan Bulger Bulçan Busir Buzan Buzer Bälgiçi Bori 
+		Bughra Bulan Bulger Bulcan Busir Buzan Buzer Balgici Bori 
 		Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda 
-		Gostun Guar Hudbad Iani Ilik Iltäbär Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
+		Gostun Guar Hudbad Iani Ilik Iltabar Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
 		Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
-		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundaç 
-		Kundaçiq Kurt Kutrigur Kälaç Labertam Magotin Malamir Mugel Mänär Mänäs Mënümarot Odolgan Okhsi 
+		Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundac 
+		Kundaciq Kurt Kutrigur Kalac Labertam Magotin Malamir Mugel Manar Manas Mënumarot Odolgan Okhsi 
 		Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
-		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papaçyz Paväl Praksa Rassate Rugila Sabin Samsam Sandil 
-		Sandilkh Sarkhan Sartäç Savin Sevar Shilki Simsam Sondoke Tabghaç Tarasiy Taridin Tarkhan Tarmaç 
-		Tatra Telec Telerig Tervel Timër Timur Timëreç Timërpälat 
-		Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Täbär Teber Tähtaman 
-		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yençepi Yerneslu Yeçtirek Yilig 
-		Zabergan Zenti Çat Çat'n Çorpan Otemis
+		Oshi Ostro Pagan Pakhtiyar Bakhtiar Papacyz Paval Praksa Rassate Rugila Sabin Samsam Sandil 
+		Sandilkh Sarkhan Sartac Savin Sevar Shilki Simsam Sondoke Tabghac Tarasiy Taridin Tarkhan Tarmac 
+		Tatra Telec Telerig Tervel Timër Timur Timërec Timërpalat 
+		Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Tabar Teber Tahtaman 
+		Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yencepi Yerneslu Yectirek Yilig 
+		Zabergan Zenti Cat Cat'n Corpan Otemis
 	}
 	female_names = { 
 		Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene 
@@ -3062,26 +3062,26 @@ kurgan_group = {
 		Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Toregene 
 		Yesugun Yesui Hoelun
 		# PECHENEG
-		Çiçek Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay 
+		Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay 
 		Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay 
-		Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sevindik Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
 		# CUMAN
-		Çiçek Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz 
+		Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay Gunduz 
 		Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik 
-		Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
 		# KHAZAR / BOLGHAR
-		Çiçäk Çiçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozçin Dilek 
-		Esin Gulçiçäk Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
-		Karacik Kätyarikka Këlnissa Këlyamal Khatun Lärkka Lyukha Mala Maturkka Mutlu Naça Parsbit Patiyer 
-		Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
-		Sati Savaçka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
-		Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+		Cicak Cicek Ceceppi Cecki Cectilet Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek 
+		Esin Gulcicak Gulcicek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+		Karacik Katyarikka Këlnissa Këlyamal Khatun Larkka Lyukha Mala Maturkka Mutlu Naca Parsbit Patiyer 
+		Paykëlti Peksen Puyantay Samur Sarantay Sara Sarica Sarikel 
+		Sati Savacka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
+		Tahtani Tekce Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
 		# AVAR
-		Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulay Gulçiçäk Gulçiçek Gundes Gunduz Gunes Ikalay Ilkay 
-		Ipek Ipekel Irge Karacik Khatun Kätyarikka Këlnissa Këlyamal Lyukha Lärkka Mala Maturkka Mutlu Naça 
-		Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sarä Sati Savaçka Savilay 
-		Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekçe Tura Tähtani 
-		Umay Usunbike Yartilek Yasar Yeldem Yildiz Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Çiçäk Çiçek Ozgul 
+		Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulay Gulcicak Gulcicek Gundes Gunduz Gunes Ikalay Ilkay 
+		Ipek Ipekel Irge Karacik Khatun Katyarikka Këlnissa Këlyamal Lyukha Larkka Mala Maturkka Mutlu Naca 
+		Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sara Sati Savacka Savilay 
+		Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekce Tura Tahtani 
+		Umay Usunbike Yartilek Yasar Yeldem Yildiz Ceceppi Cecki Cectilet Cilen Ciltanesi Cicak Cicek Ozgul 
 		Ozlem
 	}
 	dynasty_names = {
@@ -3311,21 +3311,21 @@ hobgoblin_group = {
 	}
 
 	male_names = {
-		Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
-		Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
-		Manduulun Oljei Orüg Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun 
-		Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi Darayisung Tümen
+		Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan 
+		Delbeg Ejei Elbeg Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai Koke Ligdan Markorgis Mongke 
+		Manduulun Oljei Orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temur Toghun 
+		Tolui Toq Uskhal Yesun Ariq Batu Eljigidei Joichi Darayisung Tumen
 	}
 	female_names = {
-		Temülen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+		Temulen Borte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 		Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 	}
 	dynasty_names = {
 		# CKII
 		"Onggirat" "Naiman" "Kereyid" "Sartaq" "Mengu-Timur" "Uriankhai" "Bujakhin" "Besud" "Noyan" 
 		"Jochid" "Chagatayid" "Borjigin" "Chupanid" "Injuid" "Toluid" "Ganbold" "Bolormaa" "Batbayar" 
-		"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergüi" "Lkhagvasüren" "Enkhjargal" 
-		"Ganzorig" "Narantsetseg" "Pürevsüren" "Ganbaatar" "Monkhtsetseg" "Monkhbat" "Monkh-Erdene" 
+		"Bat-Erdene" "Otgonbayar" "Enkhtuyaa" "Gantulga" "Nergui" "Lkhagvasuren" "Enkhjargal" 
+		"Ganzorig" "Narantsetseg" "Purevsuren" "Ganbaatar" "Monkhtsetseg" "Monkhbat" "Monkh-Erdene" 
 		"Jalair" "Sartuul" "Olkhunut" "Khatagin" "Iljigin" "Tsookhor" "Qarakhanid"
 	}
 }

@@ -450,150 +450,313 @@ country_event = {
 	id = flavor_chaos.4
 	title = flavor_chaos.4.t
 	desc = flavor_chaos.4.d
-	picture = HUIZTILOPOCHTLI_eventPicture
+	picture = ARCHAON_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = flavor_chaos.4.a
+		## We have asked Enough
+		name = flavor_chaos.4.option_1
 		ai_chance = {
 			factor = 1
 		}
 		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_1
+			always = yes
+		}
+	}
+#	option = {
+#		## We must have daemon warriors!
+#		name = flavor_chaos.4.option_2
+#		ai_chance = {
+#			factor = 1
+#		}
+#		trigger = {
+#			has_government_power = {
+#				mechanic_type = chaos_favor_mechanic
+#				power_type = chaos_favor
+#				value = 1
+#			}
+#		}
+#
+#		add_government_power = {
+#			mechanic_type = chaos_favor_mechanic
+#			power_type = chaos_favor
+#			value = -0.5
+#		}
+#
+#		capital_scope = {
+#		    revolutionary_guard_cavalry = ROOT
+#		    revolutionary_guard_infantry = ROOT
+#		}
+#
+#
+#	}
+	option = {
+		name = flavor_chaos.4.option_3
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
 			}
 		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_1 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_1
 			duration = -1
 		}
+
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_1
-		}
-	}
-	option = {
-		name = flavor_chaos.4.b
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_2
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+
+	}
+
+	option = {
+		name = flavor_chaos.4.option_4
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_2 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_2
 			duration = -1
 		}
+
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_2
-		}
-	}
-	option = {
-		name = flavor_chaos.4.c
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_3
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+
+	}
+
+	option = {
+		name = flavor_chaos.4.option_5
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_3 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_3
 			duration = -1
 		}
+		
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_3
-		}
-	}
-	option = {
-		name = flavor_chaos.4.dd
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_4
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+	}
+
+	option = {
+		name = flavor_chaos.4.option_6
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_4 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_4
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_4
-		}
-	}
-	option = {
-		name = flavor_chaos.4.e
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_5
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+	}
+
+	option = {
+		name = flavor_chaos.4.option_7
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_5 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_5
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_5
-		}
-	}
-	option = {
-		name = flavor_chaos.4.f
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_6
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+	}
+
+	option = {
+		name = flavor_chaos.4.option_8
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_6 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_6
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_6
-		}
-	}
-	option = {
-		name = flavor_chaos.4.g
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_7
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
 		}
+	}
+
+	option = {
+		name = flavor_chaos.4.option_9
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = { num_of_revolutionary_guard = 15 }
+				factor = 0
+			}
+		}
+
+		trigger = {
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 1
+			}
+			NOT = { has_country_modifier = chaos_gift_7 }
+		}
+
+		add_government_power = {
+			mechanic_type = chaos_favor_mechanic
+			power_type = chaos_favor
+			value = -1.0
+		}
+
 		add_country_modifier = {
 			name = chaos_gift_7
 			duration = -1
 		}
+		custom_tooltip = spawn_daemon_at_capital_tt
+
 		hidden_effect = {
-			set_country_flag = has_chaos_gift_7
-		}
-	}
-	option = {
-		name = flavor_chaos.4.h
-		ai_chance = {
-			factor = 1
-		}
-		trigger = {
-			NOT = {
-				has_country_flag = has_chaos_gift_8
+			capital_scope = {
+			    revolutionary_guard_infantry = ROOT
 			}
-		}
-		add_country_modifier = {
-			name = chaos_gift_8
-			duration = -1
-		}
-		hidden_effect = {
-			set_country_flag = has_chaos_gift_8
 		}
 	}
 }

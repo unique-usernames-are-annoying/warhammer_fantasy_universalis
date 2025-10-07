@@ -3,7 +3,11 @@
 #    potential = { } #Determines when the text is visible
 #    tooltip = localisation_key #Can use customizable localisation
 #    #To localize it, use the name of the button as a key, can also use customizable localisation
-#}	
+#}
+
+
+## I have no idea what this is.
+
 custom_button = {
 	name = chaos_toggle_button
 	tooltip = chaos_toggle_button_tt

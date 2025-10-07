@@ -38,10 +38,10 @@ country_event = {
 
 	}
 	mean_time_to_happen = {
-		years = 200
+		years = 500
 		### Increases the chance if it's a player
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			ai = no
 		}
 		### Chances over time increase dramatically
@@ -197,6 +197,173 @@ country_event = {
 			factor = 0.5
 			total_own_and_non_tributary_subject_development = 2500
 		}
+
+		### Chaos Favor
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 10
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 20
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 25
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 30
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 35
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 40
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 45
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 50
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 55
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 60
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 65
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 70
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 75
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 80
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 85
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 90
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 95
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = chaos_favor_mechanic
+				power_type = chaos_favor
+				value = 100
+			}
+		}
+
+
+
+
+
 		#archaon is favored
 		modifier = {
 			factor = 0.5

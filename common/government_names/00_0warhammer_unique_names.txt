@@ -1592,7 +1592,13 @@ gov_leading_necromancer_ref_name = {
 
 
 
-gov_monkey_court = {
+gov_lizardmen_ruler = {
+	rank = {
+		1 = LIZARDMEN_RANK_1
+		2 = LIZARDMEN_RANK_2
+		3 = LIZARDMEN_RANK_3
+	}
+
 	ruler_male = {
 		1 = LIZARDMAN_RULER
 		2 = LIZARDMAN_RULER

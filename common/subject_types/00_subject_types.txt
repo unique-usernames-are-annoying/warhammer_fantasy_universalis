@@ -1618,16 +1618,16 @@ chaos_warband_vassal = {
 	can_fight_independence_war = yes
 	takes_diplo_slot = no
 	counts_for_borders = yes
-	relative_power_class = 8 #unique
+	relative_power_class = 2
 
 	max_government_rank = 1
 
-	base_liberty_desire = -20.0
+	base_liberty_desire = -50.0
 	liberty_desire_development_ratio = 0.5
 	liberty_desire_same_dynasty = -5.0
 	pays_overlord = 1.0
 	#forcelimit_bonus = 1.0
-	forcelimit_to_overlord = 0.0
+	forcelimit_to_overlord = 0.1
 	should_quit_wars_on_activation = yes
 	
 	restoration_cb = cb_disloyal_vassal

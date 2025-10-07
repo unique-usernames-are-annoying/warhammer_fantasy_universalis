@@ -22,6 +22,7 @@ cb_monster_vs_civ = {
 			has_country_modifier = destruction_nation
 			has_country_modifier = chaos_nation
 		}
+		NOT = { has_reform = chaos_warband }
 	}
 
 	prerequisites = { 

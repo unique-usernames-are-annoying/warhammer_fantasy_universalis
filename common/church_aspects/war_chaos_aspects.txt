@@ -176,6 +176,7 @@ nurgle_diplomacy = {
 		diplomatic_annexation_cost = -0.075
 	}
 	effect = {
+		add_dip_power = 25
 		hidden_effect = {
             every_known_country = {
 				limit = {
@@ -209,7 +210,7 @@ tzeentch_magic = {
 	cost = 100
 
 	modifier = {
-		all_power_cost = -0.025
+		all_power_cost = -0.01
 	}
 	effect = {
 		add_adm_power = 25

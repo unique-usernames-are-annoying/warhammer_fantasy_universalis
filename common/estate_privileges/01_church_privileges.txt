@@ -3732,6 +3732,7 @@ estate_church_purge_lesser_races = {
 			has_country_modifier = destruction_nation
 			has_country_modifier = chaos_nation
 		}
+		NOT = { has_reform = chaos_warband }
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_purge_evil_races }
@@ -3789,6 +3790,7 @@ estate_church_purge_evil_races = {
 			culture_group = beastmen_group
 			culture_group = fimir_group
 		}
+		NOT = { has_reform = chaos_warband }
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_purge_lesser_races }

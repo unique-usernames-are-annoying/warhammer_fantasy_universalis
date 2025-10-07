@@ -279,6 +279,7 @@ superiority_chaotic = {
 
 		peace_options = {
 			po_demand_provinces
+			po_chaos_vassalize
 			po_become_vassal
 			po_become_tributary_state
 			po_gold

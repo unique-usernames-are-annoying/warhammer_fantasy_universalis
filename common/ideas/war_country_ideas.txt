@@ -1443,6 +1443,54 @@ B12_ideas = {
 	}
 }
 
+
+#Archaeon
+B99_ideas = {
+	start = {
+		morale_damage = 0.15
+		land_attrition = -0.15
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = B99
+	}
+	free = yes
+	## unceasing Conquest
+	B99_idea_1 = {
+		administrative_efficiency = 0.05
+	}
+	# Funds for the war effort
+	B99_idea_2 = {
+		global_tax_modifier = 0.1
+		loot_amount = 0.50
+	}
+	## Rip and Tear
+	B99_idea_3 = {
+		siege_ability = 0.25
+	}
+	## Chosen of the gods
+	B99_idea_4 = {
+		church_power_modifier = 0.1
+		devotion = 1
+	}
+	# Great Unifier
+	B99_idea_5 = {
+		diplomats = 1
+		diplomatic_upkeep = 2
+	}
+	# Chaos Knights
+	B99_idea_6 = {
+		cavalry_power = 0.20
+	}
+	# Order in Chaos
+	B99_idea_7 = {
+		stability_cost_modifier = -0.20
+	}
+}
+
+
 ######## Elves #####
 ######## Elves #####
 ######## Elves #####

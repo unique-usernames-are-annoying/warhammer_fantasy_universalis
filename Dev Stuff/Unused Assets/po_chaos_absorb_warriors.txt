@@ -29,7 +29,7 @@ po_chaos_absorb_warriors = {
 		ai = no
 	}
 	is_allowed = {
-		always = yes
+		always = no
 	}
 	# THIS is the Taker and FROM the Giver in all scopes unless otherwise stated
 	effect = {
@@ -146,7 +146,7 @@ po_chaos_absorb_warriors = {
 
 
 		#Then adds to development
-		chaos_horde_development_set_handler = yes
+#		chaos_horde_development_set_handler = yes
 		#Deletes Loser
 		FROM = {
 			capital_scope = {

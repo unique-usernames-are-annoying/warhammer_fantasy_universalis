@@ -166,7 +166,6 @@ country_event = {
 		event_target:event_target = {
 			spawn_rebels = {
 			    type = leadered_peasant_rebels
-			    leader = rebel_preacher
 			    size = 1
 			}
 		}

@@ -47,13 +47,11 @@ Misc Mission Trees
 
 	No new Bretonnian Flag?
 
-	Chaos Stuff
-		What happens to buildings when I migrate?
-		Migrating shouldn't give mana. The tooltip says it does
-		I'm utterly lost on how the warband development works. What do the bonuses give?
-		What does upgrading the chaos warband do? The event explains little.
+	Put a chaos warband in the eastern Southlands, and maybe somewhere in Lustria.
 
-	rebel_preacher everywhere
+	Somewhere in war_chaos_on_actions, something is broken. Not sure what. Possibly before giving church power for slanesh getting vassals, that's not working. Nurgle admin is workin
+
+	How to deal with Crown land changing from destroying provinces? Maybe just give the crown land per province taken?
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.
@@ -76,9 +74,6 @@ Misc Mission Trees
 
 	Use China Empire mechanic. And revolutionary war target mechanic?
 	
-	Chaos Warband
-		Change it to normal migration stuff, we don't need all this nonsense?
-
 	End growth by taking world tree - you get a development buff from doing this. - sever_the_world_tree
 
 	Make sure everybody gets an event for connecting the world tree, and for severing it.

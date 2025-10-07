@@ -12,7 +12,11 @@ country_event = {
 			is_year = 2503
 		}
 		tag = B99
+		NOT = { has_country_flag = did_intro_event }
 	}
+
+	immediate = { set_country_flag = did_intro_event }
+
 	option = {
 		ai_chance = {
 			factor = 100

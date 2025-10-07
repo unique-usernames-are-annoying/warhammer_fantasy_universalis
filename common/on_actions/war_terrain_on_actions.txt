@@ -316,9 +316,28 @@ on_province_owner_change = {
 			}
 		}
 
-		set_base_tax = 1
-		set_base_production = 1
-		set_base_manpower = 1
+		if = {
+			limit = { base_tax = 5 }
+			add_base_tax = -4
+		} else = {
+			set_base_tax = 1
+		}
+		
+
+		if = {
+			limit = { base_production = 5 }
+			add_base_production  = -4
+		} else = {
+			set_base_production  = 1
+		}
+
+		if = {
+			limit = { base_manpower = 5 }
+			add_base_manpower = -4
+		} else = {
+			set_base_manpower = 1
+		}
+		
 		add_devastation = 100
 		owner = {
 			ROOT = {
@@ -382,9 +401,30 @@ on_province_owner_change = {
 			}
 		}
 
-		set_base_tax = 1
-		set_base_production = 1
-		set_base_manpower = 1
+
+
+		if = {
+			limit = { base_tax = 5 }
+			add_base_tax = -4
+		} else = {
+			set_base_tax = 1
+		}
+		
+
+		if = {
+			limit = { base_production = 5 }
+			add_base_production  = -4
+		} else = {
+			set_base_production  = 1
+		}
+
+		if = {
+			limit = { base_manpower = 5 }
+			add_base_manpower = -4
+		} else = {
+			set_base_manpower = 1
+		}
+
 		add_devastation = 100
 		owner = {
 			ROOT = {

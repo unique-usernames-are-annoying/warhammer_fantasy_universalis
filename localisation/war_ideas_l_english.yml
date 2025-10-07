@@ -1002,6 +1002,30 @@ beastmen_idea_7_desc:0 "No force can match the sheer savagery of the Beastmen in
  B10_idea_7:0 "Druidic Warpaint"
  B10_idea_7_desc:0 "The 'discovery' of Albion by the Old Worlder, and the subsequent profileration of firearms fundamnetally changed Albionise warfare. Boreni warriors begun to adorn themselves with mystical warpaint, bolstering their courage and confounding their foes."
  
+B99_ideas:0 "Archaeon Ideas"
+B99_ideas_start:0 "Archaeon Traditions"
+B99_ideas_bonus:0 "Archaeon Ambitions"
+B99_idea_1:0 "Unceasing Conquest"
+B99_idea_1_desc:0 "From the blasted Chaos Wastes to the lush kingdoms of the south, Archaon’s conquest is unrelenting. His armies do not tire, do not falter, and know no retreat. This is not a war for territory or glory, but a divine mandate to unmake the world of mortals. Propelled by the blessings of the Ruinous Powers and the inevitability of fate, the Everchosen drives his warhost ever onward, breaking the will of all who oppose him. Each fallen city is a dark offering, each slain enemy a step closer to the End Times. The march does not end—it consumes."
+
+B99_idea_2:0 "Funds for the War Effort"
+B99_idea_2_desc:0 "Gold, silver, blood, and bone—all are fuel for the fires of war. The warbands of Chaos descend upon the Old World not merely to destroy, but to strip it bare. Towns are sacked, temples desecrated, and vaults emptied as wealth is redirected to feed the vast logistics of damnation. Smiths forge blades from looted metal, sorcerers barter relics for infernal pacts, and whole populations are enslaved to serve the armies of the Everchosen. Whether taken by brute force or offered in terror, all is repurposed to serve the great apocalypse. For Archaon, war is its own economy—one paid in ruin."
+
+B99_idea_3:0 "Rip and Tear"
+B99_idea_3_desc:0 "Sieges are not prolonged affairs when led by the armies of Chaos. They are brutal massacres of stone and spirit. Hell-forged siege engines grind through gates, daemonic sorcery weakens walls, and frenzied warriors surge through breaches with inhuman ferocity. Cities thought impregnable fall in days, not months, as resistance is shattered beneath a tide of bloodlust and divine hatred. No fortress can long withstand the endless fury of the north. To resist Archaon’s host is to delay the inevitable—and to ensure your doom is both prolonged and merciless."
+
+B99_idea_4:0 "Chosen of the Gods"
+B99_idea_4_desc:0 "Archaon is not merely a warlord; he is the culmination of an ancient prophecy, the one mortal ever to earn the favor of all four Dark Gods. Khorne, Tzeentch, Nurgle, and Slaanesh each sought a champion—but only Archaon proved strong enough to be worthy of them all. He bears the Mark of Chaos Ascendant, his soul a vessel of their united will. In him, divine power finds its perfect mortal expression. His every command carries the weight of dark divinity, and his victories are sanctified by unholy purpose. Where Archaon treads, the gods themselves walk with him."
+
+B99_idea_5:0 "The Great Unifier"
+B99_idea_5_desc:0 "Before Archaon, the tribes of the north were fractious and bloodthirsty, warring endlessly over pride and plunder. But through iron, fire, and vision, he brought them to heel. From the mighty Kurgan and the savage Hung to the mutated beastmen and shrieking daemonkin, all have bent the knee—or been annihilated. The Everchosen forged unity through dominance, compelling even the daemonic to obey. His banner is a symbol of dread cohesion, the rallying point of all who serve Chaos. In his presence, warlords cast down their petty rivalries and march together toward a shared destiny of annihilation."
+
+B99_idea_6:0 "Chaos Knights"
+B99_idea_6_desc:0 "The Knights of Chaos are the mailed fist of the Everchosen, warriors so fearsome that even nightmares flinch at their approach. Each is a towering figure clad in runed plate, astride a mount warped by the gods. Their charge is like the hammer of a vengeful god—unrelenting, thunderous, and utterly lethal. Formed into wedge-shaped wedges, they smash through enemy lines with brutal precision, sowing terror and confusion in their wake. To face them is to know death. To hear the thunder of their hooves is to know that Archaon has come—and that there is no escape."
+
+B99_idea_7:0 "Order in Chaos"
+B99_idea_7_desc:0 "Though the hordes of Chaos are born of madness and mutation, Archaon imposes a terrifying order upon them. His will is absolute, enforced by strength, sorcery, and fear. Under his gaze, the howling mobs of the north are forged into a disciplined force, their fury directed with military precision. Marauders march beside daemons, beastmen flank siege towers, and warbands adhere to strict hierarchies—all by the Everchosen’s command. Through this cruel structure, Chaos becomes not a scattered threat but a unified instrument of apocalypse. In Archaon’s hands, even insanity becomes a weapon of deliberate ruin."
+
  
  #monte castello
  A61_ideas:0 "Monte Castellian Ideas"
