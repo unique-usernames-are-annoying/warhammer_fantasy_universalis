@@ -47,12 +47,11 @@ Misc Mission Trees
 
 	No new Bretonnian Flag?
 
-	Chaos Stuff
-		Put a chaos warband in the eastern Southlands, and maybe somewhere in Lustria.
+	Put a chaos warband in the eastern Southlands, and maybe somewhere in Lustria.
 
-		Somewhere in war_chaos_on_actions, something is broken. Not sure what. Possibly before giving church power for slanesh getting vassals, that's not working. Nurgle admin is workin
+	Somewhere in war_chaos_on_actions, something is broken. Not sure what. Possibly before giving church power for slanesh getting vassals, that's not working. Nurgle admin is workin
 
-		How to deal with Crown land changing from destroying provinces? Maybe just give the crown land per province taken?
+	How to deal with Crown land changing from destroying provinces? Maybe just give the crown land per province taken?
 
 	The province 4346 is impassable and should not be in an area.
 	The province 1646 is impassable and should not be in an area.
