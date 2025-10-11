@@ -22,11 +22,6 @@ on_province_owner_change = {
 				power_type = chaos_favor
 				value = 0.1
 			}
-			change_estate_land_share = {
-				estate = all
-				share = -1.0
-			}
-
 		}
 
 		if = {
@@ -118,8 +113,16 @@ on_province_owner_change = {
 		set_base_tax = 1
 		set_base_production = 1
 		set_base_manpower = 1
+		owner = { 
+			change_estate_land_share = {
+				estate = all
+				share = -1.5
+			}
+		}
 		decolonize = yes
 		add_devastation = 100
+
+
 
 #		chaos_conquest_effects = yes
 		add_permanent_province_modifier = {
