@@ -1478,7 +1478,17 @@ skaven_missions_4 = {
 			has_cardinal = yes
 		}
 		trigger = {
-			num_of_cardinals = 3
+			OR = {
+				num_of_cardinals = 3
+				AND = {
+					NOT = { religion = horned_rat }
+					OR = {
+						is_great_power = yes
+						church_power = 200
+						is_defender_of_faith = yes
+					}
+				}
+			}
 		}
 
 		effect = {
@@ -1497,7 +1507,16 @@ skaven_missions_4 = {
 			has_cardinal = yes
 		}
 		trigger = {
-			num_of_cardinals = 7
+			OR = {
+				num_of_cardinals = 7
+				AND = {
+					NOT = { religion = horned_rat }
+					custom_trigger_tooltip = {
+						tooltip = obj_force_converted_tooltip
+						has_country_flag = force_converted
+					}
+				}
+			}
 		}
 
 		effect = {
@@ -1516,7 +1535,16 @@ skaven_missions_4 = {
 		icon = mission_horned_rat
 		required_missions = { skaven_horned_rat_2 }
 		trigger = {
-			is_papal_controller = yes
+			OR = {
+				is_papal_controller = yes
+				AND = {
+					NOT = { religion = horned_rat }
+					check_variable = {
+						which = num_rulers_killed
+						value = 7
+					}
+				}
+			}
 		}
 
 		effect = {
@@ -1538,10 +1566,21 @@ skaven_missions_4 = {
 			has_cardinal = yes
 		}
 		trigger = {
-			169 = {
-				has_great_project = {
-					type = council_of_thirteen
-					tier = 3
+			OR = {
+				169 = {
+					has_great_project = {
+						type = council_of_thirteen
+						tier = 3
+					}
+				}
+				AND = {
+					NOT = { religion = horned_rat }
+					capital_scope = {
+						has_great_project = {
+							type = any
+							tier = 3
+						}
+					}
 				}
 			}
 		}
@@ -1857,9 +1896,9 @@ skaven_missions_5 = {
 		required_missions = { skaven_happy_church_2 }
 
 		trigger = {
-			adm = 6
-			dip = 6
-			mil = 6
+			adm = 5
+			dip = 5
+			mil = 5
 		}
 
 		effect = {
