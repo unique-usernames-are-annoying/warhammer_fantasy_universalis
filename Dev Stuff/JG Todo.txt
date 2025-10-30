@@ -27,8 +27,6 @@ Misc Mission Trees
 ###### URGENT TO DOS ########
 #############################
 
-	Fix Skaven missions to be okay if you don't have skaven religion
-
 	you left the .git folder in the mod upload
 		Move this to a folder above?
 
