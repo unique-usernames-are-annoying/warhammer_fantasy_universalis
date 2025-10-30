@@ -121,6 +121,11 @@ chaos_favor_mechanic = {
 			cost_type = chaos_favor
 			cost = 1
 			trigger = {
+				has_government_power = {
+					mechanic_type = chaos_favor_mechanic
+					power_type = chaos_favor
+					value = 2.0
+				}
 			}
 			effect = {
 				add_manpower = 15

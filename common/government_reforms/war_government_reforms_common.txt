@@ -141,7 +141,7 @@ reformed_chaos_horde = {
 	icon = "chaos_warriors"
 	allow_normal_conversion = yes
 	potential = {
-		government = chaos_gov
+		has_country_modifier = chaos_nation
 	}
 	raze_province = yes
 	modifiers = {
