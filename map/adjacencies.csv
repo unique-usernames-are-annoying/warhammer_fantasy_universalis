@@ -15,8 +15,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1880;1878;sea;1277;-1;-1;-1;-1;nagarythe
 1873;1874;sea;1279;-1;-1;-1;-1;nagarythe
 2275;2266;sea;1337;-1;-1;-1;-1;darklands
-2206;2271;;-1;-1;-1;-1;-1;
-2208;2267;;-1;-1;-1;-1;-1;
 1135;1136;;-1;-1;-1;-1;-1;underempire
 1157;1177;;-1;-1;-1;-1;-1;underempire
 4569;4568;;-1;-1;-1;-1;-1;underempire
@@ -103,7 +101,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1306;2143;sea;1364;-1;-1;-1;-1;Naggaroth
 2079;2143;sea;1364;-1;-1;-1;-1;Naggaroth
 2143;2142;sea;1364;-1;-1;-1;-1;Naggaroth
-2079;2143;sea;1365;-1;-1;-1;-1;Naggaroth
 2141;2142;sea;1365;-1;-1;-1;-1;Naggaroth
 2082;2142;sea;1365;-1;-1;-1;-1;Naggaroth
 2082;2141;sea;1365;-1;-1;-1;-1;Naggaroth
@@ -121,7 +118,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 504;759;sea;1292;-1;-1;-1;-1;Naggaroth
 4116;4305;sea;1515;-1;-1;-1;-1;Naggaroth
 1994;1996;sea;1512;-1;-1;-1;-1;Naggaroth
-2744;2743;sea;1642;-1;-1;-1;-1;Naggaroth
 2744;2743;sea;1642;-1;-1;-1;-1;Naggaroth
 2742;2743;sea;1642;-1;-1;-1;-1;Naggaroth
 2741;2740;sea;1504;-1;-1;-1;-1;Naggaroth
@@ -204,7 +200,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 
 4586;4238;sea;1387;-1;-1;-1;-1;Lustria
 1037;4238;sea;1387;-1;-1;-1;-1;Lustria
-4238;1037;sea;1387;-1;-1;-1;-1;Lustria
 
 1038;4231;sea;1546;-1;-1;-1;-1;Lustria
 1038;4064;sea;1546;-1;-1;-1;-1;Lustria
