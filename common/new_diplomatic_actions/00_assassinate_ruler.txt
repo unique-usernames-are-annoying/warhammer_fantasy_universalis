@@ -16,6 +16,7 @@ assassinate_ruler = {
 	is_allowed = {
 		OR = {
 			full_idea_group = spy_ideas
+			marriage_with = FROM
 			tag = U28
 		}
 		treasury = 100

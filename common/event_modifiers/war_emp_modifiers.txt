@@ -65,7 +65,7 @@ empire_local_production_efficiency = {
 }
 
 empire_trade_powerhouse = {
-	province_trade_power_value = 0.50
+	province_trade_power_modifier = 0.50
 }
 
 empire_local_manpower_efficiency = {

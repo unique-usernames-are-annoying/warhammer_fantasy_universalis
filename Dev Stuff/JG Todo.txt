@@ -66,19 +66,10 @@ Misc Mission Trees
 ###### RANDOM TO DOS ########
 #############################
 
-	Purging undead military gets rid of artillery!
-
 	Balance
 		only one mages estate privelege for inno
 		Increase tech cost by 50?
 		More idea groups to earlier in the admin technologies
-
-	Reduce Everchosen governing capacity?
-
-	Get rid of the foced coalition joining
-		Somehow get people to join the war against the everchosen? If they are adjacent to the everchosen, or adjacent to somebody who is at war with the everchosen?
-
-	Everchosen event should also reduce chaos favor
 
 	No new Bretonnian Flag?
 
@@ -106,8 +97,6 @@ Misc Mission Trees
 
 	Make end times chaos corruption events pulse every six/year months - use monthly, just average them to 2/year
 		Warping foundations happening way too much
-
-	Someone figured out an ironman vanilla way to keep a ruler alive for 450 years, reproducible. Maybe we could alter the immortal traits to that? Since all it takes in vanilla is a gov reform and making it so the event has no valid options, which we could just program in to have none
 
 	Ogre Event - The greatest Feast - own the great maw and spend 50k and 100k manpower to feed it
 
