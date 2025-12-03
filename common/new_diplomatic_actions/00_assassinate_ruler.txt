@@ -17,7 +17,7 @@ assassinate_ruler = {
 		OR = {
 			full_idea_group = spy_ideas
 			marriage_with = FROM
-			tag = U28
+#			tag = U28
 		}
 		treasury = 100
 		dip_power = 50
