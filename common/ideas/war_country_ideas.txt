@@ -3408,7 +3408,7 @@ U06_ideas = {
 #Taiho
 V19_ideas = {
 	start = {
-		cb_on_overseas = yes
+#		cb_on_overseas = yes
 		infantry_fire = 0.2
 		allowed_marine_fraction = 0.5
 	}

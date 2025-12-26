@@ -304,6 +304,13 @@ dread_fleet_reform = {
 		state_governing_cost = 0.75
 		may_perform_slave_raid_on_same_religion = yes
 		allowed_marine_fraction = 0.5
+		max_flagships = 4
+		flagship_cost = 3.0
+		flagship_durability = 2
+		number_of_cannons_flagship_modifier = 2.0
+		naval_maintenance_flagship_modifier = 2.0
+
+		may_explore = yes
 	}
 	trigger = {
 		is_or_was_tag =  { tag = V19 }
@@ -356,6 +363,7 @@ vampire_coast_reform = {
 		state_governing_cost = 0.75
 		may_perform_slave_raid_on_same_religion = yes
 		allowed_marine_fraction = 0.5
+		may_explore = yes
 	}
 	trigger = {
 		is_or_was_tag =  { tag = V01 }

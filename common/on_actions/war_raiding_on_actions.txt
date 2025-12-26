@@ -34,6 +34,18 @@ on_siege_won_province = {
 
 		if = {
 			limit = {
+				development = 4
+			}
+			controller = {
+				random_owned_province = {
+					add_random_development = 1
+				}
+			}
+		}
+
+
+		if = {
+			limit = {
 				base_tax = 2
 			}
 			add_base_tax = -1
