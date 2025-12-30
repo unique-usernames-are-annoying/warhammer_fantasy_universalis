@@ -155,9 +155,9 @@ trade_republic_reform_desc:0 "The Southern Trade Republic is a realm of merchant
  mechanic_bretonnian_hussars_indep_yes: "Possible Grail Knights: §G+1.00§!"
 
  dread_fleet_reform:0 "The Dreadfleet"
- dread_fleet_reform_desc:0 "Scourge of the high seas and harbinger of the Curse. Its impossible warships were fireside scare-stories brought to life, legends that had breached the veil between this world and the next. The undead fleet’s approach was as stealthy as a shark, they said, its victories as inevitable as the tide.\n\nFor countless years the Dreadfleet lurked in the memories of the old and the infirm, shrouded in hearsay. But last Geheim-nisnacht, that most unhallowed of eves, its mythical warships had returned to wreak havoc upon the lands of man."
+ dread_fleet_reform_desc:0 "Scourge of the high seas and harbinger of the Curse. Its impossible warships were fireside scare-stories brought to life, legends that had breached the veil between this world and the next. The undead fleet’s approach was as stealthy as a shark, they said, its victories as inevitable as the tide.\n\nFor countless years the Dreadfleet lurked in the memories of the old and the infirm, shrouded in hearsay. But last Geheim-nisnacht, that most unhallowed of eves, its mythical warships had returned to wreak havoc upon the lands of man.\n\n§YWe gain a §G-50% Governing Cost§! and other §Gpowerful bonuses§! on Coastal Centers of Trade.§!\n\nPrioritize these provinces at all costs."
  vampire_coast_reform:0 "The Vampire Coast"
- vampire_coast_reform_desc:0 "The Vampire Coast is the Undead realm of the mad Vampire Pirate King Luthor Harkon."
+ vampire_coast_reform_desc:0 "The Vampire Coast is the Undead realm of the mad Vampire Pirate King Luthor Harkon.\n\n§YWe gain a §G-50% Governing Cost§! and other §Gpowerful bonuses§! on Coastal Centers of Trade.§!\n\nPrioritize these provinces at all costs."
  
  # # # # # # # # # # # # # # # #
  #							  #

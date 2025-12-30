@@ -27,19 +27,7 @@ Misc Mission Trees
 ###### URGENT TO DOS ########
 #############################
 
-	Pirate Coast Mission Tree!
-		Centers of trade have reduce governing capacity?
-		Monstrous Ships?
-		A Decision to build a flagship at the cost of dev? That wouldn't work, right?
-		Unique government mechanic when undead owning maelstrom - increases with any naval battles anywhere, can be used to generate sailors and gold? Doesn't work
-		Big penalty for owning non-coastal provinces?
-		Dreadfleet ideas are wack.
-
-	Make Raiding clearer in what it does - change the tooltip a bit
-
 	Athel Loren queen dying triggers ... queen rules then king rules then queen rules? Or something?
-
-	Give Dreadfleet/Pirates something like the chaos warband province deletion
 
 	idk why but night goblins dont seem to be affected by "purge uncivilized races" privilige
 
